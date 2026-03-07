@@ -27,9 +27,11 @@
 <meta property="og:url" content="https://mxmap.ch/">
 <meta property="og:locale" content="en_CH">
 <meta property="og:site_name" content="MXmap">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="og-image.png">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="MXmap — Email Sovereignty of Swiss Municipalities">
 <meta name="twitter:description" content="Interactive map showing where Swiss municipalities host their official email. DNS analysis of all ~2,100 municipalities.">
+<meta name="twitter:image" content="og-image.png">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='7' width='28' height='18' rx='2' fill='%231a1a2e'/%3E%3Cpath d='M2 9l14 9 14-9' fill='none' stroke='%2316a34a' stroke-width='2'/%3E%3C/svg%3E">
 <link rel="preload" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"></noscript>
@@ -72,7 +74,6 @@
     display: none; background: none; border: none; font-size: 13px;
     font-weight: 600; cursor: pointer; padding: 0; color: #333;
   }
-  .legend-content { }
   .info-title { display: none; font-size: 16px; font-weight: 600; color: #1a1a2e; margin-bottom: 12px; }
   @media (max-width: 600px) {
     .separator, .tagline { display: none; }
@@ -83,8 +84,7 @@
     .legend.legend-collapsed { padding: 8px 12px; }
 
   }
-  #map { flex: 1; width: 100%; }
-  .leaflet-bottom.leaflet-right { }
+  #map { flex: 1; position: relative; width: 100%; }
   .legend {
     background: white; padding: 10px 14px; border-radius: 6px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.2); font-size: 13px; line-height: 1.8;
@@ -138,7 +138,7 @@
     <span class="tagline">Email Sovereignty of Swiss Municipalities</span>
   </div>
   <div class="header-right">
-    <button class="toggle-info" id="toggle-info" onclick="toggleInfo()">About &#9652;</button>
+    <button class="toggle-info" id="toggle-info" aria-expanded="true" aria-controls="info-bar">About &#9652;</button>
   </div>
 </div>
 <div id="info-bar">
@@ -158,7 +158,9 @@
     </div>
   </div>
 </div>
-<div id="map"></div>
+<div id="map" role="application" aria-label="Interactive map of Swiss municipality email providers">
+  <div id="map-loading" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:1000;background:rgba(255,255,255,0.85);font-size:15px;color:#555;">Loading map data&hellip;</div>
+</div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
@@ -183,6 +185,12 @@ const LABELS = {
   merged:     'Merged municipality',
   unknown:    'Unknown'
 };
+
+function escapeHtml(str) {
+  const el = document.createElement('span');
+  el.textContent = str;
+  return el.innerHTML;
+}
 
 function classifyHost(host) {
   const h = host.toLowerCase();
@@ -270,7 +278,10 @@ function parseSpfDelegations(spf) {
 function renderTable(hosts) {
   const rows = hosts.map(host => {
     const cls = classifyHost(host);
-    return `<tr><td class="dn">${cls.name}</td><td><span class="cat-badge ${cls.category}">${cls.category}</span></td><td class="host" title="${host}">${host}</td></tr>`;
+    const eName = escapeHtml(cls.name);
+    const eCat = escapeHtml(cls.category);
+    const eHost = escapeHtml(host);
+    return `<tr><td class="dn">${eName}</td><td><span class="cat-badge ${eCat}">${eCat}</span></td><td class="host" title="${eHost}">${eHost}</td></tr>`;
   }).join('');
   return `<table class="dns-table">${rows}</table>`;
 }
@@ -294,25 +305,31 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.
   pane: 'shadowPane'
 }).addTo(map);
 
-window.toggleInfo = function () {
+function toggleInfo() {
   const bar = document.getElementById('info-bar');
   const btn = document.getElementById('toggle-info');
   bar.classList.toggle('collapsed');
-  btn.innerHTML = bar.classList.contains('collapsed') ? 'About \u25be' : 'About \u25b4';
-};
+  const collapsed = bar.classList.contains('collapsed');
+  btn.innerHTML = collapsed ? 'About \u25be' : 'About \u25b4';
+  btn.setAttribute('aria-expanded', String(!collapsed));
+}
+
+document.getElementById('toggle-info').addEventListener('click', toggleInfo);
 
 // Collapse info bar by default on mobile
 if (window.innerWidth <= 600) {
   document.getElementById('info-bar').classList.add('collapsed');
-  document.getElementById('toggle-info').innerHTML = 'About \u25be';
+  const btn = document.getElementById('toggle-info');
+  btn.innerHTML = 'About \u25be';
+  btn.setAttribute('aria-expanded', 'false');
 }
 
-window.toggleLegend = function () {
+function toggleLegend() {
   const legend = document.querySelector('.legend');
   const btn = legend.querySelector('.legend-toggle');
   legend.classList.toggle('legend-collapsed');
   btn.textContent = legend.classList.contains('legend-collapsed') ? 'Legend \u25B8' : '\u2715';
-};
+}
 
 document.getElementById('info-bar').addEventListener('transitionend', function (e) {
   if (e.propertyName === 'max-height') map.invalidateSize();
@@ -361,7 +378,7 @@ async function loadData() {
     const div = L.DomUtil.create('div', 'legend');
     if (isMobile) div.classList.add('legend-collapsed');
     div.innerHTML =
-      '<button class="legend-toggle" onclick="toggleLegend()">' + (isMobile ? 'Legend \u25B8' : '') + '</button>' +
+      '<button class="legend-toggle">' + (isMobile ? 'Legend \u25B8' : '') + '</button>' +
       '<div class="legend-content">' +
       '<strong>Email Provider</strong>' +
       legendGroupHtml('US Hyperscaler', ['microsoft', 'google', 'aws'], dnsData.counts) +
@@ -372,6 +389,7 @@ async function loadData() {
     return div;
   };
   legend.addTo(map);
+  document.querySelector('.legend-toggle').addEventListener('click', toggleLegend);
 
   // Render lakes as a distinct layer
   if (topo.objects.lakes) {
@@ -421,10 +439,13 @@ async function loadData() {
         spfSection = `<div class="popup-section"><div class="popup-section-title">Authorized senders (SPF)</div>${renderTable(spfDelegations)}</div>`;
       }
 
+      const eName = escapeHtml(m.name);
+      const eDomain = escapeHtml(m.domain || 'unknown');
+      const eLabel = escapeHtml(label);
       layer.bindPopup(
         `<div class="info-popup">` +
-        `<strong>${m.name}</strong><br>` +
-        `${m.domain || 'unknown'} <span class="provider-badge" style="background:${color};color:${textColor}">${label}</span>` +
+        `<strong>${eName}</strong><br>` +
+        `${eDomain} <span class="provider-badge" style="background:${color};color:${textColor}">${eLabel}</span>` +
         mxSection + spfSection +
         `</div>`,
         { maxWidth: 450 }
@@ -433,9 +454,19 @@ async function loadData() {
       layer.on('mouseout', function () { this.setStyle({ weight: 0.5, color: '#666' }); });
     }
   }).addTo(map);
+
+  const loading = document.getElementById('map-loading');
+  if (loading) loading.remove();
 }
 
-loadData().catch(err => console.error('Failed to load data:', err));
+loadData().catch(err => {
+  console.error('Failed to load data:', err);
+  const loading = document.getElementById('map-loading');
+  if (loading) {
+    loading.textContent = 'Failed to load map data. Please try again later.';
+    loading.style.color = '#dc2626';
+  }
+});
 });
 </script>
 </body>
