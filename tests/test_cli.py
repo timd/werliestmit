@@ -1,3 +1,4 @@
+from pathlib import Path
 from unittest.mock import AsyncMock, patch
 
 from mail_sovereignty.cli import postprocess, preprocess, validate
@@ -17,4 +18,6 @@ class TestCli:
     def test_validate(self):
         with patch("mail_sovereignty.validate.run") as mock_run:
             validate()
-            mock_run.assert_called_once()
+            mock_run.assert_called_once_with(
+                Path("data.json"), Path("."), quality_gate=True
+            )

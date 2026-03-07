@@ -14,4 +14,4 @@ def postprocess() -> None:
 
 def validate() -> None:
     from mail_sovereignty.validate import run
-    run(Path("data.json"), Path("."))
+    run(Path("data.json"), Path("."), quality_gate=True)

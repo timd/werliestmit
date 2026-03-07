@@ -1,11 +1,17 @@
 import csv
 import json
+import os
 import sys
 from pathlib import Path
 from typing import Any
 
 from mail_sovereignty.classify import classify_from_mx, classify_from_spf, spf_mentions_providers
 from mail_sovereignty.constants import PROVIDER_KEYWORDS
+
+# Quality gate thresholds (override via env vars in CI)
+MIN_AVERAGE_SCORE = int(os.environ.get("MIN_AVERAGE_SCORE", "70"))
+MIN_HIGH_CONFIDENCE_PCT = int(os.environ.get("MIN_HIGH_CONFIDENCE_PCT", "80"))
+HIGH_CONFIDENCE_THRESHOLD = 80
 
 MANUAL_OVERRIDE_BFS = {
     "6404", "6408", "6413", "6416", "6417", "6432", "6433", "6434",
@@ -196,7 +202,7 @@ def print_report(scored_entries: list[dict[str, Any]]) -> None:
     print(f"\n{'=' * 60}\n")
 
 
-def run(data_path: Path, output_dir: Path) -> None:
+def run(data_path: Path, output_dir: Path, quality_gate: bool = False) -> bool:
     try:
         with open(data_path, encoding="utf-8") as f:
             data = json.load(f)
@@ -222,9 +228,16 @@ def run(data_path: Path, output_dir: Path) -> None:
 
     print_report(scored)
 
+    avg_score = round(sum(e["score"] for e in scored) / len(scored), 1)
+    high_confidence_count = sum(1 for e in scored if e["score"] >= HIGH_CONFIDENCE_THRESHOLD)
+    high_confidence_pct = round(high_confidence_count / len(scored) * 100, 1)
+    quality_passed = avg_score >= MIN_AVERAGE_SCORE and high_confidence_pct >= MIN_HIGH_CONFIDENCE_PCT
+
     report = {
         "total": len(scored),
-        "average_score": round(sum(e["score"] for e in scored) / len(scored), 1),
+        "average_score": avg_score,
+        "high_confidence_pct": high_confidence_pct,
+        "quality_passed": quality_passed,
         "entries": {
             e["bfs"]: {
                 "name": e["name"],
@@ -259,3 +272,14 @@ def run(data_path: Path, output_dir: Path) -> None:
             ])
 
     print(f"Written {json_path} and {csv_path} ({len(scored)} entries)")
+
+    # Quality gate
+    if quality_passed:
+        print(f"Quality gate PASSED (avg={avg_score}, high_conf={high_confidence_pct}%)")
+    else:
+        print(f"Quality gate FAILED (avg={avg_score} min={MIN_AVERAGE_SCORE}, "
+              f"high_conf={high_confidence_pct}% min={MIN_HIGH_CONFIDENCE_PCT}%)")
+        if quality_gate:
+            sys.exit(1)
+
+    return quality_passed

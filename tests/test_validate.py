@@ -209,3 +209,43 @@ class TestRun:
         run(sample_data_json, tmp_path)
         captured = capsys.readouterr()
         assert "VALIDATION REPORT" in captured.out
+
+    def test_returns_true_when_quality_passes(self, sample_data_json, tmp_path, monkeypatch):
+        monkeypatch.setattr("mail_sovereignty.validate.MIN_AVERAGE_SCORE", 10)
+        monkeypatch.setattr("mail_sovereignty.validate.MIN_HIGH_CONFIDENCE_PCT", 10)
+        result = run(sample_data_json, tmp_path)
+        assert result is True
+
+    def test_returns_false_when_average_below_threshold(self, sample_data_json, tmp_path, monkeypatch):
+        monkeypatch.setattr("mail_sovereignty.validate.MIN_AVERAGE_SCORE", 99)
+        monkeypatch.setattr("mail_sovereignty.validate.MIN_HIGH_CONFIDENCE_PCT", 10)
+        result = run(sample_data_json, tmp_path)
+        assert result is False
+
+    def test_returns_false_when_high_confidence_below_threshold(self, sample_data_json, tmp_path, monkeypatch):
+        monkeypatch.setattr("mail_sovereignty.validate.MIN_AVERAGE_SCORE", 10)
+        monkeypatch.setattr("mail_sovereignty.validate.MIN_HIGH_CONFIDENCE_PCT", 100)
+        result = run(sample_data_json, tmp_path)
+        assert result is False
+
+    def test_exits_nonzero_with_quality_gate(self, sample_data_json, tmp_path, monkeypatch):
+        monkeypatch.setattr("mail_sovereignty.validate.MIN_AVERAGE_SCORE", 99)
+        monkeypatch.setattr("mail_sovereignty.validate.MIN_HIGH_CONFIDENCE_PCT", 10)
+        with pytest.raises(SystemExit) as exc_info:
+            run(sample_data_json, tmp_path, quality_gate=True)
+        assert exc_info.value.code == 1
+
+    def test_no_exit_without_quality_gate(self, sample_data_json, tmp_path, monkeypatch):
+        monkeypatch.setattr("mail_sovereignty.validate.MIN_AVERAGE_SCORE", 99)
+        monkeypatch.setattr("mail_sovereignty.validate.MIN_HIGH_CONFIDENCE_PCT", 10)
+        result = run(sample_data_json, tmp_path, quality_gate=False)
+        assert result is False
+
+    def test_report_includes_quality_fields(self, sample_data_json, tmp_path, monkeypatch):
+        monkeypatch.setattr("mail_sovereignty.validate.MIN_AVERAGE_SCORE", 10)
+        monkeypatch.setattr("mail_sovereignty.validate.MIN_HIGH_CONFIDENCE_PCT", 10)
+        run(sample_data_json, tmp_path)
+        report = json.loads((tmp_path / "validation_report.json").read_text())
+        assert "high_confidence_pct" in report
+        assert "quality_passed" in report
+        assert report["quality_passed"] is True
