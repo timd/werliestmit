@@ -14,8 +14,8 @@ Inspired by [belibre.be/map](https://belibre.be/map/nl.html).
 The data pipeline has three steps:
 
 1. **Preprocess** -- Fetches all ~2100 Swiss municipalities from Wikidata, performs MX and SPF DNS lookups on their official domains, and classifies each municipality's email provider.
-2. **Postprocess** -- Scrapes websites of still-unclassified municipalities for email addresses (including TYPO3-obfuscated ones), resolves those email domains via DNS, and applies manual overrides for edge cases.
-3. **Validate** -- Cross-validates MX and SPF records, assigns a confidence score (0--100) to each entry, and generates a validation report.
+2. **Postprocess** -- Scrapes websites of still-unclassified municipalities for email addresses, resolves those email domains via DNS, and applies manual overrides for edge cases.
+3. **Validate** -- Cross-validates MX and SPF records, assigns a confidence score (0-100) to each entry, and generates a validation report.
 
 ## Quick start
 
@@ -37,9 +37,6 @@ uv sync --group dev
 
 # Run tests with coverage
 uv run pytest --cov --cov-report=term-missing
-
-# Run a specific test file
-uv run pytest tests/test_classify.py -v
 ```
 
 
