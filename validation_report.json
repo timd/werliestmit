@@ -1,7 +1,7 @@
 {
   "total": 2171,
-  "average_score": 87.8,
-  "high_confidence_pct": 94.7,
+  "average_score": 87.9,
+  "high_confidence_pct": 95.0,
   "quality_passed": true,
   "entries": {
     "1": {
@@ -788,9 +788,10 @@
       "name": "Regensberg",
       "provider": "microsoft",
       "domain": "regensberg.ch",
-      "confidence": 50,
+      "confidence": 90,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -3458,10 +3459,11 @@
       "name": "Interlaken",
       "provider": "sovereign",
       "domain": "interlaken.ch",
-      "confidence": 55,
+      "confidence": 95,
       "flags": [
         "multiple_mx",
-        "no_spf",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -5919,11 +5921,11 @@
     },
     "1051": {
       "name": "Adligenswil",
-      "provider": "sovereign",
-      "domain": "gemeinde-adligenswil.ch",
+      "provider": "microsoft",
+      "domain": "adligenswil.ch",
       "confidence": 90,
       "flags": [
-        "multiple_mx",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -6982,9 +6984,10 @@
       "name": "Arth",
       "provider": "swiss-isp",
       "domain": "arth.ch",
-      "confidence": 50,
+      "confidence": 90,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -8120,9 +8123,10 @@
       "name": "Morlon",
       "provider": "microsoft",
       "domain": "morlon.ch",
-      "confidence": 50,
+      "confidence": 90,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -12446,10 +12450,11 @@
       "name": "Nesslau",
       "provider": "sovereign",
       "domain": "nesslau.ch",
-      "confidence": 55,
+      "confidence": 83,
       "flags": [
         "multiple_mx",
-        "no_spf",
+        "spf_softfail",
+        "sovereign_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -14609,10 +14614,12 @@
     },
     "4100": {
       "name": "Hausen",
-      "provider": "microsoft",
-      "domain": "hausen.ch",
-      "confidence": 85,
+      "provider": "sovereign",
+      "domain": "hausen.swiss",
+      "confidence": 93,
       "flags": [
+        "multiple_mx",
+        "spf_softfail",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -14972,9 +14979,10 @@
       "name": "Eiken",
       "provider": "microsoft",
       "domain": "eiken.ch",
-      "confidence": 50,
+      "confidence": 90,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -15738,9 +15746,9 @@
       "name": "Zuzgen",
       "provider": "aws",
       "domain": "zuzgen.ch",
-      "confidence": 50,
+      "confidence": 70,
       "flags": [
-        "no_spf",
+        "spf_strict",
         "provider_classified"
       ]
     },
@@ -18712,11 +18720,10 @@
     "5471": {
       "name": "Bettens",
       "provider": "sovereign",
-      "domain": "bluewin.ch",
-      "confidence": 90,
+      "domain": "bettens.ch",
+      "confidence": 50,
       "flags": [
-        "multiple_mx",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
@@ -24147,10 +24154,11 @@
       "name": "Val Terbi",
       "provider": "sovereign",
       "domain": "val-terbi.ch",
-      "confidence": 55,
+      "confidence": 93,
       "flags": [
         "multiple_mx",
-        "no_spf",
+        "spf_softfail",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
