@@ -75,7 +75,7 @@ async def fetch_wikidata() -> dict[str, dict[str, str]]:
     print("Querying Wikidata for Swiss municipalities...")
     headers = {
         "Accept": "application/sparql-results+json",
-        "User-Agent": "SwissEmailSovereigntyMap/1.0 (https://github.com/davidhuser)",
+        "User-Agent": "MXmap/1.0 (https://github.com/davidhuser)",
     }
     async with httpx.AsyncClient(timeout=120) as client:
         r = await client.post(
@@ -196,7 +196,7 @@ async def run(output_path: Path) -> None:
                 f"Infomaniak={counts.get('infomaniak', 0)}  "
                 f"AWS={counts.get('aws', 0)}  "
                 f"ISP={counts.get('swiss-isp', 0)}  "
-                f"Sov={counts.get('sovereign', 0)}  "
+                f"Self={counts.get('self-hosted', 0)}  "
                 f"?={counts.get('unknown', 0)}"
             )
 
@@ -211,7 +211,7 @@ async def run(output_path: Path) -> None:
     print(f"  Infomaniak      : {counts.get('infomaniak', 0):>5}")
     print(f"  AWS             : {counts.get('aws', 0):>5}")
     print(f"  Swiss ISP       : {counts.get('swiss-isp', 0):>5}")
-    print(f"  Sovereign/Other : {counts.get('sovereign', 0):>5}")
+    print(f"  Self-hosted     : {counts.get('self-hosted', 0):>5}")
     print(f"  Unknown/No MX   : {counts.get('unknown', 0):>5}")
     print(f"{'=' * 50}")
 

@@ -109,7 +109,7 @@ class TestManualOverrides:
             assert "provider" in entry, f"BFS {bfs} missing 'provider'"
 
     def test_valid_providers(self):
-        valid = {"sovereign", "infomaniak", "microsoft", "swiss-isp"}
+        valid = {"self-hosted", "infomaniak", "microsoft", "swiss-isp"}
         for bfs, entry in MANUAL_OVERRIDES.items():
             assert entry["provider"] in valid, (
                 f"BFS {bfs}: unexpected provider {entry['provider']}"
@@ -175,7 +175,7 @@ class TestProcessUnknown:
         ):
             result = await process_unknown(client, sem, m)
 
-        assert result["provider"] == "sovereign"
+        assert result["provider"] == "self-hosted"
 
     async def test_no_email_domains_found(self):
         m = {"bfs": "999", "name": "Test", "domain": "test.ch", "provider": "unknown"}

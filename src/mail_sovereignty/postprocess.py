@@ -304,7 +304,7 @@ MANUAL_OVERRIDES = {
     # Other manual resolutions
     "261": {
         "domain": "zuerich.ch",
-        "provider": "sovereign",
+        "provider": "self-hosted",
     },  # Zürich (not gemeinde-zuerich.ch)
     "422": {
         "domain": "ruetibeilyssach.ch",

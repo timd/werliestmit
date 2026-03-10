@@ -1,7 +1,7 @@
 {
   "total": 2115,
-  "average_score": 91.1,
-  "high_confidence_pct": 96.4,
+  "average_score": 91.0,
+  "high_confidence_pct": 96.3,
   "quality_passed": true,
   "entries": {
     "1": {
@@ -53,13 +53,13 @@
     },
     "5": {
       "name": "Hedingen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hedingen.ch",
       "confidence": 83,
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -131,14 +131,14 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
     },
     "12": {
       "name": "Rifferswil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "rifferswil.ch",
       "confidence": 95,
       "flags": [
@@ -151,7 +151,7 @@
     },
     "13": {
       "name": "Stallikon",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "stallikon.ch",
       "confidence": 93,
       "flags": [
@@ -164,7 +164,7 @@
     },
     "14": {
       "name": "Wettswil am Albis",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "wettswil.ch",
       "confidence": 93,
       "flags": [
@@ -177,7 +177,7 @@
     },
     "22": {
       "name": "Benken",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "benken-zh.ch",
       "confidence": 95,
       "flags": [
@@ -192,17 +192,16 @@
       "name": "Berg am Irchel",
       "provider": "swiss-isp",
       "domain": "berg-am-irchel.ch",
-      "confidence": 95,
+      "confidence": 55,
       "flags": [
         "multiple_mx",
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
     "24": {
       "name": "Buch am Irchel",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "buchamirchel.ch",
       "confidence": 93,
       "flags": [
@@ -220,14 +219,14 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
     },
     "26": {
       "name": "Dorf ZH",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "dorf.ch",
       "confidence": 93,
       "flags": [
@@ -269,7 +268,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -288,7 +287,7 @@
     },
     "33": {
       "name": "Kleinandelfingen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "kleinandelfingen.ch",
       "confidence": 95,
       "flags": [
@@ -301,7 +300,7 @@
     },
     "34": {
       "name": "Laufen-Uhwiesen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "laufen-uhwiesen.ch",
       "confidence": 93,
       "flags": [
@@ -319,7 +318,7 @@
       "confidence": 83,
       "flags": [
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -338,7 +337,7 @@
     },
     "38": {
       "name": "Rheinau",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "rheinau.ch",
       "confidence": 93,
       "flags": [
@@ -411,7 +410,7 @@
     },
     "52": {
       "name": "Bassersdorf",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bassersdorf.ch",
       "confidence": 93,
       "flags": [
@@ -449,7 +448,7 @@
     },
     "55": {
       "name": "Eglisau",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "eglisau.ch",
       "confidence": 93,
       "flags": [
@@ -467,7 +466,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -492,7 +491,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -645,7 +644,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -653,7 +652,7 @@
     },
     "72": {
       "name": "Winkel",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "winkel.ch",
       "confidence": 95,
       "flags": [
@@ -731,14 +730,14 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
     },
     "87": {
       "name": "Hüttikon",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "huettikon.ch",
       "confidence": 93,
       "flags": [
@@ -763,7 +762,7 @@
     },
     "89": {
       "name": "Niederglatt ZH",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "niederglatt.zh.ch",
       "confidence": 55,
       "flags": [
@@ -779,7 +778,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -863,7 +862,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -899,7 +898,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -912,14 +911,14 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
     },
     "102": {
       "name": "Weiach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "weiach.ch",
       "confidence": 93,
       "flags": [
@@ -949,7 +948,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -973,7 +972,7 @@
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -1020,7 +1019,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -1074,7 +1073,7 @@
     },
     "135": {
       "name": "Kilchberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "kilchberg.ch",
       "confidence": 95,
       "flags": [
@@ -1104,7 +1103,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -1141,7 +1140,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -1160,7 +1159,7 @@
     },
     "152": {
       "name": "Herrliberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "herrliberg.ch",
       "confidence": 95,
       "flags": [
@@ -1172,7 +1171,7 @@
     },
     "153": {
       "name": "Hombrechtikon",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hombrechtikon.ch",
       "confidence": 93,
       "flags": [
@@ -1185,7 +1184,7 @@
     },
     "154": {
       "name": "Küsnacht",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "kuesnacht.ch",
       "confidence": 95,
       "flags": [
@@ -1203,7 +1202,7 @@
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -1226,7 +1225,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -1251,7 +1250,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -1259,7 +1258,7 @@
     },
     "160": {
       "name": "Zumikon",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "zumikon.ch",
       "confidence": 93,
       "flags": [
@@ -1278,7 +1277,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -1298,7 +1297,7 @@
     },
     "173": {
       "name": "Hittnau",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hittnau.ch",
       "confidence": 93,
       "flags": [
@@ -1431,7 +1430,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -1444,7 +1443,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -1469,7 +1468,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -1477,7 +1476,7 @@
     },
     "199": {
       "name": "Volketswil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "volketswil.ch",
       "confidence": 95,
       "flags": [
@@ -1537,7 +1536,7 @@
     },
     "215": {
       "name": "Dättlikon",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "daettlikon.ch",
       "confidence": 93,
       "flags": [
@@ -1586,7 +1585,7 @@
     },
     "220": {
       "name": "Hagenbuch",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hagenbuch.zh.ch",
       "confidence": 55,
       "flags": [
@@ -1627,14 +1626,14 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
     },
     "225": {
       "name": "Rickenbach ZH",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "rickenbach.zh.ch",
       "confidence": 55,
       "flags": [
@@ -1646,7 +1645,7 @@
     },
     "226": {
       "name": "Schlatt",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "schlatt-zh.ch",
       "confidence": 93,
       "flags": [
@@ -1664,7 +1663,7 @@
       "confidence": 83,
       "flags": [
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -1676,7 +1675,7 @@
       "confidence": 83,
       "flags": [
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -1725,7 +1724,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -1738,7 +1737,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -1788,14 +1787,14 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
     },
     "248": {
       "name": "Uitikon",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "uitikon.ch",
       "confidence": 90,
       "flags": [
@@ -1842,7 +1841,7 @@
     },
     "261": {
       "name": "Zürich",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "zuerich.ch",
       "confidence": 90,
       "flags": [
@@ -1853,7 +1852,7 @@
     },
     "291": {
       "name": "Andelfingen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "andelfingen.ch",
       "confidence": 93,
       "flags": [
@@ -1866,7 +1865,7 @@
     },
     "292": {
       "name": "Stammheim",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "stammheim.ch",
       "confidence": 93,
       "flags": [
@@ -1909,7 +1908,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -1933,7 +1932,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -1951,7 +1950,7 @@
     },
     "301": {
       "name": "Aarberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "aarberg.ch",
       "confidence": 95,
       "flags": [
@@ -1975,7 +1974,7 @@
     },
     "303": {
       "name": "Grossaffoltern",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "grossaffoltern.ch",
       "confidence": 93,
       "flags": [
@@ -1987,7 +1986,7 @@
     },
     "304": {
       "name": "Kallnach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "kallnach.ch",
       "confidence": 93,
       "flags": [
@@ -2011,7 +2010,7 @@
     },
     "306": {
       "name": "Lyss",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lyss.ch",
       "confidence": 95,
       "flags": [
@@ -2046,19 +2045,19 @@
     },
     "310": {
       "name": "Rapperswil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "rapperswil-be.ch",
       "confidence": 83,
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "311": {
       "name": "Schüpfen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "schuepfen.ch",
       "confidence": 93,
       "flags": [
@@ -2070,7 +2069,7 @@
     },
     "312": {
       "name": "Seedorf",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "seedorf.ch",
       "confidence": 95,
       "flags": [
@@ -2166,7 +2165,7 @@
     },
     "331": {
       "name": "Lotzwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lotzwil.ch",
       "confidence": 93,
       "flags": [
@@ -2178,7 +2177,7 @@
     },
     "332": {
       "name": "Madiswil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "madiswil.ch",
       "confidence": 93,
       "flags": [
@@ -2237,7 +2236,7 @@
     },
     "338": {
       "name": "Rohrbach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "rohrbach-be.ch",
       "confidence": 95,
       "flags": [
@@ -2309,7 +2308,7 @@
     },
     "345": {
       "name": "Wynau",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "wynau.ch",
       "confidence": 90,
       "flags": [
@@ -2331,7 +2330,7 @@
     },
     "352": {
       "name": "Bolligen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bolligen.ch",
       "confidence": 95,
       "flags": [
@@ -2348,7 +2347,7 @@
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -2382,25 +2381,25 @@
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "357": {
       "name": "Oberbalm",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "oberbalm.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "358": {
       "name": "Stettlen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "stettlen.ch",
       "confidence": 95,
       "flags": [
@@ -2424,7 +2423,7 @@
     },
     "360": {
       "name": "Wohlen bei Bern",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "wohlen-be.ch",
       "confidence": 95,
       "flags": [
@@ -2478,13 +2477,13 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "372": {
       "name": "Leubringen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "evilard.ch",
       "confidence": 93,
       "flags": [
@@ -2496,7 +2495,7 @@
     },
     "381": {
       "name": "Arch",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "arch-be.ch",
       "confidence": 93,
       "flags": [
@@ -2520,7 +2519,7 @@
     },
     "383": {
       "name": "Büren an der Aare",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bueren.ch",
       "confidence": 93,
       "flags": [
@@ -2592,7 +2591,7 @@
     },
     "390": {
       "name": "Meinisberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "meinisberg.ch",
       "confidence": 90,
       "flags": [
@@ -2615,7 +2614,7 @@
     },
     "392": {
       "name": "Pieterlen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "pieterlen.ch",
       "confidence": 95,
       "flags": [
@@ -2675,7 +2674,7 @@
     },
     "403": {
       "name": "Bäriswil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "baeriswil.ch",
       "confidence": 93,
       "flags": [
@@ -2723,7 +2722,7 @@
     },
     "407": {
       "name": "Heimiswil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "heimiswil.ch",
       "confidence": 95,
       "flags": [
@@ -2745,7 +2744,7 @@
     },
     "409": {
       "name": "Hindelbank",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hindelbank.ch",
       "confidence": 88,
       "flags": [
@@ -2767,7 +2766,7 @@
     },
     "411": {
       "name": "Kernenried",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "kernenried.ch",
       "confidence": 88,
       "flags": [
@@ -2778,7 +2777,7 @@
     },
     "412": {
       "name": "Kirchberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "kirchberg-be.ch",
       "confidence": 93,
       "flags": [
@@ -2826,7 +2825,7 @@
     },
     "418": {
       "name": "Oberburg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "oberburg.ch",
       "confidence": 93,
       "flags": [
@@ -2838,7 +2837,7 @@
     },
     "420": {
       "name": "Rüdtligen-Alchenflüh",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hgra.ch",
       "confidence": 90,
       "flags": [
@@ -2849,7 +2848,7 @@
     },
     "421": {
       "name": "Rumendingen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "rumendingen.ch",
       "confidence": 88,
       "flags": [
@@ -2958,7 +2957,7 @@
     },
     "437": {
       "name": "Mont-Tramelan",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "mont-tramelan.ch",
       "confidence": 90,
       "flags": [
@@ -2969,7 +2968,7 @@
     },
     "438": {
       "name": "Orvin",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "orvin.ch",
       "confidence": 95,
       "flags": [
@@ -3006,7 +3005,7 @@
     },
     "443": {
       "name": "Saint-Imier",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "saint-imier.ch",
       "confidence": 90,
       "flags": [
@@ -3043,7 +3042,7 @@
     },
     "446": {
       "name": "Tramelan",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "tramelan.ch",
       "confidence": 95,
       "flags": [
@@ -3079,13 +3078,13 @@
     },
     "450": {
       "name": "Péry-La Heutte",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "pery-laheutte.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -3103,7 +3102,7 @@
     },
     "492": {
       "name": "Erlach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "erlach.ch",
       "confidence": 95,
       "flags": [
@@ -3151,7 +3150,7 @@
     },
     "496": {
       "name": "Ins",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ins.ch",
       "confidence": 93,
       "flags": [
@@ -3259,7 +3258,7 @@
     },
     "538": {
       "name": "Fraubrunnen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "fraubrunnen.ch",
       "confidence": 93,
       "flags": [
@@ -3271,7 +3270,7 @@
     },
     "540": {
       "name": "Jegenstorf",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "jegenstorf.ch",
       "confidence": 95,
       "flags": [
@@ -3307,7 +3306,7 @@
     },
     "544": {
       "name": "Moosseedorf",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "moosseedorf.ch",
       "confidence": 95,
       "flags": [
@@ -3319,7 +3318,7 @@
     },
     "546": {
       "name": "Münchenbuchsee",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "muenchenbuchsee.ch",
       "confidence": 95,
       "flags": [
@@ -3331,7 +3330,7 @@
     },
     "551": {
       "name": "Urtenen-Schönbühl",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "urtenen-schoenbuehl.ch",
       "confidence": 93,
       "flags": [
@@ -3343,7 +3342,7 @@
     },
     "552": {
       "name": "Utzenstorf",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "utzenstorf.ch",
       "confidence": 93,
       "flags": [
@@ -3379,7 +3378,7 @@
     },
     "556": {
       "name": "Zielebach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "zielebach.ch",
       "confidence": 93,
       "flags": [
@@ -3445,7 +3444,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -3472,7 +3471,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -3552,7 +3551,7 @@
     },
     "576": {
       "name": "Grindelwald",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "grindelwald.com",
       "confidence": 90,
       "flags": [
@@ -3599,7 +3598,7 @@
     },
     "580": {
       "name": "Hofstetten bei Brienz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hofstetten-ballenberg.ch",
       "confidence": 93,
       "flags": [
@@ -3611,7 +3610,7 @@
     },
     "581": {
       "name": "Interlaken",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "interlaken.ch",
       "confidence": 95,
       "flags": [
@@ -3695,7 +3694,7 @@
     },
     "589": {
       "name": "Oberried am Brienzersee",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "oberried.ch",
       "confidence": 50,
       "flags": [
@@ -3745,7 +3744,7 @@
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -3773,7 +3772,7 @@
     },
     "603": {
       "name": "Biglen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "biglen.ch",
       "confidence": 95,
       "flags": [
@@ -3799,7 +3798,7 @@
     },
     "606": {
       "name": "Brenzikofen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "brenzikofen.ch",
       "confidence": 88,
       "flags": [
@@ -3822,7 +3821,7 @@
     },
     "608": {
       "name": "Grosshöchstetten",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "grosshoechstetten.ch",
       "confidence": 93,
       "flags": [
@@ -3864,7 +3863,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -3896,7 +3895,7 @@
     },
     "614": {
       "name": "Linden",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "linden.ch",
       "confidence": 93,
       "flags": [
@@ -3913,20 +3912,20 @@
       "confidence": 83,
       "flags": [
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
     },
     "616": {
       "name": "Münsingen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "muensingen.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -3942,7 +3941,7 @@
     },
     "619": {
       "name": "Oberdiessbach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "oberdiessbach.ch",
       "confidence": 93,
       "flags": [
@@ -3955,7 +3954,7 @@
     },
     "620": {
       "name": "Oberthal",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "oberthal.ch",
       "confidence": 93,
       "flags": [
@@ -3989,7 +3988,7 @@
     },
     "626": {
       "name": "Walkringen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "walkringen.ch",
       "confidence": 95,
       "flags": [
@@ -4001,7 +4000,7 @@
     },
     "627": {
       "name": "Worb",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "worb.ch",
       "confidence": 95,
       "flags": [
@@ -4013,7 +4012,7 @@
     },
     "628": {
       "name": "Zäziwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "zaeziwil.ch",
       "confidence": 95,
       "flags": [
@@ -4025,7 +4024,7 @@
     },
     "629": {
       "name": "Oberhünigen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "oberhuenigen.ch",
       "confidence": 95,
       "flags": [
@@ -4039,17 +4038,16 @@
       "name": "Allmendingen bei Bern",
       "provider": "microsoft",
       "domain": "allmendingen.ch",
-      "confidence": 95,
+      "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "provider_classified"
       ]
     },
     "632": {
       "name": "Wichtrach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "wichtrach.ch",
       "confidence": 95,
       "flags": [
@@ -4061,19 +4059,18 @@
     },
     "662": {
       "name": "Ferenbalm",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ferenbalm.ch",
-      "confidence": 93,
+      "confidence": 55,
       "flags": [
         "multiple_mx",
-        "spf_softfail",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
     "663": {
       "name": "Frauenkappelen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "frauenkappelen.ch",
       "confidence": 95,
       "flags": [
@@ -4109,7 +4106,7 @@
     },
     "667": {
       "name": "Laupen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "laupen.ch",
       "confidence": 90,
       "flags": [
@@ -4132,7 +4129,7 @@
     },
     "669": {
       "name": "Münchenwiler",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "muenchenwiler.ch",
       "confidence": 93,
       "flags": [
@@ -4216,18 +4213,18 @@
     },
     "691": {
       "name": "Crémines",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "cremines.ch",
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "692": {
       "name": "Eschert",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "eschert.ch",
       "confidence": 90,
       "flags": [
@@ -4261,25 +4258,25 @@
     },
     "701": {
       "name": "Perrefitte",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "perrefitte.ch",
       "confidence": 70,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "multi_provider_spf:infomaniak+microsoft",
         "provider_classified"
       ]
     },
     "703": {
       "name": "Reconvilier",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "reconvilier.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -4344,7 +4341,7 @@
     },
     "711": {
       "name": "Sorvilier",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "sorvilier.ch",
       "confidence": 90,
       "flags": [
@@ -4391,7 +4388,7 @@
     },
     "717": {
       "name": "Valbirse",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "valbirse.ch",
       "confidence": 95,
       "flags": [
@@ -4403,7 +4400,7 @@
     },
     "723": {
       "name": "La Neuveville",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "laneuveville.ch",
       "confidence": 50,
       "flags": [
@@ -4437,7 +4434,7 @@
     },
     "731": {
       "name": "Aegerten",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "aegerten.ch",
       "confidence": 93,
       "flags": [
@@ -4449,7 +4446,7 @@
     },
     "732": {
       "name": "Bellmund",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bellmund.ch",
       "confidence": 93,
       "flags": [
@@ -4473,7 +4470,7 @@
     },
     "734": {
       "name": "Bühl",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "buehl.ch",
       "confidence": 95,
       "flags": [
@@ -4485,7 +4482,7 @@
     },
     "735": {
       "name": "Epsach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "epsach.ch",
       "confidence": 50,
       "flags": [
@@ -4519,7 +4516,7 @@
     },
     "738": {
       "name": "Jens",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "jens.ch",
       "confidence": 93,
       "flags": [
@@ -4580,7 +4577,7 @@
     },
     "743": {
       "name": "Nidau",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "nidau.ch",
       "confidence": 95,
       "flags": [
@@ -4592,7 +4589,7 @@
     },
     "744": {
       "name": "Orpund",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "orpund.ch",
       "confidence": 95,
       "flags": [
@@ -4616,7 +4613,7 @@
     },
     "746": {
       "name": "Safnern",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "safnern.ch",
       "confidence": 93,
       "flags": [
@@ -4640,7 +4637,7 @@
     },
     "748": {
       "name": "Schwadernau",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "schwadernau.ch",
       "confidence": 90,
       "flags": [
@@ -4663,7 +4660,7 @@
     },
     "750": {
       "name": "Sutz-Lattrigen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "sutz-lattrigen.ch",
       "confidence": 95,
       "flags": [
@@ -4687,7 +4684,7 @@
     },
     "754": {
       "name": "Walperswil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "walperswil.ch",
       "confidence": 93,
       "flags": [
@@ -4723,7 +4720,7 @@
     },
     "761": {
       "name": "Därstetten",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "daerstetten.ch",
       "confidence": 90,
       "flags": [
@@ -4740,7 +4737,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -4748,7 +4745,7 @@
     },
     "763": {
       "name": "Erlenbach im Simmental",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "erlenbach-be.ch",
       "confidence": 93,
       "flags": [
@@ -4786,13 +4783,13 @@
     },
     "768": {
       "name": "Spiez",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "spiez.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -4821,7 +4818,7 @@
     },
     "782": {
       "name": "Guttannen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "guttannen.ch",
       "confidence": 90,
       "flags": [
@@ -4891,7 +4888,7 @@
     },
     "792": {
       "name": "Lenk",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lenkgemeinde.ch",
       "confidence": 95,
       "flags": [
@@ -4961,7 +4958,7 @@
     },
     "852": {
       "name": "Guggisberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "guggisberg.ch",
       "confidence": 90,
       "flags": [
@@ -4984,7 +4981,7 @@
     },
     "855": {
       "name": "Schwarzenburg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "schwarzenburg.ch",
       "confidence": 93,
       "flags": [
@@ -4996,7 +4993,7 @@
     },
     "861": {
       "name": "Belp",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "belp.ch",
       "confidence": 95,
       "flags": [
@@ -5088,7 +5085,7 @@
     },
     "877": {
       "name": "Niedermuhlern",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "niedermuhlern.ch",
       "confidence": 88,
       "flags": [
@@ -5099,7 +5096,7 @@
     },
     "879": {
       "name": "Riggisberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "riggisberg.ch",
       "confidence": 95,
       "flags": [
@@ -5111,7 +5108,7 @@
     },
     "880": {
       "name": "Rüeggisberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "rueggisberg.ch",
       "confidence": 95,
       "flags": [
@@ -5123,7 +5120,7 @@
     },
     "883": {
       "name": "Seftigen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "seftigen.ch",
       "confidence": 93,
       "flags": [
@@ -5147,7 +5144,7 @@
     },
     "885": {
       "name": "Uttigen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "uttigen.ch",
       "confidence": 95,
       "flags": [
@@ -5165,7 +5162,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -5183,7 +5180,7 @@
     },
     "889": {
       "name": "Thurnen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "thurnen.ch",
       "confidence": 95,
       "flags": [
@@ -5195,7 +5192,7 @@
     },
     "901": {
       "name": "Eggiwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "eggiwil.ch",
       "confidence": 93,
       "flags": [
@@ -5219,7 +5216,7 @@
     },
     "903": {
       "name": "Lauperswil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lauperswil.ch",
       "confidence": 95,
       "flags": [
@@ -5243,7 +5240,7 @@
     },
     "905": {
       "name": "Rüderswil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ruederswil.ch",
       "confidence": 95,
       "flags": [
@@ -5267,7 +5264,7 @@
     },
     "907": {
       "name": "Signau",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "signau.ch",
       "confidence": 95,
       "flags": [
@@ -5296,7 +5293,7 @@
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -5326,7 +5323,7 @@
     },
     "923": {
       "name": "Buchholterberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "heimenschwand.ch",
       "confidence": 90,
       "flags": [
@@ -5337,7 +5334,7 @@
     },
     "924": {
       "name": "Eriz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "eriz.ch",
       "confidence": 93,
       "flags": [
@@ -5350,7 +5347,7 @@
     },
     "925": {
       "name": "Fahrni",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gemeinde-fahrni.ch",
       "confidence": 95,
       "flags": [
@@ -5363,7 +5360,7 @@
     },
     "927": {
       "name": "Heiligenschwendi",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "heiligenschwendi.ch",
       "confidence": 93,
       "flags": [
@@ -5375,25 +5372,25 @@
     },
     "928": {
       "name": "Heimberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "heimberg.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "929": {
       "name": "Hilterfingen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hilterfingen.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -5423,13 +5420,13 @@
     },
     "934": {
       "name": "Oberhofen am Thunersee",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "oberhofen.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -5475,14 +5472,14 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
     },
     "940": {
       "name": "Teuffenthal",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "teuffenthal.ch",
       "confidence": 90,
       "flags": [
@@ -5493,7 +5490,7 @@
     },
     "941": {
       "name": "Thierachern",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "thierachern.ch",
       "confidence": 95,
       "flags": [
@@ -5505,13 +5502,13 @@
     },
     "942": {
       "name": "Thun",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "thun.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -5554,7 +5551,7 @@
     },
     "946": {
       "name": "Wachseldorn",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "wachseldorn.ch",
       "confidence": 55,
       "flags": [
@@ -5566,7 +5563,7 @@
     },
     "948": {
       "name": "Forst-Längenbühl",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "forst-laengenbuehl.ch",
       "confidence": 55,
       "flags": [
@@ -5588,7 +5585,7 @@
     },
     "952": {
       "name": "Dürrenroth",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "duerrenroth.ch",
       "confidence": 93,
       "flags": [
@@ -5623,7 +5620,7 @@
     },
     "955": {
       "name": "Lützelflüh",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "luetzelflueh.ch",
       "confidence": 93,
       "flags": [
@@ -5637,12 +5634,11 @@
       "name": "Rüegsau",
       "provider": "microsoft",
       "domain": "ruegsau.ch",
-      "confidence": 95,
+      "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "provider_classified"
       ]
     },
     "957": {
@@ -5704,7 +5700,7 @@
     },
     "972": {
       "name": "Berken",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "berken.ch",
       "confidence": 95,
       "flags": [
@@ -5869,7 +5865,7 @@
     },
     "990": {
       "name": "Walliswil bei Niederbipp",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "walliswil-bipp.ch",
       "confidence": 55,
       "flags": [
@@ -5892,7 +5888,7 @@
     },
     "992": {
       "name": "Wangen an der Aare",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "wangen-a-a.ch",
       "confidence": 93,
       "flags": [
@@ -6024,7 +6020,7 @@
     },
     "1023": {
       "name": "Ballwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ballwil.ch",
       "confidence": 90,
       "flags": [
@@ -6035,7 +6031,7 @@
     },
     "1024": {
       "name": "Emmen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "emmen.ch",
       "confidence": 90,
       "flags": [
@@ -6046,7 +6042,7 @@
     },
     "1025": {
       "name": "Ermensee",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ermensee.ch",
       "confidence": 90,
       "flags": [
@@ -6057,7 +6053,7 @@
     },
     "1026": {
       "name": "Eschenbach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "eschenbach-luzern.ch",
       "confidence": 90,
       "flags": [
@@ -6080,7 +6076,7 @@
     },
     "1031": {
       "name": "Hochdorf",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hochdorf.ch",
       "confidence": 90,
       "flags": [
@@ -6103,7 +6099,7 @@
     },
     "1033": {
       "name": "Inwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "inwil.ch",
       "confidence": 90,
       "flags": [
@@ -6138,7 +6134,7 @@
     },
     "1040": {
       "name": "Rothenburg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "rothenburg.ch",
       "confidence": 90,
       "flags": [
@@ -6149,7 +6145,7 @@
     },
     "1041": {
       "name": "Schongau",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "schongau.ch",
       "confidence": 95,
       "flags": [
@@ -6208,7 +6204,7 @@
     },
     "1055": {
       "name": "Gisikon",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gisikon.ch",
       "confidence": 88,
       "flags": [
@@ -6236,14 +6232,14 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
     },
     "1059": {
       "name": "Kriens",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "kriens.ch",
       "confidence": 90,
       "flags": [
@@ -6259,7 +6255,7 @@
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -6374,16 +6370,15 @@
       "name": "Büron",
       "provider": "swiss-isp",
       "domain": "bueron.ch",
-      "confidence": 90,
+      "confidence": 50,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
     "1083": {
       "name": "Buttisholz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "buttisholz.ch",
       "confidence": 90,
       "flags": [
@@ -6406,7 +6401,7 @@
     },
     "1085": {
       "name": "Geuensee",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "geuensee.ch",
       "confidence": 90,
       "flags": [
@@ -6417,7 +6412,7 @@
     },
     "1086": {
       "name": "Grosswangen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "grosswangen.ch",
       "confidence": 90,
       "flags": [
@@ -6440,7 +6435,7 @@
     },
     "1089": {
       "name": "Knutwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "knutwil.ch",
       "confidence": 90,
       "flags": [
@@ -6475,12 +6470,12 @@
     },
     "1094": {
       "name": "Nottwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "nottwil.ch",
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -6510,7 +6505,7 @@
     },
     "1098": {
       "name": "Ruswil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ruswil.ch",
       "confidence": 90,
       "flags": [
@@ -6568,7 +6563,7 @@
     },
     "1104": {
       "name": "Triengen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "triengen.ch",
       "confidence": 90,
       "flags": [
@@ -6615,7 +6610,7 @@
     },
     "1123": {
       "name": "Altishofen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "altishofen.ch",
       "confidence": 90,
       "flags": [
@@ -6650,7 +6645,7 @@
     },
     "1128": {
       "name": "Ettiswil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ettiswil.ch",
       "confidence": 88,
       "flags": [
@@ -6685,7 +6680,7 @@
     },
     "1132": {
       "name": "Hergiswil bei Willisau",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hergiswil-lu.ch",
       "confidence": 90,
       "flags": [
@@ -6768,7 +6763,7 @@
     },
     "1143": {
       "name": "Schötz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "schoetz.ch",
       "confidence": 93,
       "flags": [
@@ -6780,7 +6775,7 @@
     },
     "1145": {
       "name": "Ufhusen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ufhusen.ch",
       "confidence": 90,
       "flags": [
@@ -6803,7 +6798,7 @@
     },
     "1147": {
       "name": "Wikon",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "wikon.ch",
       "confidence": 90,
       "flags": [
@@ -6814,7 +6809,7 @@
     },
     "1150": {
       "name": "Zell",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "zell-lu.ch",
       "confidence": 90,
       "flags": [
@@ -6837,7 +6832,7 @@
     },
     "1201": {
       "name": "Altdorf",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "altdorf.ch",
       "confidence": 90,
       "flags": [
@@ -6848,7 +6843,7 @@
     },
     "1202": {
       "name": "Andermatt",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gemeinde-andermatt.ch",
       "confidence": 90,
       "flags": [
@@ -6859,7 +6854,7 @@
     },
     "1203": {
       "name": "Attinghausen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "attinghausen.ch",
       "confidence": 90,
       "flags": [
@@ -6870,7 +6865,7 @@
     },
     "1205": {
       "name": "Bürglen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "buerglen.ch",
       "confidence": 90,
       "flags": [
@@ -6881,19 +6876,19 @@
     },
     "1206": {
       "name": "Erstfeld",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "erstfeld.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1207": {
       "name": "Flüelen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "fluelen.ch",
       "confidence": 90,
       "flags": [
@@ -6904,31 +6899,31 @@
     },
     "1208": {
       "name": "Göschenen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "goeschenen.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1209": {
       "name": "Gurtnellen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gurtnellen.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1210": {
       "name": "Hospental",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hospental.ch",
       "confidence": 88,
       "flags": [
@@ -6939,13 +6934,13 @@
     },
     "1211": {
       "name": "Isenthal",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "isenthal.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -6963,7 +6958,7 @@
     },
     "1213": {
       "name": "Schattdorf",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "schattdorf.ch",
       "confidence": 90,
       "flags": [
@@ -6974,7 +6969,7 @@
     },
     "1214": {
       "name": "Seedorf",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "seedorf-uri.ch",
       "confidence": 90,
       "flags": [
@@ -7009,7 +7004,7 @@
     },
     "1217": {
       "name": "Sisikon",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "sisikon.ch",
       "confidence": 90,
       "flags": [
@@ -7020,43 +7015,43 @@
     },
     "1218": {
       "name": "Spiringen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "spiringen.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1219": {
       "name": "Unterschächen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "unterschaechen.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1220": {
       "name": "Wassen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "wassen.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1301": {
       "name": "Einsiedeln",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "einsiedeln.ch",
       "confidence": 55,
       "flags": [
@@ -7084,14 +7079,14 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
     },
     "1322": {
       "name": "Freienbach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "freienbach.ch",
       "confidence": 95,
       "flags": [
@@ -7104,7 +7099,7 @@
     },
     "1323": {
       "name": "Wollerau",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "wollerau.ch",
       "confidence": 95,
       "flags": [
@@ -7141,7 +7136,7 @@
     },
     "1342": {
       "name": "Galgenen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "galgenen.ch",
       "confidence": 95,
       "flags": [
@@ -7153,7 +7148,7 @@
     },
     "1343": {
       "name": "Innerthal",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "innerthal.ch",
       "confidence": 95,
       "flags": [
@@ -7165,7 +7160,7 @@
     },
     "1344": {
       "name": "Lachen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lachen.ch",
       "confidence": 95,
       "flags": [
@@ -7177,7 +7172,7 @@
     },
     "1345": {
       "name": "Reichenburg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "reichenburg.ch",
       "confidence": 85,
       "flags": [
@@ -7200,7 +7195,7 @@
     },
     "1347": {
       "name": "Tuggen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "tuggen.ch",
       "confidence": 88,
       "flags": [
@@ -7212,7 +7207,7 @@
     },
     "1348": {
       "name": "Vorderthal",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "vorderthal.ch",
       "confidence": 95,
       "flags": [
@@ -7224,7 +7219,7 @@
     },
     "1349": {
       "name": "Wangen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "wangensz.ch",
       "confidence": 90,
       "flags": [
@@ -7236,7 +7231,7 @@
     },
     "1361": {
       "name": "Alpthal",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "alpthal.ch",
       "confidence": 95,
       "flags": [
@@ -7259,7 +7254,7 @@
     },
     "1363": {
       "name": "Illgau",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "illgau.ch",
       "confidence": 95,
       "flags": [
@@ -7271,18 +7266,18 @@
     },
     "1364": {
       "name": "Ingenbohl",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ingenbohl.ch",
       "confidence": 78,
       "flags": [
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1365": {
       "name": "Lauerz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lauerz.ch",
       "confidence": 95,
       "flags": [
@@ -7294,7 +7289,7 @@
     },
     "1366": {
       "name": "Morschach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "morschach.ch",
       "confidence": 95,
       "flags": [
@@ -7306,7 +7301,7 @@
     },
     "1367": {
       "name": "Muotathal",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "muotathal.ch",
       "confidence": 95,
       "flags": [
@@ -7318,7 +7313,7 @@
     },
     "1368": {
       "name": "Oberiberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "oberiberg.ch",
       "confidence": 95,
       "flags": [
@@ -7330,7 +7325,7 @@
     },
     "1369": {
       "name": "Riemenstalden",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "riemenstalden.ch",
       "confidence": 90,
       "flags": [
@@ -7341,7 +7336,7 @@
     },
     "1370": {
       "name": "Rothenthurm",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "rothenthurm.ch",
       "confidence": 95,
       "flags": [
@@ -7353,7 +7348,7 @@
     },
     "1371": {
       "name": "Sattel",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "sattel.ch",
       "confidence": 95,
       "flags": [
@@ -7365,7 +7360,7 @@
     },
     "1372": {
       "name": "Schwyz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gemeindeschwyz.ch",
       "confidence": 95,
       "flags": [
@@ -7377,7 +7372,7 @@
     },
     "1373": {
       "name": "Steinen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "steinen.ch",
       "confidence": 95,
       "flags": [
@@ -7389,7 +7384,7 @@
     },
     "1374": {
       "name": "Steinerberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "steinerberg.ch",
       "confidence": 95,
       "flags": [
@@ -7401,7 +7396,7 @@
     },
     "1375": {
       "name": "Unteriberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "unteriberg.ch",
       "confidence": 95,
       "flags": [
@@ -7413,7 +7408,7 @@
     },
     "1401": {
       "name": "Alpnach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "alpnach.ch",
       "confidence": 95,
       "flags": [
@@ -7437,7 +7432,7 @@
     },
     "1403": {
       "name": "Giswil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "giswil.ow.ch",
       "confidence": 95,
       "flags": [
@@ -7459,7 +7454,7 @@
     },
     "1405": {
       "name": "Lungern",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lungern.ch",
       "confidence": 95,
       "flags": [
@@ -7471,7 +7466,7 @@
     },
     "1406": {
       "name": "Sachseln",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "sachseln.ow.ch",
       "confidence": 95,
       "flags": [
@@ -7483,7 +7478,7 @@
     },
     "1407": {
       "name": "Sarnen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "sarnen.ch",
       "confidence": 95,
       "flags": [
@@ -7495,24 +7490,24 @@
     },
     "1501": {
       "name": "Beckenried",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "beckenried.ch",
-      "confidence": 90,
+      "confidence": 80,
       "flags": [
         "spf_strict",
-        "mx_spf_match",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1502": {
       "name": "Buochs",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "buochs.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -7530,19 +7525,19 @@
     },
     "1504": {
       "name": "Emmetten",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "emmetten.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1505": {
       "name": "Ennetbürgen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ennetbuergen.ch",
       "confidence": 95,
       "flags": [
@@ -7554,7 +7549,7 @@
     },
     "1506": {
       "name": "Ennetmoos",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ennetmoos.ch",
       "confidence": 95,
       "flags": [
@@ -7566,31 +7561,31 @@
     },
     "1507": {
       "name": "Hergiswil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hergiswil.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1508": {
       "name": "Oberdorf NW",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "nw.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1509": {
       "name": "Stans",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "stans.ch",
       "confidence": 93,
       "flags": [
@@ -7602,19 +7597,19 @@
     },
     "1510": {
       "name": "Stansstad",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "stansstad.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1511": {
       "name": "Wolfenschiessen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "wolfenschiessen.ch",
       "confidence": 93,
       "flags": [
@@ -7662,103 +7657,103 @@
     },
     "1701": {
       "name": "Baar",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "baar.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1702": {
       "name": "Cham",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "cham.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1703": {
       "name": "Hünenberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "zg.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1704": {
       "name": "Menzingen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "zg.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1705": {
       "name": "Neuheim",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "neuheim.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1706": {
       "name": "Oberägeri",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "oberaegeri.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1707": {
       "name": "Risch",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "zg.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1708": {
       "name": "Steinhausen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "steinhausen.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "1709": {
       "name": "Unterägeri",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "unteraegeri.ch",
       "confidence": 95,
       "flags": [
@@ -7770,7 +7765,7 @@
     },
     "1710": {
       "name": "Walchwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "walchwil.ch",
       "confidence": 95,
       "flags": [
@@ -7782,19 +7777,19 @@
     },
     "1711": {
       "name": "Zug",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "stadtzug.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "2008": {
       "name": "Châtillon",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "chatillon-broye.ch",
       "confidence": 90,
       "flags": [
@@ -7805,7 +7800,7 @@
     },
     "2011": {
       "name": "Cugy",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "cugy-fr.ch",
       "confidence": 95,
       "flags": [
@@ -7878,19 +7873,18 @@
     },
     "2041": {
       "name": "Saint-Aubin",
-      "provider": "sovereign",
-      "domain": "st-aubin.ch",
-      "confidence": 55,
+      "provider": "self-hosted",
+      "domain": "saint-aubin.ch",
+      "confidence": 90,
       "flags": [
-        "multiple_mx",
-        "no_spf",
-        "provider_classified",
-        "provider_via_gateway_spf"
+        "spf_strict",
+        "mx_spf_match",
+        "provider_classified"
       ]
     },
     "2043": {
       "name": "Sévaz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "sevaz.ch",
       "confidence": 95,
       "flags": [
@@ -7926,7 +7920,7 @@
     },
     "2050": {
       "name": "Les Montets",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "les-montets.ch",
       "confidence": 95,
       "flags": [
@@ -7939,7 +7933,7 @@
     },
     "2051": {
       "name": "Delley-Portalban",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "delley-portalban.ch",
       "confidence": 90,
       "flags": [
@@ -7950,7 +7944,7 @@
     },
     "2053": {
       "name": "Belmont-Broye",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "belmont-broye.ch",
       "confidence": 90,
       "flags": [
@@ -7966,7 +7960,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -8104,7 +8098,7 @@
     },
     "2089": {
       "name": "Montet",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "montet.ch",
       "confidence": 90,
       "flags": [
@@ -8189,7 +8183,7 @@
     },
     "2115": {
       "name": "Torny",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "torny.ch",
       "confidence": 90,
       "flags": [
@@ -8200,7 +8194,7 @@
     },
     "2117": {
       "name": "Villaz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "communevillaz.ch",
       "confidence": 90,
       "flags": [
@@ -8370,7 +8364,7 @@
     },
     "2140": {
       "name": "Marsens",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "marsens.ch",
       "confidence": 88,
       "flags": [
@@ -8529,7 +8523,7 @@
     },
     "2174": {
       "name": "Avry",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "avry.ch",
       "confidence": 88,
       "flags": [
@@ -8588,7 +8582,7 @@
     },
     "2194": {
       "name": "Ferpicloz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ferpicloz.ch",
       "confidence": 90,
       "flags": [
@@ -8604,7 +8598,7 @@
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -8695,7 +8689,7 @@
     },
     "2226": {
       "name": "Treyvaux",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "treyvaux.ch",
       "confidence": 88,
       "flags": [
@@ -8718,7 +8712,7 @@
     },
     "2230": {
       "name": "Villarsel-sur-Marly",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "villarsel-sur-marly.ch",
       "confidence": 55,
       "flags": [
@@ -8746,7 +8740,7 @@
       "confidence": 75,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "multi_provider_spf:infomaniak+microsoft",
         "provider_classified",
         "provider_via_gateway_spf",
@@ -8767,7 +8761,7 @@
     },
     "2236": {
       "name": "Gibloux",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "commune-gibloux.ch",
       "confidence": 90,
       "flags": [
@@ -8815,7 +8809,7 @@
     },
     "2250": {
       "name": "Gurwolf",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "courgevaux-gurwolf.ch",
       "confidence": 88,
       "flags": [
@@ -8838,7 +8832,7 @@
     },
     "2257": {
       "name": "Cressier",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "cressier.ch",
       "confidence": 90,
       "flags": [
@@ -8983,7 +8977,7 @@
     },
     "2292": {
       "name": "Brünisried",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bruenisried.ch",
       "confidence": 55,
       "flags": [
@@ -9174,7 +9168,7 @@
     },
     "2323": {
       "name": "Bossonnens",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bossonnens.ch",
       "confidence": 90,
       "flags": [
@@ -9197,7 +9191,7 @@
     },
     "2328": {
       "name": "Granges",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "granges-veveyse.ch",
       "confidence": 90,
       "flags": [
@@ -9208,12 +9202,12 @@
     },
     "2333": {
       "name": "Remaufens",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "remaufens.ch",
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -9231,7 +9225,7 @@
     },
     "2336": {
       "name": "Semsales",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "semsales.ch",
       "confidence": 90,
       "flags": [
@@ -9314,7 +9308,7 @@
     },
     "2405": {
       "name": "Niederbuchsiten",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "niederbuchsiten.ch",
       "confidence": 95,
       "flags": [
@@ -9344,7 +9338,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -9364,7 +9358,7 @@
     },
     "2421": {
       "name": "Aedermannsdorf",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "aedermannsdorf.ch",
       "confidence": 93,
       "flags": [
@@ -9376,7 +9370,7 @@
     },
     "2422": {
       "name": "Balsthal",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "balsthal.ch",
       "confidence": 95,
       "flags": [
@@ -9412,7 +9406,7 @@
     },
     "2426": {
       "name": "Laupersdorf",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "laupersdorf.ch",
       "confidence": 93,
       "flags": [
@@ -9460,7 +9454,7 @@
     },
     "2445": {
       "name": "Biezwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "biezwil.ch",
       "confidence": 93,
       "flags": [
@@ -9508,7 +9502,7 @@
     },
     "2463": {
       "name": "Unterramsern",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "unterramsern.ch",
       "confidence": 90,
       "flags": [
@@ -9543,7 +9537,7 @@
     },
     "2471": {
       "name": "Bättwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "baettwil.ch",
       "confidence": 88,
       "flags": [
@@ -9566,7 +9560,7 @@
     },
     "2473": {
       "name": "Dornach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "dornach.ch",
       "confidence": 93,
       "flags": [
@@ -9602,7 +9596,7 @@
     },
     "2476": {
       "name": "Hofstetten-Flüh",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hofstettenflueh.ch",
       "confidence": 50,
       "flags": [
@@ -9682,7 +9676,7 @@
     },
     "2492": {
       "name": "Kienberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "kienberg.ch",
       "confidence": 90,
       "flags": [
@@ -9765,7 +9759,7 @@
     },
     "2502": {
       "name": "Wisen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "wisen.ch",
       "confidence": 90,
       "flags": [
@@ -9776,7 +9770,7 @@
     },
     "2503": {
       "name": "Erlinsbach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "erlinsbach-so.ch",
       "confidence": 93,
       "flags": [
@@ -9800,7 +9794,7 @@
     },
     "2513": {
       "name": "Biberist",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "biberist.ch",
       "confidence": 93,
       "flags": [
@@ -9812,7 +9806,7 @@
     },
     "2514": {
       "name": "Bolken",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bolken.ch",
       "confidence": 88,
       "flags": [
@@ -9883,7 +9877,7 @@
     },
     "2524": {
       "name": "Hüniken",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hueniken.ch",
       "confidence": 88,
       "flags": [
@@ -9966,7 +9960,7 @@
     },
     "2534": {
       "name": "Zuchwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "zuchwil.ch",
       "confidence": 95,
       "flags": [
@@ -9980,17 +9974,16 @@
       "name": "Drei Höfe",
       "provider": "microsoft",
       "domain": "dreihoefe.ch",
-      "confidence": 93,
+      "confidence": 55,
       "flags": [
-        "spf_softfail",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
     },
     "2541": {
       "name": "Balm bei Günsberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "balm-balmberg.ch",
       "confidence": 95,
       "flags": [
@@ -10014,7 +10007,7 @@
     },
     "2543": {
       "name": "Bettlach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bettlach.ch",
       "confidence": 93,
       "flags": [
@@ -10134,7 +10127,7 @@
     },
     "2554": {
       "name": "Riedholz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "riedholz.ch",
       "confidence": 93,
       "flags": [
@@ -10284,14 +10277,14 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
     },
     "2582": {
       "name": "Rickenbach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "rickenbachso.ch",
       "confidence": 95,
       "flags": [
@@ -10327,7 +10320,7 @@
     },
     "2585": {
       "name": "Walterswil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "walterswil.ch",
       "confidence": 93,
       "flags": [
@@ -10364,7 +10357,7 @@
     },
     "2611": {
       "name": "Bärschwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "baerschwil.ch",
       "confidence": 90,
       "flags": [
@@ -10375,7 +10368,7 @@
     },
     "2612": {
       "name": "Beinwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "beinwil-so.ch",
       "confidence": 90,
       "flags": [
@@ -10398,7 +10391,7 @@
     },
     "2614": {
       "name": "Büsserach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "buesserach.ch",
       "confidence": 95,
       "flags": [
@@ -10410,7 +10403,7 @@
     },
     "2615": {
       "name": "Erschwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "erschwil.ch",
       "confidence": 93,
       "flags": [
@@ -10542,19 +10535,19 @@
     },
     "2761": {
       "name": "Aesch",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "aesch.bl.ch",
       "confidence": 83,
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "2762": {
       "name": "Allschwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "allschwil.ch",
       "confidence": 50,
       "flags": [
@@ -10577,7 +10570,7 @@
     },
     "2764": {
       "name": "Biel-Benken",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "biel-benken.ch",
       "confidence": 93,
       "flags": [
@@ -10589,7 +10582,7 @@
     },
     "2765": {
       "name": "Binningen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "binningen.ch",
       "confidence": 90,
       "flags": [
@@ -10600,7 +10593,7 @@
     },
     "2766": {
       "name": "Birsfelden",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "birsfelden.ch",
       "confidence": 95,
       "flags": [
@@ -10636,7 +10629,7 @@
     },
     "2769": {
       "name": "Münchenstein",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "muenchenstein.ch",
       "confidence": 90,
       "flags": [
@@ -10648,7 +10641,7 @@
     },
     "2770": {
       "name": "Muttenz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "muttenz.ch",
       "confidence": 95,
       "flags": [
@@ -10665,7 +10658,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -10689,7 +10682,7 @@
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -10744,7 +10737,7 @@
     },
     "2783": {
       "name": "Burg im Leimental",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "burg-il.ch",
       "confidence": 95,
       "flags": [
@@ -10851,7 +10844,7 @@
     },
     "2792": {
       "name": "Wahlen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "wahlen.ch",
       "confidence": 55,
       "flags": [
@@ -10912,12 +10905,11 @@
       "name": "Frenkendorf",
       "provider": "microsoft",
       "domain": "frenkendorf.ch",
-      "confidence": 95,
+      "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "provider_classified"
       ]
     },
     "2825": {
@@ -10970,7 +10962,7 @@
     },
     "2829": {
       "name": "Liestal",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "liestal.ch",
       "confidence": 90,
       "flags": [
@@ -10993,7 +10985,7 @@
     },
     "2831": {
       "name": "Pratteln",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "pratteln.ch",
       "confidence": 88,
       "flags": [
@@ -11004,7 +10996,7 @@
     },
     "2832": {
       "name": "Ramlinsburg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ramlinsburg.ch",
       "confidence": 90,
       "flags": [
@@ -11051,7 +11043,7 @@
     },
     "2842": {
       "name": "Böckten",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "boeckten.ch",
       "confidence": 93,
       "flags": [
@@ -11099,7 +11091,7 @@
     },
     "2846": {
       "name": "Gelterkinden",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gelterkinden.ch",
       "confidence": 93,
       "flags": [
@@ -11123,7 +11115,7 @@
     },
     "2848": {
       "name": "Hemmiken",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hemmiken.ch",
       "confidence": 90,
       "flags": [
@@ -11159,11 +11151,13 @@
     },
     "2851": {
       "name": "Kilchberg",
-      "provider": "aws",
-      "domain": "kilchberg-bl.ch",
-      "confidence": 70,
+      "provider": "self-hosted",
+      "domain": "kilchberg.ch",
+      "confidence": 95,
       "flags": [
+        "multiple_mx",
         "spf_strict",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -11251,7 +11245,7 @@
     },
     "2859": {
       "name": "Rümlingen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ruemlingen.ch",
       "confidence": 88,
       "flags": [
@@ -11272,7 +11266,7 @@
     },
     "2861": {
       "name": "Sissach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "sissach.ch",
       "confidence": 95,
       "flags": [
@@ -11400,7 +11394,7 @@
     },
     "2883": {
       "name": "Bretzwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bretzwil.ch",
       "confidence": 95,
       "flags": [
@@ -11422,7 +11416,7 @@
     },
     "2885": {
       "name": "Eptingen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "eptingen.ch",
       "confidence": 90,
       "flags": [
@@ -11445,7 +11439,7 @@
     },
     "2887": {
       "name": "Lampenberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lampenberg.ch",
       "confidence": 90,
       "flags": [
@@ -11481,7 +11475,7 @@
     },
     "2890": {
       "name": "Liedertswil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "liedertswil.ch",
       "confidence": 93,
       "flags": [
@@ -11517,7 +11511,7 @@
     },
     "2893": {
       "name": "Reigoldswil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "reigoldswil.ch",
       "confidence": 55,
       "flags": [
@@ -11528,7 +11522,7 @@
     },
     "2894": {
       "name": "Titterten",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "titterten.ch",
       "confidence": 93,
       "flags": [
@@ -11540,7 +11534,7 @@
     },
     "2895": {
       "name": "Waldenburg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "waldenburg.ch",
       "confidence": 93,
       "flags": [
@@ -11552,30 +11546,30 @@
     },
     "2901": {
       "name": "Gächlingen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gaechlingen.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "2903": {
       "name": "Löhningen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "loehningen.ch",
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "2904": {
       "name": "Neunkirch",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "neunkirch.ch",
       "confidence": 95,
       "flags": [
@@ -11599,7 +11593,7 @@
     },
     "2915": {
       "name": "Dörflingen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "doerflingen.ch",
       "confidence": 90,
       "flags": [
@@ -11610,7 +11604,7 @@
     },
     "2917": {
       "name": "Lohn SH",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lohn.ch",
       "confidence": 90,
       "flags": [
@@ -11621,19 +11615,19 @@
     },
     "2919": {
       "name": "Stetten",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "stetten.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "2920": {
       "name": "Thayngen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "thayngen.ch",
       "confidence": 95,
       "flags": [
@@ -11645,7 +11639,7 @@
     },
     "2931": {
       "name": "Bargen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bargen.ch",
       "confidence": 90,
       "flags": [
@@ -11680,19 +11674,19 @@
     },
     "2936": {
       "name": "Merishausen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "merishausen.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "2937": {
       "name": "Neuhausen am Rheinfall",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "neuhausen.ch",
       "confidence": 95,
       "flags": [
@@ -11704,19 +11698,19 @@
     },
     "2938": {
       "name": "Rüdlingen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ruedlingen.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "2939": {
       "name": "Schaffhausen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "stadt-schaffhausen.ch",
       "confidence": 95,
       "flags": [
@@ -11728,7 +11722,7 @@
     },
     "2951": {
       "name": "Beggingen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "beggingen.ch",
       "confidence": 90,
       "flags": [
@@ -11739,7 +11733,7 @@
     },
     "2952": {
       "name": "Schleitheim",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "schleitheim.ch",
       "confidence": 95,
       "flags": [
@@ -11751,19 +11745,19 @@
     },
     "2953": {
       "name": "Siblingen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "siblingen.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "2961": {
       "name": "Buch",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "buch-sh.ch",
       "confidence": 88,
       "flags": [
@@ -11774,7 +11768,7 @@
     },
     "2962": {
       "name": "Hemishofen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hemishofen.ch",
       "confidence": 90,
       "flags": [
@@ -11833,7 +11827,7 @@
     },
     "2973": {
       "name": "Trasadingen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "trasadingen.ch",
       "confidence": 90,
       "flags": [
@@ -11844,13 +11838,13 @@
     },
     "2974": {
       "name": "Wilchingen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "wilchingen.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -11868,7 +11862,7 @@
     },
     "3002": {
       "name": "Hundwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hundwil.ch",
       "confidence": 95,
       "flags": [
@@ -11880,7 +11874,7 @@
     },
     "3003": {
       "name": "Schönengrund",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "schoenengrund.ch",
       "confidence": 50,
       "flags": [
@@ -11890,7 +11884,7 @@
     },
     "3004": {
       "name": "Schwellbrunn",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "schwellbrunn.ar.ch",
       "confidence": 95,
       "flags": [
@@ -11914,7 +11908,7 @@
     },
     "3006": {
       "name": "Urnäsch",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "urnaesch.ch",
       "confidence": 90,
       "flags": [
@@ -11925,7 +11919,7 @@
     },
     "3007": {
       "name": "Waldstatt",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "waldstatt.ch",
       "confidence": 95,
       "flags": [
@@ -11937,7 +11931,7 @@
     },
     "3021": {
       "name": "Bühler",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "buehlerar.ch",
       "confidence": 90,
       "flags": [
@@ -11948,7 +11942,7 @@
     },
     "3022": {
       "name": "Gais",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gais.ch",
       "confidence": 90,
       "flags": [
@@ -11959,7 +11953,7 @@
     },
     "3023": {
       "name": "Speicher",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "speicher.ar.ch",
       "confidence": 95,
       "flags": [
@@ -11971,7 +11965,7 @@
     },
     "3024": {
       "name": "Teufen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "teufen.ch",
       "confidence": 50,
       "flags": [
@@ -11981,7 +11975,7 @@
     },
     "3025": {
       "name": "Trogen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "trogen.ch",
       "confidence": 90,
       "flags": [
@@ -11992,7 +11986,7 @@
     },
     "3031": {
       "name": "Grub",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "grub.ch",
       "confidence": 95,
       "flags": [
@@ -12004,7 +11998,7 @@
     },
     "3032": {
       "name": "Heiden",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "heiden.ch",
       "confidence": 93,
       "flags": [
@@ -12016,7 +12010,7 @@
     },
     "3033": {
       "name": "Lutzenberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lutzenberg.ch",
       "confidence": 55,
       "flags": [
@@ -12027,7 +12021,7 @@
     },
     "3034": {
       "name": "Rehetobel",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "rehetobel.ch",
       "confidence": 50,
       "flags": [
@@ -12037,7 +12031,7 @@
     },
     "3035": {
       "name": "Reute",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "reute.ar.ch",
       "confidence": 95,
       "flags": [
@@ -12049,7 +12043,7 @@
     },
     "3036": {
       "name": "Wald",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "wald.ar.ch",
       "confidence": 95,
       "flags": [
@@ -12061,7 +12055,7 @@
     },
     "3037": {
       "name": "Walzenhausen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "walzenhausen.ch",
       "confidence": 90,
       "flags": [
@@ -12072,7 +12066,7 @@
     },
     "3038": {
       "name": "Wolfhalden",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "wolfhalden.ar.ch",
       "confidence": 95,
       "flags": [
@@ -12084,7 +12078,7 @@
     },
     "3101": {
       "name": "Appenzell",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "appenzell.org",
       "confidence": 93,
       "flags": [
@@ -12098,17 +12092,16 @@
       "name": "Gonten",
       "provider": "swiss-isp",
       "domain": "gonten.ch",
-      "confidence": 95,
+      "confidence": 55,
       "flags": [
         "multiple_mx",
-        "spf_strict",
-        "mx_spf_match",
+        "no_spf",
         "provider_classified"
       ]
     },
     "3104": {
       "name": "Schlatt-Haslen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "schlatt-haslen.ch",
       "confidence": 90,
       "flags": [
@@ -12119,7 +12112,7 @@
     },
     "3111": {
       "name": "Oberegg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "oberegg.ch",
       "confidence": 88,
       "flags": [
@@ -12143,7 +12136,7 @@
     },
     "3201": {
       "name": "Häggenschwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "haeggenschwil.ch",
       "confidence": 93,
       "flags": [
@@ -12162,7 +12155,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12175,7 +12168,7 @@
       "confidence": 83,
       "flags": [
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12200,7 +12193,7 @@
       "confidence": 83,
       "flags": [
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12208,7 +12201,7 @@
     },
     "3212": {
       "name": "Eggersriet",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "eggersriet.ch",
       "confidence": 93,
       "flags": [
@@ -12227,7 +12220,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12241,7 +12234,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -12254,7 +12247,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12268,7 +12261,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12282,7 +12275,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12296,7 +12289,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12304,7 +12297,7 @@
     },
     "3219": {
       "name": "Untereggen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "untereggen.ch",
       "confidence": 93,
       "flags": [
@@ -12323,7 +12316,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12331,7 +12324,7 @@
     },
     "3232": {
       "name": "Balgach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "balgach.ch",
       "confidence": 93,
       "flags": [
@@ -12350,7 +12343,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12364,7 +12357,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12378,7 +12371,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -12405,7 +12398,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12419,7 +12412,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12427,7 +12420,7 @@
     },
     "3251": {
       "name": "Altstätten",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "altstaetten.ch",
       "confidence": 93,
       "flags": [
@@ -12440,7 +12433,7 @@
     },
     "3252": {
       "name": "Eichberg SG",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "eichberg.ch",
       "confidence": 93,
       "flags": [
@@ -12453,7 +12446,7 @@
     },
     "3253": {
       "name": "Marbach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "marbach.ch",
       "confidence": 93,
       "flags": [
@@ -12486,7 +12479,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -12499,7 +12492,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12513,7 +12506,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -12532,7 +12525,7 @@
     },
     "3273": {
       "name": "Grabs",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "grabs.ch",
       "confidence": 93,
       "flags": [
@@ -12551,7 +12544,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12565,7 +12558,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12579,7 +12572,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12593,7 +12586,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12607,7 +12600,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12621,7 +12614,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12649,7 +12642,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12663,7 +12656,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12691,7 +12684,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12713,7 +12706,7 @@
     },
     "3312": {
       "name": "Benken",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "benken.ch",
       "confidence": 90,
       "flags": [
@@ -12738,7 +12731,7 @@
     },
     "3315": {
       "name": "Schänis",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "schaenis.ch",
       "confidence": 93,
       "flags": [
@@ -12751,7 +12744,7 @@
     },
     "3316": {
       "name": "Weesen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "weesen.ch",
       "confidence": 93,
       "flags": [
@@ -12764,7 +12757,7 @@
     },
     "3338": {
       "name": "Schmerikon",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "schmerikon.ch",
       "confidence": 95,
       "flags": [
@@ -12796,7 +12789,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -12808,7 +12801,7 @@
       "confidence": 85,
       "flags": [
         "multiple_mx",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12822,7 +12815,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12842,7 +12835,7 @@
     },
     "3359": {
       "name": "Wildhaus-Alt St. Johann",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "wildhaus-altstjohann.ch",
       "confidence": 93,
       "flags": [
@@ -12861,7 +12854,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12875,7 +12868,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12889,7 +12882,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -12916,7 +12909,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -12936,7 +12929,7 @@
     },
     "3395": {
       "name": "Bütschwil-Ganterschwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "buetschwil-ganterschwil.ch",
       "confidence": 93,
       "flags": [
@@ -12983,7 +12976,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -13008,7 +13001,7 @@
       "confidence": 83,
       "flags": [
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -13021,7 +13014,7 @@
       "confidence": 83,
       "flags": [
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -13035,7 +13028,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -13063,7 +13056,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -13077,7 +13070,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -13091,7 +13084,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -13104,7 +13097,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -13117,7 +13110,7 @@
       "confidence": 83,
       "flags": [
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -13139,7 +13132,7 @@
     },
     "3444": {
       "name": "Waldkirch",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "waldkirch.ch",
       "confidence": 95,
       "flags": [
@@ -13163,7 +13156,7 @@
     },
     "3513": {
       "name": "Lantsch/Lenz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lantsch-lenz.ch",
       "confidence": 90,
       "flags": [
@@ -13174,7 +13167,7 @@
     },
     "3514": {
       "name": "Schmitten",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "schmitten-gr.ch",
       "confidence": 88,
       "flags": [
@@ -13203,7 +13196,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -13271,7 +13264,7 @@
     },
     "3581": {
       "name": "Sagogn",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "sagogn.ch",
       "confidence": 95,
       "flags": [
@@ -13319,7 +13312,7 @@
     },
     "3619": {
       "name": "Ilanz/Glion",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ilanz-glion.ch",
       "confidence": 95,
       "flags": [
@@ -13331,7 +13324,7 @@
     },
     "3633": {
       "name": "Fürstenau",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "fuerstenau.ch",
       "confidence": 90,
       "flags": [
@@ -13342,7 +13335,7 @@
     },
     "3637": {
       "name": "Rothenbrunnen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "rothenbrunnen.ch",
       "confidence": 90,
       "flags": [
@@ -13353,7 +13346,7 @@
     },
     "3638": {
       "name": "Scharans",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "scharans.ch",
       "confidence": 88,
       "flags": [
@@ -13387,7 +13380,7 @@
     },
     "3662": {
       "name": "Flerden",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "flerden.ch",
       "confidence": 90,
       "flags": [
@@ -13398,7 +13391,7 @@
     },
     "3663": {
       "name": "Masein",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "masein.ch",
       "confidence": 90,
       "flags": [
@@ -13421,7 +13414,7 @@
     },
     "3669": {
       "name": "Tschappina",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "heinzenberg.ch",
       "confidence": 88,
       "flags": [
@@ -13432,7 +13425,7 @@
     },
     "3670": {
       "name": "Urmein",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "urmein.ch",
       "confidence": 90,
       "flags": [
@@ -13443,7 +13436,7 @@
     },
     "3672": {
       "name": "Safiental",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "safiental.ch",
       "confidence": 95,
       "flags": [
@@ -13467,7 +13460,7 @@
     },
     "3681": {
       "name": "Avers",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gemeindeavers.ch",
       "confidence": 90,
       "flags": [
@@ -13550,7 +13543,7 @@
     },
     "3715": {
       "name": "Muntogna da Schons",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "mdschons.ch",
       "confidence": 90,
       "flags": [
@@ -13561,7 +13554,7 @@
     },
     "3721": {
       "name": "Bonaduz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bonaduz.ch",
       "confidence": 95,
       "flags": [
@@ -13573,7 +13566,7 @@
     },
     "3722": {
       "name": "Domat/Ems",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "domat-ems.ch",
       "confidence": 93,
       "flags": [
@@ -13610,7 +13603,7 @@
     },
     "3732": {
       "name": "Flims",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gemeindeflims.ch",
       "confidence": 95,
       "flags": [
@@ -13664,7 +13657,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -13708,7 +13701,7 @@
     },
     "3782": {
       "name": "Celerina/Schlarigna",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gemeinde-celerina.ch",
       "confidence": 55,
       "flags": [
@@ -13731,7 +13724,7 @@
     },
     "3784": {
       "name": "Pontresina",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gemeinde-pontresina.ch",
       "confidence": 95,
       "flags": [
@@ -13755,7 +13748,7 @@
     },
     "3786": {
       "name": "Samedan",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "samedan.ch",
       "confidence": 90,
       "flags": [
@@ -13766,7 +13759,7 @@
     },
     "3787": {
       "name": "St. Moritz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gemeinde-stmoritz.ch",
       "confidence": 55,
       "flags": [
@@ -13801,7 +13794,7 @@
     },
     "3790": {
       "name": "Silvaplana",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gemeinde-silvaplana.ch",
       "confidence": 90,
       "flags": [
@@ -13824,7 +13817,7 @@
     },
     "3792": {
       "name": "Bregaglia",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bregaglia.ch",
       "confidence": 95,
       "flags": [
@@ -13872,19 +13865,19 @@
     },
     "3810": {
       "name": "Santa Maria in Calanca",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "santamariaic.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "3821": {
       "name": "Lostallo",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lostallo.ch",
       "confidence": 95,
       "flags": [
@@ -13920,7 +13913,7 @@
     },
     "3831": {
       "name": "Cama",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "cama.ch",
       "confidence": 50,
       "flags": [
@@ -13954,13 +13947,13 @@
     },
     "3835": {
       "name": "San Vittore",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "sanvittore.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -13983,7 +13976,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -14014,7 +14007,7 @@
     },
     "3862": {
       "name": "Furna",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "furna.ch",
       "confidence": 88,
       "flags": [
@@ -14025,13 +14018,13 @@
     },
     "3863": {
       "name": "Jenaz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "jenaz.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -14061,7 +14054,7 @@
     },
     "3882": {
       "name": "Küblis",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "kueblis.ch",
       "confidence": 95,
       "flags": [
@@ -14085,13 +14078,13 @@
     },
     "3901": {
       "name": "Chur",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "chur.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -14109,7 +14102,7 @@
     },
     "3921": {
       "name": "Arosa",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gemeindearosa.ch",
       "confidence": 95,
       "flags": [
@@ -14121,7 +14114,7 @@
     },
     "3945": {
       "name": "Trimmis",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "trimmis.ch",
       "confidence": 90,
       "flags": [
@@ -14180,7 +14173,7 @@
     },
     "3953": {
       "name": "Maienfeld",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "maienfeld.ch",
       "confidence": 93,
       "flags": [
@@ -14300,13 +14293,13 @@
     },
     "3986": {
       "name": "Tujetsch",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "tujetsch.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -14359,7 +14352,7 @@
     },
     "4003": {
       "name": "Buchs",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "buchs-aargau.ch",
       "confidence": 95,
       "flags": [
@@ -14383,7 +14376,7 @@
     },
     "4005": {
       "name": "Erlinsbach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "erlinsbach.ch",
       "confidence": 90,
       "flags": [
@@ -14399,7 +14392,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -14419,7 +14412,7 @@
     },
     "4008": {
       "name": "Küttigen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "kuettigen.ch",
       "confidence": 90,
       "flags": [
@@ -14460,7 +14453,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -14472,7 +14465,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -14527,7 +14520,7 @@
     },
     "4026": {
       "name": "Ennetbaden",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ennetbaden.ch",
       "confidence": 90,
       "flags": [
@@ -14538,7 +14531,7 @@
     },
     "4027": {
       "name": "Fislisbach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "fislisbach.ch",
       "confidence": 93,
       "flags": [
@@ -14562,13 +14555,13 @@
     },
     "4029": {
       "name": "Gebenstorf",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gebenstorf.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -14610,7 +14603,7 @@
     },
     "4033": {
       "name": "Mellingen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "mellingen.ch",
       "confidence": 90,
       "flags": [
@@ -14632,7 +14625,7 @@
     },
     "4035": {
       "name": "Niederrohrdorf",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "niederrohrdorf.ch",
       "confidence": 88,
       "flags": [
@@ -14643,7 +14636,7 @@
     },
     "4037": {
       "name": "Oberrohrdorf",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "oberrohrdorf.ch",
       "confidence": 95,
       "flags": [
@@ -14655,7 +14648,7 @@
     },
     "4038": {
       "name": "Obersiggenthal",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "obersiggenthal.ch",
       "confidence": 93,
       "flags": [
@@ -14720,7 +14713,7 @@
       "confidence": 83,
       "flags": [
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -14836,7 +14829,7 @@
     },
     "4066": {
       "name": "Eggenwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "eggenwil.ch",
       "confidence": 88,
       "flags": [
@@ -15008,7 +15001,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -15052,7 +15045,7 @@
     },
     "4092": {
       "name": "Birr",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "birr.ch",
       "confidence": 90,
       "flags": [
@@ -15080,7 +15073,7 @@
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -15183,12 +15176,11 @@
       "name": "Rüfenach",
       "provider": "microsoft",
       "domain": "ruefenach.ch",
-      "confidence": 95,
+      "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "provider_classified"
       ]
     },
     "4117": {
@@ -15217,14 +15209,14 @@
     },
     "4121": {
       "name": "Villigen",
-      "provider": "microsoft",
-      "domain": "villigen.ch",
+      "provider": "swiss-isp",
+      "domain": "gemeinde-villigen.ch",
       "confidence": 95,
       "flags": [
+        "multiple_mx",
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "provider_classified"
       ]
     },
     "4123": {
@@ -15762,7 +15754,7 @@
     },
     "4200": {
       "name": "Hunzenschwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hunzenschwil.ch",
       "confidence": 93,
       "flags": [
@@ -15780,7 +15772,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -15836,7 +15828,7 @@
     },
     "4206": {
       "name": "Rupperswil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "rupperswil.ch",
       "confidence": 90,
       "flags": [
@@ -15876,7 +15868,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -16160,7 +16152,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -16207,7 +16199,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -16305,7 +16297,7 @@
     },
     "4274": {
       "name": "Brittnau",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "brittnau.ch",
       "confidence": 95,
       "flags": [
@@ -16330,7 +16322,7 @@
     },
     "4276": {
       "name": "Kölliken",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "koelliken.ch",
       "confidence": 93,
       "flags": [
@@ -16372,7 +16364,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -16380,7 +16372,7 @@
     },
     "4281": {
       "name": "Reitnau",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "reitnau.ch",
       "confidence": 93,
       "flags": [
@@ -16397,7 +16389,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -16405,7 +16397,7 @@
     },
     "4283": {
       "name": "Safenwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "safenwil.ch",
       "confidence": 93,
       "flags": [
@@ -16429,7 +16421,7 @@
     },
     "4285": {
       "name": "Strengelbach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "strengelbach.ch",
       "confidence": 93,
       "flags": [
@@ -16453,7 +16445,7 @@
     },
     "4287": {
       "name": "Vordemwald",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "vordemwald.ch",
       "confidence": 93,
       "flags": [
@@ -16739,7 +16731,7 @@
     },
     "4431": {
       "name": "Roggwil",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "roggwil-tg.ch",
       "confidence": 93,
       "flags": [
@@ -16858,7 +16850,7 @@
     },
     "4501": {
       "name": "Kradolf-Schönenberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "kradolf-schoenenberg.ch",
       "confidence": 93,
       "flags": [
@@ -16876,7 +16868,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -17017,7 +17009,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -17091,7 +17083,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -17113,7 +17105,7 @@
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -17137,7 +17129,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -17220,7 +17212,7 @@
       "confidence": 83,
       "flags": [
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -17336,7 +17328,7 @@
     },
     "4761": {
       "name": "Sirnach",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "sirnach.ch",
       "confidence": 95,
       "flags": [
@@ -17554,7 +17546,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -17567,7 +17559,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -17638,7 +17630,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -17650,7 +17642,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -17662,7 +17654,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -17693,7 +17685,7 @@
     },
     "5017": {
       "name": "Sant’Antonino TI",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "santonino.ch",
       "confidence": 90,
       "flags": [
@@ -17741,7 +17733,7 @@
     },
     "5061": {
       "name": "Airolo",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "comuneairolo.ch",
       "confidence": 88,
       "flags": [
@@ -17752,7 +17744,7 @@
     },
     "5063": {
       "name": "Bedretto",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bedretto.ch",
       "confidence": 88,
       "flags": [
@@ -17763,7 +17755,7 @@
     },
     "5071": {
       "name": "Dalpe",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "dalpe.ch",
       "confidence": 88,
       "flags": [
@@ -17779,14 +17771,14 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
     },
     "5073": {
       "name": "Giornico",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "giornico.ch",
       "confidence": 90,
       "flags": [
@@ -17809,7 +17801,7 @@
     },
     "5077": {
       "name": "Pollegio",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "pollegio.ch",
       "confidence": 90,
       "flags": [
@@ -17830,7 +17822,7 @@
     },
     "5091": {
       "name": "Ascona",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ascona.ch",
       "confidence": 88,
       "flags": [
@@ -17913,7 +17905,7 @@
     },
     "5117": {
       "name": "Mergoscia",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "mergoscia.ch",
       "confidence": 55,
       "flags": [
@@ -17924,7 +17916,7 @@
     },
     "5118": {
       "name": "Minusio",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "minusio.ch",
       "confidence": 90,
       "flags": [
@@ -17977,7 +17969,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -17996,7 +17988,7 @@
     },
     "5138": {
       "name": "Cugnasco-Gerra",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "cugnasco-gerra.ch",
       "confidence": 88,
       "flags": [
@@ -18007,7 +17999,7 @@
     },
     "5141": {
       "name": "Agno",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "agno.ch",
       "confidence": 88,
       "flags": [
@@ -18036,7 +18028,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -18102,7 +18094,7 @@
     },
     "5162": {
       "name": "Cadempino",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "cadempino.ch",
       "confidence": 90,
       "flags": [
@@ -18161,7 +18153,7 @@
     },
     "5186": {
       "name": "Grancia",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "grancia.ch",
       "confidence": 90,
       "flags": [
@@ -18184,7 +18176,7 @@
     },
     "5189": {
       "name": "Lamone",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lamone.ch",
       "confidence": 90,
       "flags": [
@@ -18195,7 +18187,7 @@
     },
     "5192": {
       "name": "Lugano",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lugano.ch",
       "confidence": 95,
       "flags": [
@@ -18225,14 +18217,14 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
     },
     "5196": {
       "name": "Massagno",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "massagno.ch",
       "confidence": 90,
       "flags": [
@@ -18291,7 +18283,7 @@
     },
     "5206": {
       "name": "Neggio",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "neggio.ch",
       "confidence": 90,
       "flags": [
@@ -18344,7 +18336,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -18386,7 +18378,7 @@
     },
     "5226": {
       "name": "Capriasca",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "capriasca.ch",
       "confidence": 90,
       "flags": [
@@ -18414,7 +18406,7 @@
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -18504,7 +18496,7 @@
     },
     "5242": {
       "name": "Balerna",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "balerna.ch",
       "confidence": 90,
       "flags": [
@@ -18515,7 +18507,7 @@
     },
     "5249": {
       "name": "Castel San Pietro",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "castelsanpietro.ch",
       "confidence": 90,
       "flags": [
@@ -18526,7 +18518,7 @@
     },
     "5250": {
       "name": "Chiasso",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "chiasso.ch",
       "confidence": 90,
       "flags": [
@@ -18549,13 +18541,13 @@
     },
     "5254": {
       "name": "Mendrisio",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "mendrisio.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -18585,7 +18577,7 @@
     },
     "5263": {
       "name": "Riva San Vitale",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "rivasanvitale.ch",
       "confidence": 90,
       "flags": [
@@ -18596,19 +18588,19 @@
     },
     "5266": {
       "name": "Stabio",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "stabio.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "5268": {
       "name": "Vacallo",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "vacallo.ch",
       "confidence": 90,
       "flags": [
@@ -18619,7 +18611,7 @@
     },
     "5269": {
       "name": "Breggia",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "comunebreggia.ch",
       "confidence": 90,
       "flags": [
@@ -18653,7 +18645,7 @@
     },
     "5304": {
       "name": "Bosco/Gurin",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bosco-gurin.ch",
       "confidence": 88,
       "flags": [
@@ -18676,7 +18668,7 @@
     },
     "5309": {
       "name": "Cerentino",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "cerentino.ch",
       "confidence": 90,
       "flags": [
@@ -18698,7 +18690,7 @@
     },
     "5315": {
       "name": "Linescio",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "linescio.ch",
       "confidence": 90,
       "flags": [
@@ -18709,7 +18701,7 @@
     },
     "5317": {
       "name": "Maggia",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "maggia.ch",
       "confidence": 88,
       "flags": [
@@ -18720,7 +18712,7 @@
     },
     "5323": {
       "name": "Lavizzara",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lavizzara.ch",
       "confidence": 88,
       "flags": [
@@ -18762,7 +18754,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -18770,7 +18762,7 @@
     },
     "5397": {
       "name": "Centovalli",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "intragna.ch",
       "confidence": 93,
       "flags": [
@@ -18783,7 +18775,7 @@
     },
     "5398": {
       "name": "Gambarogno",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gambarogno.ch",
       "confidence": 90,
       "flags": [
@@ -18812,7 +18804,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -18883,7 +18875,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -18908,7 +18900,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -18928,12 +18920,12 @@
     },
     "5411": {
       "name": "Ormont-Dessus",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ormont-dessus.ch",
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -18963,7 +18955,7 @@
     },
     "5414": {
       "name": "Villeneuve",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "villeneuve.ch",
       "confidence": 90,
       "flags": [
@@ -19011,7 +19003,7 @@
     },
     "5424": {
       "name": "Berolle",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "berolle.ch",
       "confidence": 90,
       "flags": [
@@ -19198,11 +19190,12 @@
     },
     "5471": {
       "name": "Bettens",
-      "provider": "sovereign",
-      "domain": "bettens.ch",
-      "confidence": 50,
+      "provider": "self-hosted",
+      "domain": "bluewin.ch",
+      "confidence": 90,
       "flags": [
-        "no_spf",
+        "multiple_mx",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -19329,7 +19322,7 @@
     },
     "5483": {
       "name": "Ferreyres",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ferreyres.ch",
       "confidence": 90,
       "flags": [
@@ -19406,12 +19399,12 @@
     },
     "5490": {
       "name": "Moiry VD",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "moiry.ch",
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -19459,7 +19452,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "multi_provider_spf:infomaniak+microsoft",
         "provider_classified",
         "autodiscover_confirms"
@@ -19513,7 +19506,7 @@
     },
     "5501": {
       "name": "Sullens",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "sullens.ch",
       "confidence": 90,
       "flags": [
@@ -19526,13 +19519,12 @@
       "name": "Vufflens-la-Ville",
       "provider": "microsoft",
       "domain": "vufflens-la-ville.ch",
-      "confidence": 85,
+      "confidence": 80,
       "flags": [
         "spf_strict",
         "mx_spf_match",
         "multi_provider_spf:infomaniak+microsoft",
-        "provider_classified",
-        "autodiscover_confirms"
+        "provider_classified"
       ]
     },
     "5511": {
@@ -19598,7 +19590,7 @@
     },
     "5518": {
       "name": "Echallens",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "echallens.ch",
       "confidence": 95,
       "flags": [
@@ -19647,7 +19639,7 @@
     },
     "5523": {
       "name": "Froideville VD",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "froideville.ch",
       "confidence": 90,
       "flags": [
@@ -19717,7 +19709,7 @@
     },
     "5534": {
       "name": "Rueyres",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "rueyres.ch",
       "confidence": 90,
       "flags": [
@@ -19764,7 +19756,7 @@
     },
     "5540": {
       "name": "Montilliez",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "montilliez.ch",
       "confidence": 90,
       "flags": [
@@ -19857,7 +19849,7 @@
     },
     "5557": {
       "name": "Fontaines-sur-Grandson",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "fontaines-sur-grandson.ch",
       "confidence": 90,
       "flags": [
@@ -19891,7 +19883,7 @@
     },
     "5561": {
       "name": "Grandson",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "grandson.ch",
       "confidence": 90,
       "flags": [
@@ -19902,7 +19894,7 @@
     },
     "5562": {
       "name": "Mauborget",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "mauborget.ch",
       "confidence": 90,
       "flags": [
@@ -19913,7 +19905,7 @@
     },
     "5563": {
       "name": "Mutrux",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "mutrux.ch",
       "confidence": 90,
       "flags": [
@@ -19924,7 +19916,7 @@
     },
     "5564": {
       "name": "Novalles",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "novalles.ch",
       "confidence": 88,
       "flags": [
@@ -19935,7 +19927,7 @@
     },
     "5565": {
       "name": "Onnens",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "onnens.ch",
       "confidence": 85,
       "flags": [
@@ -19956,7 +19948,7 @@
     },
     "5568": {
       "name": "Sainte-Croix",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "sainte-croix.ch",
       "confidence": 95,
       "flags": [
@@ -19974,13 +19966,13 @@
       "confidence": 80,
       "flags": [
         "multiple_mx",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "5581": {
       "name": "Belmont-sur-Lausanne",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "belmont.ch",
       "confidence": 95,
       "flags": [
@@ -20040,7 +20032,7 @@
     },
     "5586": {
       "name": "Lausanne",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lausanne.ch",
       "confidence": 90,
       "flags": [
@@ -20056,13 +20048,13 @@
       "confidence": 78,
       "flags": [
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "5588": {
       "name": "Paudex",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "paudex.ch",
       "confidence": 90,
       "flags": [
@@ -20073,7 +20065,7 @@
     },
     "5589": {
       "name": "Prilly",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "prilly.ch",
       "confidence": 93,
       "flags": [
@@ -20085,7 +20077,7 @@
     },
     "5590": {
       "name": "Pully",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "pully.ch",
       "confidence": 95,
       "flags": [
@@ -20146,7 +20138,7 @@
     },
     "5606": {
       "name": "Lutry",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lutry.ch",
       "confidence": 93,
       "flags": [
@@ -20204,7 +20196,7 @@
     },
     "5613": {
       "name": "Bourg-en-Lavaux",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "b-e-l.ch",
       "confidence": 93,
       "flags": [
@@ -20324,7 +20316,7 @@
     },
     "5633": {
       "name": "Echandens",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "echandens.ch",
       "confidence": 95,
       "flags": [
@@ -20421,13 +20413,13 @@
     },
     "5642": {
       "name": "Morges",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "morges.ch",
       "confidence": 83,
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -20583,7 +20575,7 @@
     },
     "5661": {
       "name": "Boulens",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "boulens.ch",
       "confidence": 90,
       "flags": [
@@ -20654,7 +20646,7 @@
     },
     "5674": {
       "name": "Lovatens",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lovatens.ch",
       "confidence": 88,
       "flags": [
@@ -20735,7 +20727,7 @@
     },
     "5690": {
       "name": "Villars-le-Comte",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "villars-le-comte.ch",
       "confidence": 90,
       "flags": [
@@ -20772,7 +20764,7 @@
     },
     "5701": {
       "name": "Arnex-sur-Nyon",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "arnex-sur-nyon.ch",
       "confidence": 93,
       "flags": [
@@ -21056,13 +21048,13 @@
     },
     "5724": {
       "name": "Nyon",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "nyon.ch",
       "confidence": 75,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "multi_provider_spf:infomaniak+microsoft",
         "provider_classified"
       ]
@@ -21107,7 +21099,7 @@
     },
     "5728": {
       "name": "Signy-Avenex",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "signy-avenex.ch",
       "confidence": 88,
       "flags": [
@@ -21214,7 +21206,7 @@
     },
     "5745": {
       "name": "Baulmes",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "baulmes.ch",
       "confidence": 90,
       "flags": [
@@ -21249,7 +21241,7 @@
     },
     "5748": {
       "name": "Bretonnières",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "1329.ch",
       "confidence": 90,
       "flags": [
@@ -21306,7 +21298,7 @@
     },
     "5755": {
       "name": "Lignerolle",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lignerolle.ch",
       "confidence": 90,
       "flags": [
@@ -21341,7 +21333,7 @@
     },
     "5758": {
       "name": "La Praz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lapraz.ch",
       "confidence": 88,
       "flags": [
@@ -21425,24 +21417,22 @@
       "name": "Vaulion",
       "provider": "microsoft",
       "domain": "vaulion.ch",
-      "confidence": 95,
+      "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "provider_classified"
       ]
     },
     "5766": {
       "name": "Vuiteboeuf",
       "provider": "microsoft",
       "domain": "vuiteboeuf.ch",
-      "confidence": 95,
+      "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "provider_classified"
       ]
     },
     "5785": {
@@ -21483,7 +21473,7 @@
     },
     "5798": {
       "name": "Ropraz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ropraz.ch",
       "confidence": 95,
       "flags": [
@@ -21531,7 +21521,7 @@
     },
     "5805": {
       "name": "Oron",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "oron.ch",
       "confidence": 88,
       "flags": [
@@ -21548,7 +21538,7 @@
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -21625,7 +21615,7 @@
     },
     "5822": {
       "name": "Payerne",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "payerne.ch",
       "confidence": 93,
       "flags": [
@@ -21648,7 +21638,7 @@
     },
     "5828": {
       "name": "Treytorrens",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "treytorrens.ch",
       "confidence": 90,
       "flags": [
@@ -21683,7 +21673,7 @@
     },
     "5841": {
       "name": "Château-d’Oex",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "chateaudoex-admin.ch",
       "confidence": 93,
       "flags": [
@@ -21860,7 +21850,7 @@
     },
     "5863": {
       "name": "Vinzel",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "vinzel.ch",
       "confidence": 88,
       "flags": [
@@ -21956,7 +21946,7 @@
     },
     "5886": {
       "name": "Montreux",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "montreux.ch",
       "confidence": 93,
       "flags": [
@@ -21968,7 +21958,7 @@
     },
     "5889": {
       "name": "La Tour-de-Peilz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "la-tour-de-peilz.ch",
       "confidence": 93,
       "flags": [
@@ -22063,7 +22053,7 @@
     },
     "5907": {
       "name": "Chavannes-le-Chêne",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "chavannes-le-chene.ch",
       "confidence": 95,
       "flags": [
@@ -22086,12 +22076,12 @@
     },
     "5909": {
       "name": "Cheseaux-Noréaz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "cheseaux-noreaz.ch",
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -22191,7 +22181,7 @@
     },
     "5923": {
       "name": "Oppens",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "oppens.ch",
       "confidence": 88,
       "flags": [
@@ -22306,7 +22296,7 @@
     },
     "5934": {
       "name": "Valeyres-sous-Ursins",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bluemail.ch",
       "confidence": 90,
       "flags": [
@@ -22339,7 +22329,7 @@
     },
     "5938": {
       "name": "Yverdon-les-Bains",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "yverdon-les-bains.ch",
       "confidence": 93,
       "flags": [
@@ -22351,7 +22341,7 @@
     },
     "5939": {
       "name": "Yvonand",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "yvonand.ch",
       "confidence": 90,
       "flags": [
@@ -22367,7 +22357,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -22391,7 +22381,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -22446,7 +22436,7 @@
     },
     "6021": {
       "name": "Ardon",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "ardon.ch",
       "confidence": 90,
       "flags": [
@@ -22457,7 +22447,7 @@
     },
     "6022": {
       "name": "Chamoson",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "chamoson.net",
       "confidence": 90,
       "flags": [
@@ -22493,7 +22483,7 @@
     },
     "6025": {
       "name": "Vétroz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "vetroz.ch",
       "confidence": 95,
       "flags": [
@@ -22517,7 +22507,7 @@
     },
     "6033": {
       "name": "Liddes",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "liddes.ch",
       "confidence": 93,
       "flags": [
@@ -22530,7 +22520,7 @@
     },
     "6034": {
       "name": "Orsières",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "orsieres.ch",
       "confidence": 85,
       "flags": [
@@ -22540,18 +22530,18 @@
     },
     "6035": {
       "name": "Sembrancher",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "sembrancher.ch",
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6037": {
       "name": "Val de Bagnes",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "valdebagnes.ch",
       "confidence": 93,
       "flags": [
@@ -22569,14 +22559,14 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
     },
     "6054": {
       "name": "Binn",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "binn.ch",
       "confidence": 90,
       "flags": [
@@ -22635,12 +22625,12 @@
     },
     "6076": {
       "name": "Obergoms",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "obergoms.ch",
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -22682,7 +22672,7 @@
     },
     "6084": {
       "name": "Hérémence",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "heremence.ch",
       "confidence": 95,
       "flags": [
@@ -22700,14 +22690,14 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
     },
     "6089": {
       "name": "Vex",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "vex.ch",
       "confidence": 90,
       "flags": [
@@ -22718,7 +22708,7 @@
     },
     "6090": {
       "name": "Mont-Noble",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "mont-noble.ch",
       "confidence": 95,
       "flags": [
@@ -22830,12 +22820,11 @@
       "name": "Varen VS",
       "provider": "microsoft",
       "domain": "varen.ch",
-      "confidence": 95,
+      "confidence": 90,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified",
-        "autodiscover_confirms"
+        "provider_classified"
       ]
     },
     "6117": {
@@ -22878,18 +22867,16 @@
       "name": "Bovernier",
       "provider": "microsoft",
       "domain": "bovernier.ch",
-      "confidence": 85,
+      "confidence": 55,
       "flags": [
-        "spf_strict",
-        "mx_spf_match",
-        "multi_provider_spf:infomaniak+microsoft",
+        "no_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
     },
     "6133": {
       "name": "Fully",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "fully.ch",
       "confidence": 88,
       "flags": [
@@ -22900,12 +22887,12 @@
     },
     "6134": {
       "name": "Isérables",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "iserables.ch",
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -22963,14 +22950,14 @@
       "confidence": 83,
       "flags": [
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
     },
     "6141": {
       "name": "Saxon",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "saxon.ch",
       "confidence": 85,
       "flags": [
@@ -22980,7 +22967,7 @@
     },
     "6142": {
       "name": "Trient",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "trient.ch",
       "confidence": 90,
       "flags": [
@@ -22991,7 +22978,7 @@
     },
     "6151": {
       "name": "Champéry",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "admin-champery.ch",
       "confidence": 55,
       "flags": [
@@ -23021,7 +23008,7 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -23051,7 +23038,7 @@
     },
     "6156": {
       "name": "Troistorrents",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "troistorrents.ch",
       "confidence": 90,
       "flags": [
@@ -23062,7 +23049,7 @@
     },
     "6157": {
       "name": "Val-d’Illiez",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "illiez.ch",
       "confidence": 90,
       "flags": [
@@ -23150,7 +23137,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -23246,7 +23233,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -23258,7 +23245,7 @@
       "confidence": 85,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -23295,14 +23282,14 @@
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_confirms"
       ]
     },
     "6211": {
       "name": "Collonges",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "collonges.ch",
       "confidence": 93,
       "flags": [
@@ -23315,7 +23302,7 @@
     },
     "6212": {
       "name": "Dorénaz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "dorenaz.ch",
       "confidence": 93,
       "flags": [
@@ -23375,7 +23362,7 @@
     },
     "6218": {
       "name": "Salvan",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "salvan.ch",
       "confidence": 88,
       "flags": [
@@ -23386,7 +23373,7 @@
     },
     "6219": {
       "name": "Vernayaz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "vernayaz.ch",
       "confidence": 90,
       "flags": [
@@ -23409,7 +23396,7 @@
     },
     "6232": {
       "name": "Chalais",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "chalais.ch",
       "confidence": 93,
       "flags": [
@@ -23428,7 +23415,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -23447,17 +23434,17 @@
     },
     "6239": {
       "name": "Icogne",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "icogne.ch",
       "confidence": 75,
       "flags": [
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6240": {
       "name": "Lens",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lens.ch",
       "confidence": 88,
       "flags": [
@@ -23479,7 +23466,7 @@
     },
     "6248": {
       "name": "Siders",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "sierre.ch",
       "confidence": 88,
       "flags": [
@@ -23496,14 +23483,14 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
     },
     "6253": {
       "name": "Crans-Montana",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "crans-montana.ch",
       "confidence": 90,
       "flags": [
@@ -23532,7 +23519,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -23546,14 +23533,14 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
     },
     "6265": {
       "name": "Savièse",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "saviese.ch",
       "confidence": 93,
       "flags": [
@@ -23572,14 +23559,14 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
     },
     "6267": {
       "name": "Veysonnaz",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "veysonnaz.org",
       "confidence": 93,
       "flags": [
@@ -23628,7 +23615,7 @@
     },
     "6285": {
       "name": "Grächen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gemeinde-graechen.ch",
       "confidence": 50,
       "flags": [
@@ -23673,7 +23660,7 @@
     },
     "6289": {
       "name": "Saas-Balen",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gemeinde-saas-balen.ch",
       "confidence": 50,
       "flags": [
@@ -23725,7 +23712,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -23786,7 +23773,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf"
       ]
@@ -23805,7 +23792,7 @@
     },
     "6300": {
       "name": "Zermatt",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "gemeinde.zermatt.ch",
       "confidence": 90,
       "flags": [
@@ -23822,7 +23809,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "manual_override"
@@ -23836,7 +23823,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "manual_override"
@@ -23850,7 +23837,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "manual_override"
@@ -23864,7 +23851,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "manual_override"
@@ -23878,7 +23865,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "manual_override"
@@ -23897,7 +23884,7 @@
     },
     "6422": {
       "name": "Les Planchettes",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "les-planchettes.ch",
       "confidence": 93,
       "flags": [
@@ -23915,7 +23902,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "manual_override"
@@ -23929,7 +23916,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "manual_override"
@@ -23943,7 +23930,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "manual_override"
@@ -23957,7 +23944,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "manual_override"
@@ -23971,7 +23958,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "manual_override"
@@ -23997,7 +23984,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "manual_override"
@@ -24011,7 +23998,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "manual_override"
@@ -24019,7 +24006,7 @@
     },
     "6452": {
       "name": "Cressier",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "cressier.ch",
       "confidence": 90,
       "flags": [
@@ -24036,7 +24023,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "manual_override"
@@ -24050,7 +24037,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "manual_override"
@@ -24064,7 +24051,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "manual_override"
@@ -24078,7 +24065,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "manual_override"
@@ -24092,7 +24079,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "manual_override"
@@ -24111,7 +24098,7 @@
     },
     "6512": {
       "name": "Val-de-Travers",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "val-de-travers.ch",
       "confidence": 90,
       "flags": [
@@ -24122,7 +24109,7 @@
     },
     "6513": {
       "name": "Laténa",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "latena.ch",
       "confidence": 90,
       "flags": [
@@ -24133,67 +24120,67 @@
     },
     "6601": {
       "name": "Aire-la-Ville",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "aire-la-ville.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6602": {
       "name": "Anières",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "anieres.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6603": {
       "name": "Avully",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "avully.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6604": {
       "name": "Avusy",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "avusy.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6605": {
       "name": "Bardonnex",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bardonnex.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6606": {
       "name": "Bellevue",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "mairie-bellevue.ch",
       "confidence": 95,
       "flags": [
@@ -24205,114 +24192,114 @@
     },
     "6607": {
       "name": "Bernex",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bernex.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6608": {
       "name": "Carouge",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "carouge.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6609": {
       "name": "Cartigny",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "cartigny.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6610": {
       "name": "Céligny",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "celigny.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6611": {
       "name": "Chancy",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "chancy.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6612": {
       "name": "Chêne-Bougeries",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "chene-bougeries.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6613": {
       "name": "Chêne-Bourg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "chene-bourg.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6614": {
       "name": "Choulex",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "choulex.ch",
       "confidence": 80,
       "flags": [
         "multiple_mx",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6615": {
       "name": "Collex-Bossy",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "collex-bossy.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6616": {
       "name": "Collonge-Bellerive",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "collonge-bellerive.ch",
       "confidence": 95,
       "flags": [
@@ -24324,19 +24311,19 @@
     },
     "6617": {
       "name": "Cologny",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "cologny.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6618": {
       "name": "Confignon",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "confignon.ch",
       "confidence": 95,
       "flags": [
@@ -24348,7 +24335,7 @@
     },
     "6619": {
       "name": "Corsier",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "corsier.ch",
       "confidence": 95,
       "flags": [
@@ -24360,13 +24347,13 @@
     },
     "6620": {
       "name": "Dardagny",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "dardagny.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -24384,7 +24371,7 @@
     },
     "6622": {
       "name": "Genthod",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "genthod.ch",
       "confidence": 95,
       "flags": [
@@ -24396,13 +24383,13 @@
     },
     "6623": {
       "name": "Le Grand-Saconnex",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "grand-saconnex.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -24419,7 +24406,7 @@
     },
     "6625": {
       "name": "Hermance",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hermance.ch",
       "confidence": 95,
       "flags": [
@@ -24431,7 +24418,7 @@
     },
     "6626": {
       "name": "Jussy",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "jussy.ch",
       "confidence": 95,
       "flags": [
@@ -24443,91 +24430,91 @@
     },
     "6627": {
       "name": "Laconnex",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "laconnex.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6628": {
       "name": "Lancy",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lancy.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6629": {
       "name": "Meinier",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "meinier.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6630": {
       "name": "Meyrin",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "meyrin.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6631": {
       "name": "Onex",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "onex.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6632": {
       "name": "Perly-Certoux",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "perly-certoux.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6633": {
       "name": "Plan-les-Ouates",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "plan-les-ouates.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6634": {
       "name": "Pregny-Chambésy",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "pregny-chambesy.ch",
       "confidence": 95,
       "flags": [
@@ -24539,7 +24526,7 @@
     },
     "6635": {
       "name": "Presinge",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "presinge.ch",
       "confidence": 95,
       "flags": [
@@ -24551,79 +24538,79 @@
     },
     "6636": {
       "name": "Puplinge",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "puplinge.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6637": {
       "name": "Russin",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "russin.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6638": {
       "name": "Satigny",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "satigny.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6639": {
       "name": "Soral",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "soral.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6640": {
       "name": "Thônex",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "thonex.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6641": {
       "name": "Troinex",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "troinex.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6642": {
       "name": "Vandœuvres",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "vandoeuvres.ch",
       "confidence": 95,
       "flags": [
@@ -24635,37 +24622,37 @@
     },
     "6643": {
       "name": "Vernier",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "vernier.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6644": {
       "name": "Versoix",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "versoix.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6645": {
       "name": "Veyrier",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "veyrier.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -24682,7 +24669,7 @@
     },
     "6703": {
       "name": "Bourrignon",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bourrignon.ch",
       "confidence": 90,
       "flags": [
@@ -24717,7 +24704,7 @@
     },
     "6708": {
       "name": "Courrendlin",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "courrendlin.ch",
       "confidence": 90,
       "flags": [
@@ -24728,7 +24715,7 @@
     },
     "6709": {
       "name": "Courroux",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "courroux.ch",
       "confidence": 93,
       "flags": [
@@ -24740,7 +24727,7 @@
     },
     "6710": {
       "name": "Courtételle",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "courtetelle.ch",
       "confidence": 93,
       "flags": [
@@ -24752,7 +24739,7 @@
     },
     "6711": {
       "name": "Delsberg",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "delemont.ch",
       "confidence": 95,
       "flags": [
@@ -24860,7 +24847,7 @@
     },
     "6724": {
       "name": "Soyhières",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "soyhieres.ch",
       "confidence": 90,
       "flags": [
@@ -24871,7 +24858,7 @@
     },
     "6729": {
       "name": "Haute-Sorne",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "haute-sorne.ch",
       "confidence": 95,
       "flags": [
@@ -24883,7 +24870,7 @@
     },
     "6730": {
       "name": "Val Terbi",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "val-terbi.ch",
       "confidence": 93,
       "flags": [
@@ -24906,7 +24893,7 @@
     },
     "6742": {
       "name": "Les Bois",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lesbois.ch",
       "confidence": 93,
       "flags": [
@@ -24918,7 +24905,7 @@
     },
     "6743": {
       "name": "Les Breuleux",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "breuleux.ch",
       "confidence": 93,
       "flags": [
@@ -24930,7 +24917,7 @@
     },
     "6745": {
       "name": "Les Enfers",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "lesenfers.ch",
       "confidence": 90,
       "flags": [
@@ -24972,7 +24959,7 @@
       "flags": [
         "multiple_mx",
         "spf_softfail",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -24990,7 +24977,7 @@
     },
     "6754": {
       "name": "Le Noirmont",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "noirmont.ch",
       "confidence": 93,
       "flags": [
@@ -25002,7 +24989,7 @@
     },
     "6757": {
       "name": "Saignelégier",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "saignelegier.ch",
       "confidence": 93,
       "flags": [
@@ -25050,19 +25037,19 @@
     },
     "6774": {
       "name": "Boncourt",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "boncourt.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
     "6778": {
       "name": "Bure",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "bure.ch",
       "confidence": 90,
       "flags": [
@@ -25097,7 +25084,7 @@
     },
     "6783": {
       "name": "Courchavon",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "courchavon-mormont.ch",
       "confidence": 90,
       "flags": [
@@ -25143,13 +25130,13 @@
     },
     "6790": {
       "name": "Fontenais",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "fontenais.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -25167,13 +25154,13 @@
     },
     "6800": {
       "name": "Pruntrut",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "porrentruy.ch",
       "confidence": 85,
       "flags": [
         "multiple_mx",
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -25216,7 +25203,7 @@
     },
     "6809": {
       "name": "Haute-Ajoie",
-      "provider": "sovereign",
+      "provider": "self-hosted",
       "domain": "hauteajoie.ch",
       "confidence": 93,
       "flags": [
@@ -25268,7 +25255,7 @@
       "confidence": 80,
       "flags": [
         "spf_strict",
-        "sovereign_mx_with_cloud_spf",
+        "self_hosted_mx_with_cloud_spf",
         "provider_classified"
       ]
     }

@@ -100,7 +100,7 @@ def classify(
         ad_provider = classify_from_autodiscover(autodiscover)
         if ad_provider:
             return ad_provider
-        return "sovereign"
+        return "self-hosted"
 
     spf_blob = (spf_record or "").lower()
     provider = _check_spf_for_provider(spf_blob)
@@ -120,7 +120,7 @@ def classify_from_mx(mx_records: list[str]) -> str | None:
     for provider, keywords in PROVIDER_KEYWORDS.items():
         if any(k in blob for k in keywords):
             return provider
-    return "sovereign"
+    return "self-hosted"
 
 
 def classify_from_spf(spf_record: str | None) -> str | None:

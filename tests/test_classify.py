@@ -26,8 +26,8 @@ class TestClassify:
     def test_aws_mx(self):
         assert classify(["inbound-smtp.us-east-1.amazonaws.com"], "") == "aws"
 
-    def test_sovereign_mx(self):
-        assert classify(["mail.example.ch"], "") == "sovereign"
+    def test_self_hosted_mx(self):
+        assert classify(["mail.example.ch"], "") == "self-hosted"
 
     def test_spf_fallback_when_no_mx(self):
         assert (
@@ -43,7 +43,7 @@ class TestClassify:
             ["mail.example.ch"],
             "v=spf1 include:spf.protection.outlook.com -all",
         )
-        assert result == "sovereign"
+        assert result == "self-hosted"
 
     def test_cname_detects_microsoft(self):
         result = classify(
@@ -53,11 +53,11 @@ class TestClassify:
         )
         assert result == "microsoft"
 
-    def test_cname_none_stays_sovereign(self):
-        assert classify(["mail.example.ch"], "", mx_cnames=None) == "sovereign"
+    def test_cname_none_stays_self_hosted(self):
+        assert classify(["mail.example.ch"], "", mx_cnames=None) == "self-hosted"
 
-    def test_cname_empty_stays_sovereign(self):
-        assert classify(["mail.example.ch"], "", mx_cnames={}) == "sovereign"
+    def test_cname_empty_stays_self_hosted(self):
+        assert classify(["mail.example.ch"], "", mx_cnames={}) == "self-hosted"
 
     def test_direct_mx_takes_precedence_over_cname(self):
         result = classify(
@@ -112,21 +112,21 @@ class TestClassify:
         )
         assert result == "swiss-isp"
 
-    def test_non_swiss_isp_asn_stays_sovereign(self):
+    def test_non_swiss_isp_asn_stays_self_hosted(self):
         result = classify(
             ["mail.example.ch"],
             "",
             mx_asns={99999},
         )
-        assert result == "sovereign"
+        assert result == "self-hosted"
 
-    def test_empty_asns_stays_sovereign(self):
+    def test_empty_asns_stays_self_hosted(self):
         result = classify(
             ["mail.example.ch"],
             "",
             mx_asns=set(),
         )
-        assert result == "sovereign"
+        assert result == "self-hosted"
 
     # ── Gateway detection in classify() ──
 
@@ -144,19 +144,19 @@ class TestClassify:
         )
         assert result == "google"
 
-    def test_gateway_no_hyperscaler_spf_stays_sovereign(self):
+    def test_gateway_no_hyperscaler_spf_stays_self_hosted(self):
         result = classify(
             ["filter.seppmail.cloud"],
             "v=spf1 ip4:1.2.3.4 -all",
         )
-        assert result == "sovereign"
+        assert result == "self-hosted"
 
-    def test_gateway_empty_spf_stays_sovereign(self):
+    def test_gateway_empty_spf_stays_self_hosted(self):
         result = classify(
             ["filter.seppmail.cloud"],
             "",
         )
-        assert result == "sovereign"
+        assert result == "self-hosted"
 
     def test_gateway_microsoft_in_resolved_spf(self):
         result = classify(
@@ -174,13 +174,13 @@ class TestClassify:
         )
         assert result == "google"
 
-    def test_non_gateway_sovereign_mx_ignores_spf(self):
-        """Sovereign MX (not a gateway) should NOT be reclassified by SPF."""
+    def test_non_gateway_self_hosted_mx_ignores_spf(self):
+        """Self-hosted MX (not a gateway) should NOT be reclassified by SPF."""
         result = classify(
             ["nemx9a.ne.ch"],
             "v=spf1 include:spf.protection.outlook.com -all",
         )
-        assert result == "sovereign"
+        assert result == "self-hosted"
 
     def test_barracuda_gateway_with_microsoft_spf(self):
         result = classify(
@@ -224,12 +224,12 @@ class TestClassify:
         )
         assert result == "microsoft"
 
-    def test_spamvor_gateway_stays_sovereign_no_hyperscaler_spf(self):
+    def test_spamvor_gateway_stays_self_hosted_no_hyperscaler_spf(self):
         result = classify(
             ["relay.spamvor.com"],
             "v=spf1 ip4:1.2.3.4 -all",
         )
-        assert result == "sovereign"
+        assert result == "self-hosted"
 
     def test_gateway_does_not_override_direct_mx_match(self):
         """If MX directly matches a provider, gateway check is skipped."""
@@ -266,8 +266,8 @@ class TestClassify:
         )
         assert result == "google"
 
-    def test_non_gateway_sovereign_uses_autodiscover_fallback(self):
-        """Non-gateway sovereign MX should use autodiscover as fallback."""
+    def test_non_gateway_self_hosted_uses_autodiscover_fallback(self):
+        """Non-gateway self-hosted MX should use autodiscover as fallback."""
         result = classify(
             ["mail.example.ch"],
             "",
@@ -275,30 +275,30 @@ class TestClassify:
         )
         assert result == "microsoft"
 
-    def test_non_gateway_sovereign_no_autodiscover_stays_sovereign(self):
-        """Non-gateway sovereign MX without autodiscover stays sovereign."""
+    def test_non_gateway_self_hosted_no_autodiscover_stays_self_hosted(self):
+        """Non-gateway self-hosted MX without autodiscover stays self-hosted."""
         result = classify(
             ["mail.example.ch"],
             "",
             autodiscover=None,
         )
-        assert result == "sovereign"
+        assert result == "self-hosted"
 
-    def test_gateway_empty_autodiscover_stays_sovereign(self):
+    def test_gateway_empty_autodiscover_stays_self_hosted(self):
         result = classify(
             ["filter.seppmail.cloud"],
             "",
             autodiscover={},
         )
-        assert result == "sovereign"
+        assert result == "self-hosted"
 
-    def test_gateway_autodiscover_none_stays_sovereign(self):
+    def test_gateway_autodiscover_none_stays_self_hosted(self):
         result = classify(
             ["filter.seppmail.cloud"],
             "",
             autodiscover=None,
         )
-        assert result == "sovereign"
+        assert result == "self-hosted"
 
     # ── SPF-only resolved fallback ──
 
@@ -417,8 +417,8 @@ class TestClassifyFromMx:
     def test_google(self):
         assert classify_from_mx(["aspmx.l.google.com"]) == "google"
 
-    def test_unrecognized_returns_sovereign(self):
-        assert classify_from_mx(["mail.custom.ch"]) == "sovereign"
+    def test_unrecognized_returns_self_hosted(self):
+        assert classify_from_mx(["mail.custom.ch"]) == "self-hosted"
 
     def test_case_insensitive(self):
         assert classify_from_mx(["MAIL.PROTECTION.OUTLOOK.COM"]) == "microsoft"
