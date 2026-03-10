@@ -119,8 +119,8 @@
     display: inline-block; padding: 0 5px; border-radius: 3px;
     font-size: 10px; font-weight: 600; line-height: 1.6;
   }
-  .cat-badge.hyperscaler { background: #fee2e2; color: #dc2626; }
-  .cat-badge.swiss { background: #dcfce7; color: #16a34a; }
+  .cat-badge.hyperscaler { background: #fde8e8; color: #E83838; }
+  .cat-badge.swiss { background: #e0f5f1; color: #10B898; }
   .cat-badge.foreign { background: #fef3c7; color: #b45309; }
   .cat-badge.unknown { background: #f3f4f6; color: #6b7280; }
   .legend-group { margin-top: 8px; }
@@ -132,7 +132,7 @@
 <svg width="0" height="0" style="position:absolute">
   <defs>
     <pattern id="hatch-pattern" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-      <rect width="8" height="8" fill="#ababab"/>
+      <rect width="8" height="8" fill="#BFBFBF"/>
       <line x1="0" y1="0" x2="0" y2="8" stroke="#000" stroke-width="2"/>
     </pattern>
   </defs>
@@ -172,13 +172,13 @@
 <script>
 document.addEventListener('DOMContentLoaded', function () {
 const COLORS = {
-  microsoft:  '#e63946',  // vivid red — US cloud
-  google:     '#a855f7',  // vivid purple — US cloud
-  aws:        '#f59e0b',  // warm amber — US cloud
-  infomaniak: '#2563eb',  // strong blue — Swiss provider
-  'swiss-isp': '#0ea5e9',  // sky blue — Swiss ISP
-  sovereign:  '#16a34a',  // vivid green — self-hosted (best)
-  unknown:    '#8b8b8b'   // gray with hatching
+  microsoft:  '#E83838',  // punchy vivid red — US cloud
+  google:     '#FFAB96',  // bright warm peach — US cloud
+  aws:        '#FF7A5C',  // bright hot coral — US cloud
+  infomaniak: '#78FFD6',  // vivid bright mint — Swiss provider
+  'swiss-isp': '#2EDBA8',  // neon-ish seafoam — Swiss ISP
+  sovereign:  '#10B898',  // vivid bright teal — self-hosted (best)
+  unknown:    '#BFBFBF'   // neutral mid-gray with hatching
 };
 
 const LABELS = {
@@ -342,7 +342,7 @@ document.getElementById('info-bar').addEventListener('transitionend', function (
 
 function legendItemHtml(key, counts) {
   const hatchSvg = 'data:image/svg+xml,' +
-    encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8"><rect width="8" height="8" fill="#ababab"/><path d="M-1,1 l2,-2 M0,8 l8,-8 M7,9 l2,-2" stroke="#000" stroke-width="1"/></svg>');
+    encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8"><rect width="8" height="8" fill="#BFBFBF"/><path d="M-1,1 l2,-2 M0,8 l8,-8 M7,9 l2,-2" stroke="#000" stroke-width="1"/></svg>');
   const bg = key === 'unknown'
     ? "background-image:url('" + hatchSvg + "')"
     : `background:${COLORS[key]}`;
@@ -386,8 +386,8 @@ async function loadData() {
       '<button class="legend-toggle">' + (isMobile ? 'Legend \u25B8' : '') + '</button>' +
       '<div class="legend-content">' +
       '<strong>Email Provider</strong>' +
-      legendGroupHtml('US Hyperscaler', ['microsoft', 'google', 'aws'], dnsData.counts) +
-      legendGroupHtml('Domestic / Sovereign', ['sovereign', 'infomaniak', 'swiss-isp'], dnsData.counts) +
+      legendGroupHtml('US Hyperscaler', ['microsoft', 'aws', 'google'], dnsData.counts) +
+      legendGroupHtml('Domestic / Sovereign', ['sovereign', 'swiss-isp', 'infomaniak'], dnsData.counts) +
       '</div>';
     L.DomEvent.disableClickPropagation(div);
     return div;
@@ -400,7 +400,7 @@ async function loadData() {
     const lakes = topojson.feature(topo, topo.objects.lakes);
     L.geoJSON(lakes, {
       interactive: false,
-      style: { fillColor: '#697985', fillOpacity: 1, weight: 0, color: 'transparent' }
+      style: { fillColor: '#5B9BD5', fillOpacity: 1, weight: 0, color: 'transparent' }
     }).addTo(map);
   }
 
@@ -429,7 +429,7 @@ async function loadData() {
         return;
       }
       const color = COLORS[m.provider] || COLORS.unknown;
-      const textColor = ['aws', 'swiss-isp', 'unknown'].includes(m.provider) ? '#333' : '#fff';
+      const textColor = ['aws', 'google', 'infomaniak', 'swiss-isp', 'unknown'].includes(m.provider) ? '#333' : '#fff';
       const label = LABELS[m.provider] || m.provider;
 
       let mxSection = '';
