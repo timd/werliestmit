@@ -1,7 +1,7 @@
 {
   "total": 2115,
-  "average_score": 90.8,
-  "high_confidence_pct": 95.6,
+  "average_score": 91.0,
+  "high_confidence_pct": 96.3,
   "quality_passed": true,
   "entries": {
     "1": {
@@ -775,9 +775,10 @@
       "name": "Niederhasli",
       "provider": "sovereign",
       "domain": "niederhasli.ch",
-      "confidence": 50,
+      "confidence": 80,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "sovereign_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_suggests:microsoft"
       ]
@@ -858,9 +859,10 @@
       "name": "Rümlang",
       "provider": "sovereign",
       "domain": "ruemlang.ch",
-      "confidence": 50,
+      "confidence": 80,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "sovereign_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_suggests:microsoft"
       ]
@@ -893,9 +895,10 @@
       "name": "Stadel bei Niederglatt",
       "provider": "sovereign",
       "domain": "stadel.ch",
-      "confidence": 50,
+      "confidence": 80,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "sovereign_mx_with_cloud_spf",
         "provider_classified",
         "autodiscover_suggests:microsoft"
       ]
@@ -966,9 +969,10 @@
       "name": "Fischenthal",
       "provider": "sovereign",
       "domain": "fischenthal.ch",
-      "confidence": 50,
+      "confidence": 80,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "sovereign_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -2406,8 +2410,9 @@
       "name": "Vechigen",
       "provider": "swiss-isp",
       "domain": "vechigen.ch",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
+        "multiple_mx",
         "spf_strict",
         "mx_spf_match",
         "provider_classified"
@@ -2620,11 +2625,12 @@
       "name": "Rüti bei Büren",
       "provider": "microsoft",
       "domain": "ruetibeibueren.ch",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "394": {
@@ -2667,10 +2673,11 @@
       "name": "Bäriswil",
       "provider": "sovereign",
       "domain": "baeriswil.ch",
-      "confidence": 55,
+      "confidence": 93,
       "flags": [
         "multiple_mx",
-        "no_spf",
+        "spf_softfail",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -3696,22 +3703,24 @@
       "name": "Ringgenberg",
       "provider": "microsoft",
       "domain": "ringgenberg.ch",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "591": {
       "name": "Saxeten",
       "provider": "microsoft",
       "domain": "saxeten.ch",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "592": {
@@ -4688,9 +4697,10 @@
       "name": "Worben",
       "provider": "microsoft",
       "domain": "worben.ch",
-      "confidence": 55,
+      "confidence": 95,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -4722,10 +4732,11 @@
       "name": "Diemtigen",
       "provider": "microsoft",
       "domain": "diemtigen.ch",
-      "confidence": 60,
+      "confidence": 90,
       "flags": [
         "multiple_mx",
-        "no_spf",
+        "spf_strict",
+        "sovereign_mx_with_cloud_spf",
         "provider_classified",
         "provider_via_gateway_spf",
         "autodiscover_confirms"
@@ -6033,9 +6044,10 @@
       "name": "Ermensee",
       "provider": "sovereign",
       "domain": "ermensee.ch",
-      "confidence": 50,
+      "confidence": 90,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -6925,10 +6937,11 @@
       "name": "Isenthal",
       "provider": "sovereign",
       "domain": "isenthal.ch",
-      "confidence": 55,
+      "confidence": 85,
       "flags": [
         "multiple_mx",
-        "no_spf",
+        "spf_strict",
+        "sovereign_mx_with_cloud_spf",
         "provider_classified"
       ]
     },
@@ -6948,9 +6961,10 @@
       "name": "Schattdorf",
       "provider": "sovereign",
       "domain": "schattdorf.ch",
-      "confidence": 50,
+      "confidence": 90,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -7348,7 +7362,7 @@
     "1372": {
       "name": "Schwyz",
       "provider": "sovereign",
-      "domain": "schwyz.ch",
+      "domain": "gemeindeschwyz.ch",
       "confidence": 95,
       "flags": [
         "multiple_mx",
@@ -9505,11 +9519,12 @@
       "name": "Lüsslingen-Nennigkofen",
       "provider": "microsoft",
       "domain": "luesslingen-nennigkofen.ch",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "2465": {
@@ -9563,9 +9578,10 @@
       "name": "Gempen",
       "provider": "microsoft",
       "domain": "gempen.ch",
-      "confidence": 55,
+      "confidence": 95,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -10250,11 +10266,12 @@
       "name": "Kappel",
       "provider": "microsoft",
       "domain": "kappel-so.ch",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "2581": {
@@ -12031,10 +12048,11 @@
     "3036": {
       "name": "Wald",
       "provider": "sovereign",
-      "domain": "gemeinde-wald.ch",
-      "confidence": 88,
+      "domain": "wald.ar.ch",
+      "confidence": 95,
       "flags": [
-        "spf_softfail",
+        "multiple_mx",
+        "spf_strict",
         "mx_spf_match",
         "provider_classified"
       ]
@@ -16324,11 +16342,12 @@
       "name": "Moosleerau",
       "provider": "microsoft",
       "domain": "moosleerau.ch",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "4279": {
@@ -18518,11 +18537,12 @@
       "name": "Coldrerio",
       "provider": "microsoft",
       "domain": "coldrerio.ch",
-      "confidence": 90,
+      "confidence": 95,
       "flags": [
         "spf_strict",
         "mx_spf_match",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "5254": {
@@ -20077,12 +20097,13 @@
       "name": "Renens",
       "provider": "microsoft",
       "domain": "renens.ch",
-      "confidence": 80,
+      "confidence": 85,
       "flags": [
         "spf_strict",
         "mx_spf_match",
         "multi_provider_spf:infomaniak+microsoft",
-        "provider_classified"
+        "provider_classified",
+        "autodiscover_confirms"
       ]
     },
     "5592": {
@@ -20113,9 +20134,10 @@
       "name": "Forel",
       "provider": "microsoft",
       "domain": "forel.ch",
-      "confidence": 55,
+      "confidence": 95,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -20124,10 +20146,11 @@
       "name": "Lutry",
       "provider": "sovereign",
       "domain": "lutry.ch",
-      "confidence": 55,
+      "confidence": 93,
       "flags": [
         "multiple_mx",
-        "no_spf",
+        "spf_softfail",
+        "mx_spf_match",
         "provider_classified"
       ]
     },
@@ -21869,9 +21892,10 @@
       "name": "Le Lieu",
       "provider": "microsoft",
       "domain": "lelieu.ch",
-      "confidence": 55,
+      "confidence": 95,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
       ]
@@ -23411,9 +23435,10 @@
       "name": "Grône",
       "provider": "microsoft",
       "domain": "grone.ch",
-      "confidence": 55,
+      "confidence": 95,
       "flags": [
-        "no_spf",
+        "spf_strict",
+        "mx_spf_match",
         "provider_classified",
         "autodiscover_confirms"
       ]
