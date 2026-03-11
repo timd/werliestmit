@@ -1,21 +1,12 @@
 {
-<<<<<<< HEAD
-  "generated":"2026-03-11T14:39:30Z",
-=======
-  "generated":"2026-03-11T05:19:23Z",
->>>>>>> 68941a22b39a31e27a483060bafdc861a8df89bf
+  "generated":"2026-03-11T14:59:02Z",
   "total":2115,
   "counts":{
     "aws":26,
     "google":4,
-    "independent":602,
+    "independent":604,
     "infomaniak":120,
-<<<<<<< HEAD
-    "microsoft":1110,
-=======
     "microsoft":1108,
-    "self-hosted":604,
->>>>>>> 68941a22b39a31e27a483060bafdc861a8df89bf
     "swiss-isp":251,
     "unknown":2
   },
@@ -110,8 +101,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "6":{
       "bfs":"6",
@@ -243,8 +233,7 @@
       "gateway":"abxsec",
       "mx_asns":[
         9108
-      ],
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      ]
     },
     "13":{
       "bfs":"13",
@@ -264,8 +253,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"webmail.stallikon.ch"
-      },
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      }
     },
     "14":{
       "bfs":"14",
@@ -282,8 +270,7 @@
       "gateway":"abxsec",
       "mx_asns":[
         9108
-      ],
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      ]
     },
     "22":{
       "bfs":"22",
@@ -300,8 +287,7 @@
       "gateway":"abxsec",
       "mx_asns":[
         9108
-      ],
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      ]
     },
     "23":{
       "bfs":"23",
@@ -340,8 +326,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webmail.abx-net.net"
-      },
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      }
     },
     "25":{
       "bfs":"25",
@@ -376,8 +361,7 @@
       "gateway":"abxsec",
       "mx_asns":[
         9108
-      ],
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      ]
     },
     "27":{
       "bfs":"27",
@@ -464,8 +448,7 @@
       "gateway":"abxsec",
       "mx_asns":[
         9108
-      ],
-      "smtp_banner":"220 mta2.abxsec.com ESMTP Postfix"
+      ]
     },
     "34":{
       "bfs":"34",
@@ -485,8 +468,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webmail.abx-net.net"
-      },
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      }
     },
     "35":{
       "bfs":"35",
@@ -537,8 +519,7 @@
       "gateway":"abxsec",
       "mx_asns":[
         9108
-      ],
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      ]
     },
     "39":{
       "bfs":"39",
@@ -647,8 +628,7 @@
       "gateway":"abxsec",
       "mx_asns":[
         9108
-      ],
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      ]
     },
     "53":{
       "bfs":"53",
@@ -706,8 +686,7 @@
       "mx_asns":[
         24679,
         25394
-      ],
-      "smtp_banner":"220 mx-gate191-hz1.antispameurope.com antispameurope Mailsecurity"
+      ]
     },
     "56":{
       "bfs":"56",
@@ -1008,8 +987,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webmail.abx-net.net"
-      },
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      }
     },
     "81":{
       "bfs":"81",
@@ -1139,8 +1117,7 @@
       "gateway":"abxsec",
       "mx_asns":[
         9108
-      ],
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      ]
     },
     "88":{
       "bfs":"88",
@@ -1406,8 +1383,7 @@
       "gateway":"abxsec",
       "mx_asns":[
         9108
-      ],
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      ]
     },
     "111":{
       "bfs":"111",
@@ -1637,8 +1613,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mail01.axc.biz"
-      },
-      "smtp_banner":"220 mx1.naveum.services ESMTP Exim 20260303.1001 Wed, 11 Mar 2026 15:43:15 +0100"
+      }
     },
     "136":{
       "bfs":"136",
@@ -1769,8 +1744,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mail01.axc.biz"
-      },
-      "smtp_banner":"220 mx1.naveum.services ESMTP Exim 20260303.1001 Wed, 11 Mar 2026 15:43:15 +0100"
+      }
     },
     "153":{
       "bfs":"153",
@@ -1790,8 +1764,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.hombrechtikon.ch"
-      },
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      }
     },
     "154":{
       "bfs":"154",
@@ -1811,8 +1784,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webmail.kuesnacht.ch"
-      },
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      }
     },
     "155":{
       "bfs":"155",
@@ -1920,8 +1892,7 @@
       "gateway":"abxsec",
       "mx_asns":[
         9108
-      ],
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      ]
     },
     "161":{
       "bfs":"161",
@@ -1976,8 +1947,7 @@
       "gateway":"abxsec",
       "mx_asns":[
         9108
-      ],
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      ]
     },
     "176":{
       "bfs":"176",
@@ -2246,8 +2216,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mail01.axc.biz"
-      },
-      "smtp_banner":"220 mx1.naveum.services ESMTP Exim 20260303.1001 Wed, 11 Mar 2026 15:43:15 +0100"
+      }
     },
     "200":{
       "bfs":"200",
@@ -2336,8 +2305,7 @@
       "gateway":"abxsec",
       "mx_asns":[
         9108
-      ],
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      ]
     },
     "216":{
       "bfs":"216",
@@ -2478,8 +2446,7 @@
       "gateway":"abxsec",
       "mx_asns":[
         9108
-      ],
-      "smtp_banner":"220 mta2.abxsec.com ESMTP Postfix"
+      ]
     },
     "226":{
       "bfs":"226",
@@ -2499,8 +2466,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webmail.abx-net.net"
-      },
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      }
     },
     "227":{
       "bfs":"227",
@@ -2716,8 +2682,7 @@
       "provider":"independent",
       "mx_asns":[
         8758
-      ],
-      "smtp_banner":"220-mx1.gib-solutions.ch ESMTP Postfix (Debian/GNU) Ackbar"
+      ]
     },
     "249":{
       "bfs":"249",
@@ -2791,8 +2756,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autoconfig-nonssl.mail.hostpoint.ch"
-      },
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "291":{
       "bfs":"291",
@@ -2809,8 +2773,7 @@
       "gateway":"abxsec",
       "mx_asns":[
         9108
-      ],
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      ]
     },
     "292":{
       "bfs":"292",
@@ -2827,8 +2790,7 @@
       "gateway":"abxsec",
       "mx_asns":[
         9108
-      ],
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      ]
     },
     "293":{
       "bfs":"293",
@@ -2959,8 +2921,7 @@
       "autodiscover":{
         "autodiscover_cname":"www.aarberg.ch",
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "302":{
       "bfs":"302",
@@ -3000,8 +2961,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "304":{
       "bfs":"304",
@@ -3022,8 +2982,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "305":{
       "bfs":"305",
@@ -3062,8 +3021,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "307":{
       "bfs":"307",
@@ -3122,8 +3080,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "311":{
       "bfs":"311",
@@ -3144,8 +3101,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "312":{
       "bfs":"312",
@@ -3164,8 +3120,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "321":{
       "bfs":"321",
@@ -3313,8 +3268,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "332":{
       "bfs":"332",
@@ -3335,8 +3289,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "333":{
       "bfs":"333",
@@ -3430,9 +3383,8 @@
         25091
       ],
       "autodiscover":{
-        "autodiscover_srv":"maildiscovery.cyon.ch"
-      },
-      "smtp_banner":"220 mx-gate03-hz13.hornetsecurity.ch"
+        "autodiscover_srv":"owa2.oneaccess.ch"
+      }
     },
     "339":{
       "bfs":"339",
@@ -3534,8 +3486,7 @@
       "spf_resolved":"v=spf1 include:_spf.kreativmedia.ch +mx +a ip4:213.221.240.202 -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 titania2.kreativmedia.ch ESMTP Postfix"
+      ]
     },
     "351":{
       "bfs":"351",
@@ -3569,8 +3520,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.riz.muensingen.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "353":{
       "bfs":"353",
@@ -3659,8 +3609,7 @@
       "spf_resolved":"v=spf1 a:mrmuensingen01.muensingen.ch include:spf.protection.outlook.com include:_spf.talus.ch include:_spf.i-web.ch -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:194.56.218.0/24 ~all v=spf1 ip4:195.65.10.12 ip4:195.65.10.13 -all",
       "mx_asns":[
         202035
-      ],
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      ]
     },
     "358":{
       "bfs":"358",
@@ -3680,8 +3629,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.riz.muensingen.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "359":{
       "bfs":"359",
@@ -3720,8 +3668,7 @@
       "autodiscover":{
         "autodiscover_cname":"utm198.wohlen-be.ch",
         "autodiscover_srv":"owa.wohlen-be.ch"
-      },
-      "smtp_banner":"220 mx-01-eu-central-1.prod.hydra.sophos.com ESMTP Postfix"
+      }
     },
     "361":{
       "bfs":"361",
@@ -3809,8 +3756,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "381":{
       "bfs":"381",
@@ -3831,8 +3777,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "382":{
       "bfs":"382",
@@ -3872,8 +3817,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "385":{
       "bfs":"385",
@@ -3979,8 +3923,7 @@
       "spf_resolved":"v=spf1 include:_spf.smtp.com include:_spf.kreativmedia.ch +mx +a -all v=spf1 ip4:192.40.160.0/19 ip4:74.91.80.0/20 ~all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 himalia2.kreativmedia.ch ESMTP Postfix"
+      ]
     },
     "391":{
       "bfs":"391",
@@ -4017,8 +3960,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "393":{
       "bfs":"393",
@@ -4111,8 +4053,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "404":{
       "bfs":"404",
@@ -4189,8 +4130,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "408":{
       "bfs":"408",
@@ -4224,8 +4164,7 @@
       "gateway":"trendmicro",
       "mx_asns":[
         16509
-      ],
-      "smtp_banner":"220 inpre01.tmes.trendmicro.eu ESMTP Trend Micro Email Security"
+      ]
     },
     "410":{
       "bfs":"410",
@@ -4257,8 +4196,7 @@
       "provider":"independent",
       "mx_asns":[
         24940
-      ],
-      "smtp_banner":"220 lx20.hoststar.hosting ESMTP Exim"
+      ]
     },
     "412":{
       "bfs":"412",
@@ -4279,8 +4217,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "413":{
       "bfs":"413",
@@ -4350,8 +4287,7 @@
       "spf_resolved":"v=spf1 a include:_spf.talus.ch ~all v=spf1 ip4:194.56.218.0/24 ~all",
       "mx_asns":[
         202035
-      ],
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      ]
     },
     "420":{
       "bfs":"420",
@@ -4368,8 +4304,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"maildiscovery.cyon.ch"
-      },
-      "smtp_banner":"220-s037.cyon.net ESMTP Exim"
+      }
     },
     "421":{
       "bfs":"421",
@@ -4543,8 +4478,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mails.mont-tramelan.ch"
-      },
-      "smtp_banner":"220 mx1.azinformatique.ch ESMTP Postfix"
+      }
     },
     "438":{
       "bfs":"438",
@@ -4565,8 +4499,7 @@
         12676,
         24679,
         25394
-      ],
-      "smtp_banner":"220 mx-gate174-hz1.hornetsecurity.com"
+      ]
     },
     "441":{
       "bfs":"441",
@@ -4617,8 +4550,7 @@
       "gateway":"cleanmail",
       "mx_asns":[
         15547
-      ],
-      "smtp_banner":"220-Welcome to postscreen-test SMTP server, please wait the opening connection"
+      ]
     },
     "444":{
       "bfs":"444",
@@ -4676,8 +4608,7 @@
       "autodiscover":{
         "autodiscover_cname":"mail.tramelan.ch",
         "autodiscover_srv":"mail.tramelan.ch"
-      },
-      "smtp_banner":"220 ztrimasterak.sysco.ch ESMTP Sendmail 8.15.2/8.15.2/Debian-22+deb11u3; Wed, 11 Mar 2026 15:43:15 +0100; (No UCE/UBE) logging access from: [151.145.202.112](FAIL)-[151.145.202.112]"
+      }
     },
     "448":{
       "bfs":"448",
@@ -4734,8 +4665,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.pery-laheutte.ch"
-      },
-      "smtp_banner":"220 ztrimasterak.sysco.ch ESMTP Sendmail 8.15.2/8.15.2/Debian-22+deb11u3; Wed, 11 Mar 2026 15:43:15 +0100; (No UCE/UBE) logging access from: [151.145.202.112](FAIL)-[151.145.202.112]"
+      }
     },
     "491":{
       "bfs":"491",
@@ -4772,8 +4702,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "493":{
       "bfs":"493",
@@ -4849,8 +4778,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "497":{
       "bfs":"497",
@@ -5017,8 +4945,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "540":{
       "bfs":"540",
@@ -5037,8 +4964,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "541":{
       "bfs":"541",
@@ -5094,8 +5020,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "546":{
       "bfs":"546",
@@ -5114,8 +5039,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "551":{
       "bfs":"551",
@@ -5134,8 +5058,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "552":{
       "bfs":"552",
@@ -5156,8 +5079,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "553":{
       "bfs":"553",
@@ -5213,8 +5135,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.emailsrvr.com"
-      },
-      "smtp_banner":"220 mx1.emailsrvr.com ESMTP - VA Code Section 18.2-152.3:1 forbids sending spam through this system"
+      }
     },
     "557":{
       "bfs":"557",
@@ -5477,7 +5398,8 @@
         ""
       ],
       "spf":"v=spf1 -all",
-      "provider":"independent"
+      "provider":"independent",
+      "smtp_banner":"220 N0007808.localdomain ESMTP Postfix"
     },
     "577":{
       "bfs":"577",
@@ -5551,8 +5473,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.emailsrvr.com"
-      },
-      "smtp_banner":"220 mx1.emailsrvr.com ESMTP - VA Code Section 18.2-152.3:1 forbids sending spam through this system"
+      }
     },
     "581":{
       "bfs":"581",
@@ -5571,8 +5492,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "582":{
       "bfs":"582",
@@ -5697,8 +5617,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.rufcloud.ch"
-      },
-      "smtp_banner":"220-s063.cyon.net ESMTP Exim"
+      }
     },
     "590":{
       "bfs":"590",
@@ -5822,8 +5741,7 @@
       "spf_resolved":"v=spf1 ip4:193.5.124.38 ip4:212.243.26.162 include:_spf.talus.ch -all v=spf1 ip4:194.56.218.0/24 ~all",
       "mx_asns":[
         202035
-      ],
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      ]
     },
     "605":{
       "bfs":"605",
@@ -5860,8 +5778,7 @@
       "spf_resolved":"v=spf1 include:_spf.sui-inter.net +mx +a ~all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip4:81.173.80.0/20 ip4:81.173.83.179/32 ip4:81.173.83.181/32 ip4:81.173.83.182/32 ip4:81.173.83.183/32 ip4:81.173.83.184/32 ip4:81.173.83.185/32 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 proculus2.sui-inter.net ESMTP Postfix"
+      ]
     },
     "607":{
       "bfs":"607",
@@ -5900,8 +5817,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "609":{
       "bfs":"609",
@@ -6016,8 +5932,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "615":{
       "bfs":"615",
@@ -6054,8 +5969,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"owa.riz.muensingen.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "617":{
       "bfs":"617",
@@ -6094,8 +6008,7 @@
         12676,
         24679,
         25394
-      ],
-      "smtp_banner":"220 mx-gate174-hz1.hornetsecurity.com"
+      ]
     },
     "620":{
       "bfs":"620",
@@ -6116,8 +6029,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "622":{
       "bfs":"622",
@@ -6174,8 +6086,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.riz.muensingen.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "627":{
       "bfs":"627",
@@ -6194,8 +6105,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "628":{
       "bfs":"628",
@@ -6215,8 +6125,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"www.zaeziwil.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "629":{
       "bfs":"629",
@@ -6235,8 +6144,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"www.oberhuenigen.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "630":{
       "bfs":"630",
@@ -6272,8 +6180,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.riz.muensingen.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "662":{
       "bfs":"662",
@@ -6287,19 +6194,14 @@
         "mailbackup.tankred.ch"
       ],
       "spf":"v=spf1 a include:_spf.talus.ch ~all",
-<<<<<<< HEAD
       "provider":"independent",
-=======
-      "provider":"self-hosted",
->>>>>>> 68941a22b39a31e27a483060bafdc861a8df89bf
       "spf_resolved":"v=spf1 a include:_spf.talus.ch ~all v=spf1 ip4:194.56.218.0/24 ~all",
       "mx_asns":[
         202035
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "663":{
       "bfs":"663",
@@ -6318,8 +6220,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.riz.muensingen.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "665":{
       "bfs":"665",
@@ -6373,8 +6274,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"outlook.laupen.ch"
-      },
-      "smtp_banner":"220 mail.sesamnet.ch ESMTP"
+      }
     },
     "668":{
       "bfs":"668",
@@ -6413,8 +6313,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"cpanelemaildiscovery.cpanel.net"
-      },
-      "smtp_banner":"220 filter3.tophost.ch ESMTP Exim 20260310.1000 Wed, 11 Mar 2026 15:43:15 +0100"
+      }
     },
     "670":{
       "bfs":"670",
@@ -6537,8 +6436,7 @@
       "spf_resolved":"v=spf1 include:_spf.kreativmedia.ch include:_spf.google.com +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip6:2a00:1128::/32 -all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4000::/36 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 sedna5.ch-dns.net ESMTP Postfix"
+      ]
     },
     "692":{
       "bfs":"692",
@@ -6553,8 +6451,7 @@
       "spf_resolved":"v=spf1 include:_spf.kreativmedia.ch +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 miranda4.kreativmedia.ch ESMTP Postfix"
+      ]
     },
     "694":{
       "bfs":"694",
@@ -6608,8 +6505,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.evok.ch"
-      },
-      "smtp_banner":"220 fr1-lesg01.evok.ch ESMTP Postfix"
+      }
     },
     "703":{
       "bfs":"703",
@@ -6627,8 +6523,7 @@
       "spf_resolved":"v=spf1 ip4:128.65.195.253 mx a ip4:185.98.28.32 include:mail.infomaniak.ch -all v=spf1 include:spf.infomaniak.ch ?all v=spf1 ip4:45.157.188.8/29 ip4:185.125.25.8/29 ip4:83.166.143.168/29 ip4:84.16.66.168/29 ip4:128.65.197.100 ip4:128.65.197.101 ip6:2001:1600:4:17::/64 ip6:2001:1600:7:10::/64 ip6:2001:1600:4:2d::c565 ip6:2001:1600:7:10::c564 ip4:185.125.25.16/29 ip4:45.157.188.16/29 ip4:84.16.66.176/29 ip4:83.166.143.176/29 ip6:2001:1600:19::/48 ip4:84.16.69.64/31 ip4:128.65.197.2/31 include:newsletter.infomaniak.com -all v=spf1 include:amazonses.com ?all v=spf1 ip4:199.255.192.0/22 ip4:199.127.232.0/22 ip4:54.240.0.0/18 ip4:69.169.224.0/20 ip4:23.249.208.0/20 ip4:23.251.224.0/19 ip4:76.223.176.0/20 ip4:54.240.64.0/18 ip4:76.223.128.0/19 ip4:216.221.160.0/19 ip4:206.55.144.0/20 ip4:24.110.64.0/18 -all",
       "mx_asns":[
         34271
-      ],
-      "smtp_banner":"220 mx1.azinformatique.ch ESMTP Postfix"
+      ]
     },
     "704":{
       "bfs":"704",
@@ -6724,8 +6619,7 @@
       "spf_resolved":"v=spf1 include:_spf.ch-dns.net +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 eris2.ch-dns.net ESMTP Postfix"
+      ]
     },
     "713":{
       "bfs":"713",
@@ -6792,8 +6686,7 @@
       "autodiscover":{
         "autodiscover_cname":"mail.valbirse.ch",
         "autodiscover_srv":"autodiscover.valbirse.ch"
-      },
-      "smtp_banner":"220 ztrimasterak.sysco.ch ESMTP Sendmail 8.15.2/8.15.2/Debian-22+deb11u3; Wed, 11 Mar 2026 15:43:15 +0100; (No UCE/UBE) logging access from: [151.145.202.112](FAIL)-[151.145.202.112]"
+      }
     },
     "723":{
       "bfs":"723",
@@ -6807,8 +6700,7 @@
       "provider":"independent",
       "mx_asns":[
         12350
-      ],
-      "smtp_banner":"220-Welcome and thank you to wait to be assigned a place."
+      ]
     },
     "724":{
       "bfs":"724",
@@ -6865,8 +6757,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "732":{
       "bfs":"732",
@@ -6887,8 +6778,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "733":{
       "bfs":"733",
@@ -6925,8 +6815,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "735":{
       "bfs":"735",
@@ -6940,8 +6829,7 @@
       "provider":"independent",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 amphora.sui-inter.net ESMTP Postfix"
+      ]
     },
     "736":{
       "bfs":"736",
@@ -7000,8 +6888,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"owa2.oneaccess.ch"
-      },
-      "smtp_banner":"220 mx-gate03-hz13.hornetsecurity.ch"
+      }
     },
     "739":{
       "bfs":"739",
@@ -7096,8 +6983,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "744":{
       "bfs":"744",
@@ -7116,8 +7002,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "745":{
       "bfs":"745",
@@ -7154,8 +7039,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "747":{
       "bfs":"747",
@@ -7188,8 +7072,7 @@
       "spf_resolved":"v=spf1 +a +mx +a:rlx7.loginserver.ch include:_spf.blk.ymc.swiss -all v=spf1 ip4:185.110.152.0/22 ~all",
       "mx_asns":[
         24940
-      ],
-      "smtp_banner":"220 rlx7.loginserver.ch ESMTP Postfix"
+      ]
     },
     "749":{
       "bfs":"749",
@@ -7226,8 +7109,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "751":{
       "bfs":"751",
@@ -7266,8 +7148,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "755":{
       "bfs":"755",
@@ -7318,8 +7199,7 @@
       "spf_resolved":"v=spf1 include:_spf.sui-inter.net +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip4:81.173.80.0/20 ip4:81.173.83.179/32 ip4:81.173.83.181/32 ip4:81.173.83.182/32 ip4:81.173.83.183/32 ip4:81.173.83.184/32 ip4:81.173.83.185/32 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 tiberius4.sui-inter.net ESMTP Postfix"
+      ]
     },
     "762":{
       "bfs":"762",
@@ -7364,8 +7244,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "766":{
       "bfs":"766",
@@ -7426,8 +7305,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"outlook.thun.ch"
-      },
-      "smtp_banner":"220 mx1.thun.ch ESMTP"
+      }
     },
     "769":{
       "bfs":"769",
@@ -7481,8 +7359,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.stackmail.com"
-      },
-      "smtp_banner":"220 mx1.mail.stackcp.net ESMTP Wed, 11 Mar 2026 14:43:16 +0000"
+      }
     },
     "783":{
       "bfs":"783",
@@ -7594,8 +7471,7 @@
       "autodiscover":{
         "autodiscover_cname":"utm.lenkgemeinde.ch",
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "793":{
       "bfs":"793",
@@ -7702,8 +7578,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autoconfig-nonssl.mail.hostpoint.ch"
-      },
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "853":{
       "bfs":"853",
@@ -7742,8 +7617,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "861":{
       "bfs":"861",
@@ -7764,8 +7638,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "863":{
       "bfs":"863",
@@ -7905,8 +7778,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"exchange.hosttech.eu"
-      },
-      "smtp_banner":"220 exchange.hosttech.eu ESMTP ready."
+      }
     },
     "879":{
       "bfs":"879",
@@ -7927,8 +7799,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "880":{
       "bfs":"880",
@@ -7944,8 +7815,7 @@
       "spf_resolved":"v=spf1 a mx include:itds-net.ch -all v=spf1 ip4:5.148.174.0/26 ip4:5.148.182.96/27 ip6:2a02:418:200d::/48 ip6:2a02:418:2014::/48 ip4:5.102.145.171 ip6:2a06:c01:1:1102::91ab:171 ip4:5.102.147.30 ip6:2a06:c01:1:1104::30 ip4:5.102.146.125 ip6:2a06:c01:1:1103::927d:125 ip4:5.102.147.31 ip6:2a06:c01:1:1104::931f:31 ip4:5.102.145.228 ip6:2a06:c01:1:1102::91e4:228 ip4:5.102.147.242 ip6:2a06:c01:1:1104::93f2:242 ip4:5.102.146.93 ip6:2a06:c01:1:1103::925d:93 ip4:5.102.146.116 ip6:2a06:c01:1:1103::9274:116 -all",
       "mx_asns":[
         59414
-      ],
-      "smtp_banner":"220 Welcome to mail-prod-rma1-02.itds-net.ch Mailserver VES/SAE-distributed 2-16.01"
+      ]
     },
     "883":{
       "bfs":"883",
@@ -7964,8 +7834,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"outlook.thun.ch"
-      },
-      "smtp_banner":"220 mx1.thun.ch ESMTP"
+      }
     },
     "884":{
       "bfs":"884",
@@ -8005,8 +7874,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "886":{
       "bfs":"886",
@@ -8062,8 +7930,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "901":{
       "bfs":"901",
@@ -8085,8 +7952,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"remote.eggiwil.ch"
-      },
-      "smtp_banner":"220 mx-gate03-hz13.hornetsecurity.ch"
+      }
     },
     "902":{
       "bfs":"902",
@@ -8123,8 +7989,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "904":{
       "bfs":"904",
@@ -8162,8 +8027,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.riz.muensingen.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "906":{
       "bfs":"906",
@@ -8201,8 +8065,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.riz.muensingen.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "908":{
       "bfs":"908",
@@ -8305,8 +8168,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"owa2.oneaccess.ch"
-      },
-      "smtp_banner":"220 mx-gate03-hz13.hornetsecurity.ch"
+      }
     },
     "925":{
       "bfs":"925",
@@ -8328,8 +8190,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"remote.gemeinde-fahrni.ch"
-      },
-      "smtp_banner":"220 mx-gate03-hz13.hornetsecurity.ch"
+      }
     },
     "927":{
       "bfs":"927",
@@ -8345,8 +8206,7 @@
       "spf_resolved":"v=spf1 include:servicehoster.ch include:spf1.egeko.ch a mx ~all v=spf1 ip4:194.191.24.160/27 ip4:194.191.24.192/26 ip4:194.191.24.244/32 ip4:178.20.103.193 include:secure-mailgate.com -all v=spf1 ip4:159.144.38.58 ip4:159.144.36.112 ip4:159.144.218.138 -all v=spf1 ip4:46.243.95.179 ip4:46.243.95.180 ip4:128.127.70.0/26 ip4:89.22.108.0/24 ip4:192.162.87.0/24 ip4:109.237.142.0/24 ip6:2a02:a60:0:5::/64 ip4:46.243.88.174 ip4:46.243.88.175 ip4:46.243.88.176 ip4:46.243.88.177 ip4:31.47.251.17 a:mailcloud.dogado.de -all",
       "mx_asns":[
         1836
-      ],
-      "smtp_banner":"220 node01.servicehoster.ch ESMTP Exim 20260303.1001 Wed, 11 Mar 2026 15:43:16 +0100"
+      ]
     },
     "928":{
       "bfs":"928",
@@ -8365,8 +8225,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"outlook.thun.ch"
-      },
-      "smtp_banner":"220 mx1.thun.ch ESMTP"
+      }
     },
     "929":{
       "bfs":"929",
@@ -8385,8 +8244,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"outlook.thun.ch"
-      },
-      "smtp_banner":"220 mx1.thun.ch ESMTP"
+      }
     },
     "931":{
       "bfs":"931",
@@ -8442,8 +8300,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"outlook.thun.ch"
-      },
-      "smtp_banner":"220 mx1.thun.ch ESMTP"
+      }
     },
     "935":{
       "bfs":"935",
@@ -8531,8 +8388,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autoconfig-nonssl.mail.hostpoint.ch"
-      },
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "941":{
       "bfs":"941",
@@ -8553,8 +8409,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "942":{
       "bfs":"942",
@@ -8574,8 +8429,7 @@
       "autodiscover":{
         "autodiscover_cname":"outlook.thun.ch",
         "autodiscover_srv":"outlook.thun.ch"
-      },
-      "smtp_banner":"220 mx1.thun.ch ESMTP"
+      }
     },
     "943":{
       "bfs":"943",
@@ -8652,8 +8506,7 @@
       "gateway":"hornetsecurity",
       "mx_asns":[
         25091
-      ],
-      "smtp_banner":"220 mx-gate03-hz13.hornetsecurity.ch"
+      ]
     },
     "948":{
       "bfs":"948",
@@ -8704,8 +8557,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "953":{
       "bfs":"953",
@@ -8763,8 +8615,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "956":{
       "bfs":"956",
@@ -8892,8 +8743,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"cpanelemaildiscovery.cpanel.net"
-      },
-      "smtp_banner":"220 filter3.tophost.ch ESMTP Exim 20260310.1000 Wed, 11 Mar 2026 15:43:15 +0100"
+      }
     },
     "973":{
       "bfs":"973",
@@ -9148,8 +8998,7 @@
       "autodiscover":{
         "autodiscover_cname":"webmail01.talus.ch",
         "autodiscover_srv":"webmail01.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "991":{
       "bfs":"991",
@@ -9189,8 +9038,7 @@
       "autodiscover":{
         "autodiscover_cname":"www.wangen-a-a.ch",
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "995":{
       "bfs":"995",
@@ -9389,8 +9237,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.ballwil.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "1024":{
       "bfs":"1024",
@@ -9408,8 +9255,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.emmen.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "1025":{
       "bfs":"1025",
@@ -9426,8 +9272,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.ermensee.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "1026":{
       "bfs":"1026",
@@ -9444,8 +9289,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.eschenbach-luzern.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "1030":{
       "bfs":"1030",
@@ -9480,8 +9324,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.hochdorf.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "1032":{
       "bfs":"1032",
@@ -9519,8 +9362,7 @@
       "autodiscover":{
         "autodiscover_cname":"inwil.cloudrexx.com",
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.inwil.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "1037":{
       "bfs":"1037",
@@ -9575,8 +9417,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.rothenburg.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "1041":{
       "bfs":"1041",
@@ -9596,8 +9437,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.seabix.com"
-      },
-      "smtp_banner":"220 mx1.seabix.cloud ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1051":{
       "bfs":"1051",
@@ -9687,8 +9527,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.gisikon.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "1056":{
       "bfs":"1056",
@@ -9741,8 +9580,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.kriens.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "1061":{
       "bfs":"1061",
@@ -9952,8 +9790,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.buttisholz.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "1084":{
       "bfs":"1084",
@@ -9989,8 +9826,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.geuensee.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "1086":{
       "bfs":"1086",
@@ -10008,8 +9844,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.grosswangen.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "1088":{
       "bfs":"1088",
@@ -10044,8 +9879,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.knutwil.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "1091":{
       "bfs":"1091",
@@ -10100,8 +9934,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.nottwil.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "1095":{
       "bfs":"1095",
@@ -10155,8 +9988,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.ruswil.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "1099":{
       "bfs":"1099",
@@ -10243,8 +10075,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.triengen.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "1107":{
       "bfs":"1107",
@@ -10316,8 +10147,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.altishofen.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "1125":{
       "bfs":"1125",
@@ -10371,8 +10201,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.ettiswil.ch"
-      },
-      "smtp_banner":"220 mail.ettiswil.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "1129":{
       "bfs":"1129",
@@ -10420,18 +10249,13 @@
         "mail.hergiswil-lu.ch"
       ],
       "spf":"v=spf1 mx -all",
-<<<<<<< HEAD
       "provider":"independent",
-=======
-      "provider":"self-hosted",
->>>>>>> 68941a22b39a31e27a483060bafdc861a8df89bf
       "mx_asns":[
         33965
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.hergiswil-lu.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1135":{
       "bfs":"1135",
@@ -10562,8 +10386,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "1145":{
       "bfs":"1145",
@@ -10580,8 +10403,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.ufhusen.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1146":{
       "bfs":"1146",
@@ -10618,8 +10440,7 @@
       "autodiscover":{
         "autodiscover_cname":"mail.wikon.ch",
         "autodiscover_srv":"mail.wikon.ch"
-      },
-      "smtp_banner":"220 mail.wikon.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1150":{
       "bfs":"1150",
@@ -10636,8 +10457,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.gict.ch"
-      },
-      "smtp_banner":"220 mail.zell-lu.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1151":{
       "bfs":"1151",
@@ -10673,8 +10493,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webmail.rz-altdorf.ch"
-      },
-      "smtp_banner":"220 mail.rz-altdorf.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1202":{
       "bfs":"1202",
@@ -10688,8 +10507,7 @@
       "provider":"independent",
       "mx_asns":[
         207143
-      ],
-      "smtp_banner":"220-rolling out the red carpet, please wait..."
+      ]
     },
     "1203":{
       "bfs":"1203",
@@ -10706,8 +10524,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webmail.rz-altdorf.ch"
-      },
-      "smtp_banner":"220 mail.rz-altdorf.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1205":{
       "bfs":"1205",
@@ -10725,8 +10542,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webmail.rz-altdorf.ch"
-      },
-      "smtp_banner":"220 mail.rz-altdorf.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1206":{
       "bfs":"1206",
@@ -10742,8 +10558,7 @@
       "spf_resolved":"v=spf1 mx include:spf.protection.outlook.com a:mail.ur.ch -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         1836
-      ],
-      "smtp_banner":"220 mail.ur.ch ESMTP"
+      ]
     },
     "1207":{
       "bfs":"1207",
@@ -10760,8 +10575,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"maildiscovery.cyon.ch"
-      },
-      "smtp_banner":"220 mail.rz-altdorf.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1208":{
       "bfs":"1208",
@@ -10777,8 +10591,7 @@
       "spf_resolved":"v=spf1 mx include:spf.protection.outlook.com a:mail.ur.ch -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         1836
-      ],
-      "smtp_banner":"220 mail.ur.ch ESMTP"
+      ]
     },
     "1209":{
       "bfs":"1209",
@@ -10794,8 +10607,7 @@
       "spf_resolved":"v=spf1 mx include:spf.protection.outlook.com a:mail.ur.ch -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         1836
-      ],
-      "smtp_banner":"220 mail.ur.ch ESMTP"
+      ]
     },
     "1210":{
       "bfs":"1210",
@@ -10809,8 +10621,7 @@
       "provider":"independent",
       "mx_asns":[
         207143
-      ],
-      "smtp_banner":"220-rolling out the red carpet, please wait..."
+      ]
     },
     "1211":{
       "bfs":"1211",
@@ -10826,8 +10637,7 @@
       "spf_resolved":"v=spf1 mx include:spf.protection.outlook.com a:mail.ur.ch -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         1836
-      ],
-      "smtp_banner":"220 mail.ur.ch ESMTP"
+      ]
     },
     "1212":{
       "bfs":"1212",
@@ -10862,8 +10672,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webmail.rz-altdorf.ch"
-      },
-      "smtp_banner":"220 mail.rz-altdorf.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1214":{
       "bfs":"1214",
@@ -10880,8 +10689,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"maildiscovery.cyon.ch"
-      },
-      "smtp_banner":"220 mail.rz-altdorf.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1215":{
       "bfs":"1215",
@@ -10936,8 +10744,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webmail.rz-altdorf.ch"
-      },
-      "smtp_banner":"220 mail.rz-altdorf.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1218":{
       "bfs":"1218",
@@ -10953,8 +10760,7 @@
       "spf_resolved":"v=spf1 mx include:spf.protection.outlook.com a:mail.ur.ch -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         1836
-      ],
-      "smtp_banner":"220 mail.ur.ch ESMTP"
+      ]
     },
     "1219":{
       "bfs":"1219",
@@ -10970,8 +10776,7 @@
       "spf_resolved":"v=spf1 mx include:spf.protection.outlook.com a:mail.ur.ch -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         1836
-      ],
-      "smtp_banner":"220 mail.ur.ch ESMTP"
+      ]
     },
     "1220":{
       "bfs":"1220",
@@ -10987,8 +10792,7 @@
       "spf_resolved":"v=spf1 mx include:spf.protection.outlook.com include:_spf.sui-inter.net a:mail.ur.ch -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip4:81.173.80.0/20 ip4:81.173.83.179/32 ip4:81.173.83.181/32 ip4:81.173.83.182/32 ip4:81.173.83.183/32 ip4:81.173.83.184/32 ip4:81.173.83.185/32 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         1836
-      ],
-      "smtp_banner":"220 mail.ur.ch ESMTP"
+      ]
     },
     "1301":{
       "bfs":"1301",
@@ -11004,8 +10808,7 @@
       "mx_asns":[
         33965,
         41872
-      ],
-      "smtp_banner":"220 mr01a.rzeins.ch ESMTP"
+      ]
     },
     "1311":{
       "bfs":"1311",
@@ -11058,8 +10861,7 @@
       "gateway":"cleanmail",
       "mx_asns":[
         15547
-      ],
-      "smtp_banner":"220-Welcome to postscreen-test SMTP server, please wait the opening connection"
+      ]
     },
     "1323":{
       "bfs":"1323",
@@ -11079,8 +10881,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.wollerau.ch"
-      },
-      "smtp_banner":"220-Welcome to postscreen-test SMTP server, please wait the opening connection"
+      }
     },
     "1331":{
       "bfs":"1331",
@@ -11134,8 +10935,7 @@
       "mx_asns":[
         33965,
         41872
-      ],
-      "smtp_banner":"220 mr01a.rzeins.ch ESMTP"
+      ]
     },
     "1343":{
       "bfs":"1343",
@@ -11151,8 +10951,7 @@
       "mx_asns":[
         33965,
         41872
-      ],
-      "smtp_banner":"220 mr01a.rzeins.ch ESMTP"
+      ]
     },
     "1344":{
       "bfs":"1344",
@@ -11168,8 +10967,7 @@
       "mx_asns":[
         33965,
         41872
-      ],
-      "smtp_banner":"220 mr01a.rzeins.ch ESMTP"
+      ]
     },
     "1345":{
       "bfs":"1345",
@@ -11187,8 +10985,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.cloudfor.ch"
-      },
-      "smtp_banner":"220 inpre01.tmes.trendmicro.eu ESMTP Trend Micro Email Security"
+      }
     },
     "1346":{
       "bfs":"1346",
@@ -11225,8 +11022,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.cloudfor.ch"
-      },
-      "smtp_banner":"220 inpre01.tmes.trendmicro.eu ESMTP Trend Micro Email Security"
+      }
     },
     "1348":{
       "bfs":"1348",
@@ -11242,8 +11038,7 @@
       "mx_asns":[
         33965,
         41872
-      ],
-      "smtp_banner":"220 mr01a.rzeins.ch ESMTP"
+      ]
     },
     "1349":{
       "bfs":"1349",
@@ -11262,8 +11057,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.cloudfor.ch"
-      },
-      "smtp_banner":"220 inpre01.tmes.trendmicro.eu ESMTP Trend Micro Email Security"
+      }
     },
     "1361":{
       "bfs":"1361",
@@ -11279,8 +11073,7 @@
       "mx_asns":[
         33965,
         41872
-      ],
-      "smtp_banner":"220 mr01a.rzeins.ch ESMTP"
+      ]
     },
     "1362":{
       "bfs":"1362",
@@ -11311,8 +11104,7 @@
       "mx_asns":[
         33965,
         41872
-      ],
-      "smtp_banner":"220 mr01a.rzeins.ch ESMTP"
+      ]
     },
     "1364":{
       "bfs":"1364",
@@ -11327,8 +11119,7 @@
       "spf_resolved":"v=spf1 +a +mx include:relay.mailchannels.net include:spf.privasphere.com include:agenturserver.de include:_spf.google.com ~all v=spf1 ip4:23.83.208.0/20 ip4:35.85.190.185/32 ~all v=spf1 ip4:185.166.96.0/24 ip4:185.166.99.0/24 ip4:83.150.3.96/27 ip4:83.150.37.32/27 ip4:212.25.12.128/27 ip4:212.25.12.192/28 include:spf.iway.ch -all v=spf1 ip4:188.94.249.240/28 ip4:188.94.250.248/29 ip4:188.94.251.248/29 ip4:188.94.252.252/30 ip4:185.15.192.32/27 ip4:178.16.56.32/27 ip4:185.15.192.32/28 ip4:153.92.196.160/28 ip4:37.202.1.52/30 ip4:37.202.6.52/30 ~all v=spf1 ip4:74.125.0.0/16 ip4:209.85.128.0/17 ip6:2001:4860:4864::/56 ip6:2404:6800:4000::/36 ip6:2607:f8b0:4000::/36 ip6:2800:3f0:4000::/36 ip6:2a00:1450:4000::/36 ip6:2c0f:fb50:4000::/36 ~all v=spf1 ip4:212.25.0.0/19 ip4:194.246.118.0/23 ip4:83.150.31.160/28 ip4:83.150.63.0/24 ip4:83.150.52.0/24 ip4:95.143.53.48/28 ip4:80.89.210.64/28 ip6:2001:8e0::/32 ip4:185.168.143.0/27 ~all",
       "mx_asns":[
         60016
-      ],
-      "smtp_banner":"220 mail.ingenbohl.ch ESMTP Service ready"
+      ]
     },
     "1365":{
       "bfs":"1365",
@@ -11344,8 +11135,7 @@
       "mx_asns":[
         33965,
         41872
-      ],
-      "smtp_banner":"220 mr01a.rzeins.ch ESMTP"
+      ]
     },
     "1366":{
       "bfs":"1366",
@@ -11361,8 +11151,7 @@
       "mx_asns":[
         33965,
         41872
-      ],
-      "smtp_banner":"220 mr01a.rzeins.ch ESMTP"
+      ]
     },
     "1367":{
       "bfs":"1367",
@@ -11378,8 +11167,7 @@
       "mx_asns":[
         33965,
         41872
-      ],
-      "smtp_banner":"220 mr01a.rzeins.ch ESMTP"
+      ]
     },
     "1368":{
       "bfs":"1368",
@@ -11395,8 +11183,7 @@
       "mx_asns":[
         33965,
         41872
-      ],
-      "smtp_banner":"220 mr01a.rzeins.ch ESMTP"
+      ]
     },
     "1369":{
       "bfs":"1369",
@@ -11414,8 +11201,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.riemenstalden.ch"
-      },
-      "smtp_banner":"220-ms7.webland.ch ESMTP Webland Mail Server v. 12.3.0.; Wed, 11 Mar 2026 15:43:18 +0100"
+      }
     },
     "1370":{
       "bfs":"1370",
@@ -11431,8 +11217,7 @@
       "mx_asns":[
         33965,
         41872
-      ],
-      "smtp_banner":"220 mr01a.rzeins.ch ESMTP"
+      ]
     },
     "1371":{
       "bfs":"1371",
@@ -11448,8 +11233,7 @@
       "mx_asns":[
         33965,
         41872
-      ],
-      "smtp_banner":"220 mr01a.rzeins.ch ESMTP"
+      ]
     },
     "1372":{
       "bfs":"1372",
@@ -11465,8 +11249,7 @@
       "mx_asns":[
         33965,
         41872
-      ],
-      "smtp_banner":"220 mr01a.rzeins.ch ESMTP"
+      ]
     },
     "1373":{
       "bfs":"1373",
@@ -11482,8 +11265,7 @@
       "mx_asns":[
         33965,
         41872
-      ],
-      "smtp_banner":"220 mr01a.rzeins.ch ESMTP"
+      ]
     },
     "1374":{
       "bfs":"1374",
@@ -11499,8 +11281,7 @@
       "mx_asns":[
         33965,
         41872
-      ],
-      "smtp_banner":"220 mr01a.rzeins.ch ESMTP"
+      ]
     },
     "1375":{
       "bfs":"1375",
@@ -11516,8 +11297,7 @@
       "mx_asns":[
         33965,
         41872
-      ],
-      "smtp_banner":"220 mr01a.rzeins.ch ESMTP"
+      ]
     },
     "1401":{
       "bfs":"1401",
@@ -11538,8 +11318,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.ilz.info"
-      },
-      "smtp_banner":"220 ktvmx01.mail.admin.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1402":{
       "bfs":"1402",
@@ -11578,8 +11357,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.ilz.info"
-      },
-      "smtp_banner":"220 ktvmx01.mail.admin.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1404":{
       "bfs":"1404",
@@ -11614,8 +11392,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.ilz.info"
-      },
-      "smtp_banner":"220 ktvmx01.mail.admin.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1406":{
       "bfs":"1406",
@@ -11636,8 +11413,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.ilz.info"
-      },
-      "smtp_banner":"220 ktvmx01.mail.admin.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1407":{
       "bfs":"1407",
@@ -11658,8 +11434,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.ilz.info"
-      },
-      "smtp_banner":"220 ktvmx01.mail.admin.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1501":{
       "bfs":"1501",
@@ -11677,8 +11452,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.ilz.info"
-      },
-      "smtp_banner":"220 901.vps.hostfactory.ch ESMTP"
+      }
     },
     "1502":{
       "bfs":"1502",
@@ -11699,8 +11473,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.ilz.info"
-      },
-      "smtp_banner":"220 ktvmx01.mail.admin.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1503":{
       "bfs":"1503",
@@ -11736,8 +11509,7 @@
       "spf_resolved":"v=spf1 include:_spfgroupa.admin.ch include:_spf.i-web.ch include:spf.protection.outlook.com -all v=spf1 include:_netblocks1.admin.ch include:_netblocks2.admin.ch include:_netblocks3.admin.ch include:_netblocks4.admin.ch include:spf2.privasphere.com include:spf.weaver.ch -all v=spf1 ip4:195.65.10.12 ip4:195.65.10.13 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ~all v=spf1 ~all v=spf1 ~all v=spf1 ip4:162.23.22.128/25 ip4:162.23.23.128/25 ip4:162.23.22.201 ip4:162.23.24.16/26 ip4:162.23.128.43 ip4:162.23.128.65 ~all v=spf1 ip4:185.166.96.0/24 ip4:185.166.99.0/24 ip4:83.150.2.35 -all v=spf1 ip4:185.90.37.63 ip4:185.90.37.64 ip4:185.90.37.65 ip4:185.90.37.107 ip4:185.90.37.108 ip4:185.90.37.132 ip4:185.90.37.247 ip4:185.90.37.249 ip4:185.90.37.250 ip4:185.90.37.253 ip4:185.90.37.251 ~all",
       "mx_asns":[
         33845
-      ],
-      "smtp_banner":"220 ktvmx01.mail.admin.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      ]
     },
     "1505":{
       "bfs":"1505",
@@ -11758,8 +11530,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.ilz.info"
-      },
-      "smtp_banner":"220 ktvmx01.mail.admin.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1506":{
       "bfs":"1506",
@@ -11780,8 +11551,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.ilz.info"
-      },
-      "smtp_banner":"220 ktvmx01.mail.admin.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1507":{
       "bfs":"1507",
@@ -11802,8 +11572,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.ilz.info"
-      },
-      "smtp_banner":"220 ktvmx01.mail.admin.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1508":{
       "bfs":"1508",
@@ -11824,8 +11593,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.ilz.info"
-      },
-      "smtp_banner":"220 ktvmx01.mail.admin.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1509":{
       "bfs":"1509",
@@ -11866,8 +11634,7 @@
       "autodiscover":{
         "autodiscover_cname":"autodiscover.ilz.info",
         "autodiscover_srv":"autodiscover.ilz.info"
-      },
-      "smtp_banner":"220 ktvmx01.mail.admin.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1511":{
       "bfs":"1511",
@@ -11888,8 +11655,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.ilz.info"
-      },
-      "smtp_banner":"220 ktvmx01.mail.admin.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "1630":{
       "bfs":"1630",
@@ -11963,8 +11729,7 @@
       "spf_resolved":"v=spf1 mx mx:admin.ch/24 mx:ag.ch/24 ip4:193.134.12.15 include:spf.protection.outlook.com include:spf.zg.ch include:_spf.i-web.ch include:privasphere.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 mx:zg.ch mx:admin.ch/24 mx:ag.ch/24 ip6:2a10:8244:4:600::/64 ip4:193.134.14.50/32 v=spf1 ip4:195.65.10.12 ip4:195.65.10.13 -all v=spf1 include:spf.privasphere.com ip4:83.150.2.35/32 ip4:83.150.7.191/32 -all v=spf1 ip4:185.166.96.0/24 ip4:185.166.99.0/24 ip4:83.150.3.96/27 ip4:83.150.37.32/27 ip4:212.25.12.128/27 ip4:212.25.12.192/28 include:spf.iway.ch -all v=spf1 ip4:212.25.0.0/19 ip4:194.246.118.0/23 ip4:83.150.31.160/28 ip4:83.150.63.0/24 ip4:83.150.52.0/24 ip4:95.143.53.48/28 ip4:80.89.210.64/28 ip6:2001:8e0::/32 ip4:185.168.143.0/27 ~all",
       "mx_asns":[
         51907
-      ],
-      "smtp_banner":"220 mail.zg.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      ]
     },
     "1702":{
       "bfs":"1702",
@@ -11981,8 +11746,7 @@
       "spf_resolved":"v=spf1 mx mx:admin.ch/24 mx:ag.ch/24 ip4:193.134.12.15 include:spf.zg.ch include:spf.protection.outlook.com include:privasphere.com -all v=spf1 mx:zg.ch mx:admin.ch/24 mx:ag.ch/24 ip6:2a10:8244:4:600::/64 ip4:193.134.14.50/32 v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 include:spf.privasphere.com ip4:83.150.2.35/32 ip4:83.150.7.191/32 -all v=spf1 ip4:185.166.96.0/24 ip4:185.166.99.0/24 ip4:83.150.3.96/27 ip4:83.150.37.32/27 ip4:212.25.12.128/27 ip4:212.25.12.192/28 include:spf.iway.ch -all v=spf1 ip4:212.25.0.0/19 ip4:194.246.118.0/23 ip4:83.150.31.160/28 ip4:83.150.63.0/24 ip4:83.150.52.0/24 ip4:95.143.53.48/28 ip4:80.89.210.64/28 ip6:2001:8e0::/32 ip4:185.168.143.0/27 ~all",
       "mx_asns":[
         51907
-      ],
-      "smtp_banner":"220 mail.zg.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      ]
     },
     "1703":{
       "bfs":"1703",
@@ -11998,8 +11762,7 @@
       "spf_resolved":"v=spf1 mx ip6:2a10:8244:1000:1800::5001/128 ip6:2a10:8244:1000:1800::5002/128 ip6:2a10:8244:4:600::/64 ip4:159.144.81.1 ip4:159.144.81.2 ip4:193.134.14.50/32 include:spf.secemail.ch include:spf.protection.outlook.com include:spf.privasphere.com -all v=spf1 ip4:159.144.36.106 ip4:159.144.218.143 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:185.166.96.0/24 ip4:185.166.99.0/24 ip4:83.150.3.96/27 ip4:83.150.37.32/27 ip4:212.25.12.128/27 ip4:212.25.12.192/28 include:spf.iway.ch -all v=spf1 ip4:212.25.0.0/19 ip4:194.246.118.0/23 ip4:83.150.31.160/28 ip4:83.150.63.0/24 ip4:83.150.52.0/24 ip4:95.143.53.48/28 ip4:80.89.210.64/28 ip6:2001:8e0::/32 ip4:185.168.143.0/27 ~all",
       "mx_asns":[
         51907
-      ],
-      "smtp_banner":"220 mail.zg.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:22 +0100"
+      ]
     },
     "1704":{
       "bfs":"1704",
@@ -12015,8 +11778,7 @@
       "spf_resolved":"v=spf1 mx ip6:2a10:8244:1000:1800::5001/128 ip6:2a10:8244:1000:1800::5002/128 ip6:2a10:8244:4:600::/64 ip4:159.144.81.1 ip4:159.144.81.2 ip4:193.134.14.50/32 include:spf.secemail.ch include:spf.protection.outlook.com include:spf.privasphere.com -all v=spf1 ip4:159.144.36.106 ip4:159.144.218.143 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:185.166.96.0/24 ip4:185.166.99.0/24 ip4:83.150.3.96/27 ip4:83.150.37.32/27 ip4:212.25.12.128/27 ip4:212.25.12.192/28 include:spf.iway.ch -all v=spf1 ip4:212.25.0.0/19 ip4:194.246.118.0/23 ip4:83.150.31.160/28 ip4:83.150.63.0/24 ip4:83.150.52.0/24 ip4:95.143.53.48/28 ip4:80.89.210.64/28 ip6:2001:8e0::/32 ip4:185.168.143.0/27 ~all",
       "mx_asns":[
         51907
-      ],
-      "smtp_banner":"220 mail.zg.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:22 +0100"
+      ]
     },
     "1705":{
       "bfs":"1705",
@@ -12033,8 +11795,7 @@
       "spf_resolved":"v=spf1 mx mx:admin.ch/24 mx:ag.ch/24 ip4:193.134.12.15 include:spf.zg.ch include:spf.protection.outlook.com include:privasphere.com -all v=spf1 mx:zg.ch mx:admin.ch/24 mx:ag.ch/24 ip6:2a10:8244:4:600::/64 ip4:193.134.14.50/32 v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 include:spf.privasphere.com ip4:83.150.2.35/32 ip4:83.150.7.191/32 -all v=spf1 ip4:185.166.96.0/24 ip4:185.166.99.0/24 ip4:83.150.3.96/27 ip4:83.150.37.32/27 ip4:212.25.12.128/27 ip4:212.25.12.192/28 include:spf.iway.ch -all v=spf1 ip4:212.25.0.0/19 ip4:194.246.118.0/23 ip4:83.150.31.160/28 ip4:83.150.63.0/24 ip4:83.150.52.0/24 ip4:95.143.53.48/28 ip4:80.89.210.64/28 ip6:2001:8e0::/32 ip4:185.168.143.0/27 ~all",
       "mx_asns":[
         51907
-      ],
-      "smtp_banner":"220 mail.zg.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      ]
     },
     "1706":{
       "bfs":"1706",
@@ -12050,8 +11811,7 @@
       "spf_resolved":"v=spf1 mx ip4:193.134.12.15 ip4:193.134.26.182 ip4:193.134.26.181 ip6:2a10:8244:1000:1800::5002 ip6:2a10:8244:1000:1800::5001 include:spf.protection.outlook.com include:_spf.i-web.ch include:spf.server-he.de -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:195.65.10.12 ip4:195.65.10.13 -all v=spf1 ip4:80.237.130.0/24 ip4:80.237.132.0/23 ip4:80.237.137.0/24 ip4:80.237.138.0/24 ip4:83.169.24.0/21 ip4:87.230.40.0/21 ip4:87.230.60.0/22 ip4:87.230.104.0/22 ip4:91.250.64.0/21 include:spfb.server-he.de -all v=spf1 ip4:5.35.225.0/24 ip4:5.35.226.0/24 ip4:5.35.232.0/22 ip4:5.175.14.0/24 ip4:176.28.32.0/21 ip4:178.77.80.0/21 include:spfc.server-he.de include:secureserver.net -all v=spf1 ip4:178.77.104.0/21 ip4:92.51.170.64/27 ip4:178.77.112.0/21 ip4:80.67.16.0/20 ip4:134.119.228.0/19 ip6:2a00:1158:400:1::/120 ip6:2a01:488::/32 ip4:91.216.90.0/24 -all v=spf1 include:spf-0.secureserver.net -all v=spf1 ip4:64.202.168.0/24 ip4:97.74.135.0/24 ip4:72.167.238.0/24 ip4:72.167.234.0/24 ip4:72.167.218.0/24 ip4:68.178.252.0/24 ip4:68.178.213.0/24 ip4:216.69.139.0/24 ip4:208.109.80.0/24 ip4:92.204.81.0/24 ip4:198.71.224.0/19 ip4:184.168.224.0/24 ip4:184.168.200.0/24 ip4:184.168.131.0/24 ip4:184.168.128.0/24 ip4:92.204.65.0/28 ip4:182.50.132.0/24 ip4:173.201.192.0/23 ip4:72.167.168.0/24 ip4:92.204.71.0/24 ip4:132.148.124.0/24 ip4:72.167.172.0/24 ip4:188.121.52.0/24 ip4:188.121.53.0/24 ip4:52.89.65.132 ip4:54.214.222.76 ip4:54.184.82.65 ip4:52.26.164.15 ip4:68.178.181.0/24 ip4:50.63.8.0/22 ip4:208.109.194.0/24 ip4:80.237.138.192/26 include:spf.protection.outlook.com -all",
       "mx_asns":[
         51907
-      ],
-      "smtp_banner":"220 mail.zg.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:22 +0100"
+      ]
     },
     "1707":{
       "bfs":"1707",
@@ -12067,8 +11827,7 @@
       "spf_resolved":"v=spf1 mx ip6:2a10:8244:1000:1800::5001/128 ip6:2a10:8244:1000:1800::5002/128 ip6:2a10:8244:4:600::/64 ip4:159.144.81.1 ip4:159.144.81.2 ip4:193.134.14.50/32 include:spf.secemail.ch include:spf.protection.outlook.com include:spf.privasphere.com -all v=spf1 ip4:159.144.36.106 ip4:159.144.218.143 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:185.166.96.0/24 ip4:185.166.99.0/24 ip4:83.150.3.96/27 ip4:83.150.37.32/27 ip4:212.25.12.128/27 ip4:212.25.12.192/28 include:spf.iway.ch -all v=spf1 ip4:212.25.0.0/19 ip4:194.246.118.0/23 ip4:83.150.31.160/28 ip4:83.150.63.0/24 ip4:83.150.52.0/24 ip4:95.143.53.48/28 ip4:80.89.210.64/28 ip6:2001:8e0::/32 ip4:185.168.143.0/27 ~all",
       "mx_asns":[
         51907
-      ],
-      "smtp_banner":"220 mail.zg.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:22 +0100"
+      ]
     },
     "1708":{
       "bfs":"1708",
@@ -12085,8 +11844,7 @@
       "spf_resolved":"v=spf1 mx mx:admin.ch/24 mx:ag.ch/24 ip4:193.134.12.15 ip4:193.134.13.61 include:spf.zg.ch include:spf.protection.outlook.com include:privasphere.com -all v=spf1 mx:zg.ch mx:admin.ch/24 mx:ag.ch/24 ip6:2a10:8244:4:600::/64 ip4:193.134.14.50/32 v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 include:spf.privasphere.com ip4:83.150.2.35/32 ip4:83.150.7.191/32 -all v=spf1 ip4:185.166.96.0/24 ip4:185.166.99.0/24 ip4:83.150.3.96/27 ip4:83.150.37.32/27 ip4:212.25.12.128/27 ip4:212.25.12.192/28 include:spf.iway.ch -all v=spf1 ip4:212.25.0.0/19 ip4:194.246.118.0/23 ip4:83.150.31.160/28 ip4:83.150.63.0/24 ip4:83.150.52.0/24 ip4:95.143.53.48/28 ip4:80.89.210.64/28 ip6:2001:8e0::/32 ip4:185.168.143.0/27 ~all",
       "mx_asns":[
         51907
-      ],
-      "smtp_banner":"220 mail.zg.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      ]
     },
     "1709":{
       "bfs":"1709",
@@ -12102,8 +11860,7 @@
       "spf_resolved":"v=spf1 mx ip4:193.134.12.15 ip4:193.134.26.182 ip4:193.134.26.181 ip6:2a10:8244:1000:1800::5002 ip6:2a10:8244:1000:1800::5001 include:_spf.i-web.ch -all v=spf1 ip4:195.65.10.12 ip4:195.65.10.13 -all",
       "mx_asns":[
         51907
-      ],
-      "smtp_banner":"220 mail.zg.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:22 +0100"
+      ]
     },
     "1710":{
       "bfs":"1710",
@@ -12119,8 +11876,7 @@
       "spf_resolved":"v=spf1 a:mail.zg.ch a:mail1.zg.ch a:mail2.zg.ch ip4:193.134.12.15  ip4:193.134.26.182  ip6:2a10:8244:1000:1800::5002 ip6:2a10:8244:1000:1800::5001 ip4:193.134.26.181 include:spf.zg.ch include:privasphere.com -all v=spf1 mx:zg.ch mx:admin.ch/24 mx:ag.ch/24 ip6:2a10:8244:4:600::/64 ip4:193.134.14.50/32 v=spf1 include:spf.privasphere.com ip4:83.150.2.35/32 ip4:83.150.7.191/32 -all v=spf1 ip4:185.166.96.0/24 ip4:185.166.99.0/24 ip4:83.150.3.96/27 ip4:83.150.37.32/27 ip4:212.25.12.128/27 ip4:212.25.12.192/28 include:spf.iway.ch -all v=spf1 ip4:212.25.0.0/19 ip4:194.246.118.0/23 ip4:83.150.31.160/28 ip4:83.150.63.0/24 ip4:83.150.52.0/24 ip4:95.143.53.48/28 ip4:80.89.210.64/28 ip6:2001:8e0::/32 ip4:185.168.143.0/27 ~all",
       "mx_asns":[
         51907
-      ],
-      "smtp_banner":"220 mail.zg.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:22 +0100"
+      ]
     },
     "1711":{
       "bfs":"1711",
@@ -12137,8 +11893,7 @@
       "spf_resolved":"v=spf1 mx mx:admin.ch/24 mx:ag.ch/24 ip4:193.134.12.15 ip4:193.134.13.61 a:mail.ostendis.ch include:spf.protection.outlook.com include:spf.zg.ch include:_spf.senders.scnem.com include:privasphere.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 mx:zg.ch mx:admin.ch/24 mx:ag.ch/24 ip6:2a10:8244:4:600::/64 ip4:193.134.14.50/32 v=spf1 ip4:80.190.118.0/24 ip4:80.190.129.128/25 ip4:80.190.157.128/25 -all v=spf1 include:spf.privasphere.com ip4:83.150.2.35/32 ip4:83.150.7.191/32 -all v=spf1 ip4:185.166.96.0/24 ip4:185.166.99.0/24 ip4:83.150.3.96/27 ip4:83.150.37.32/27 ip4:212.25.12.128/27 ip4:212.25.12.192/28 include:spf.iway.ch -all v=spf1 ip4:212.25.0.0/19 ip4:194.246.118.0/23 ip4:83.150.31.160/28 ip4:83.150.63.0/24 ip4:83.150.52.0/24 ip4:95.143.53.48/28 ip4:80.89.210.64/28 ip6:2001:8e0::/32 ip4:185.168.143.0/27 ~all",
       "mx_asns":[
         51907
-      ],
-      "smtp_banner":"220 mail.zg.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      ]
     },
     "2008":{
       "bfs":"2008",
@@ -12156,8 +11911,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.evok.ch"
-      },
-      "smtp_banner":"220 fr1-lesg01.evok.ch ESMTP Postfix"
+      }
     },
     "2011":{
       "bfs":"2011",
@@ -12174,8 +11928,7 @@
       "gateway":"spamvor",
       "mx_asns":[
         29222
-      ],
-      "smtp_banner":"220 20.mx.spamvor.com ESMTP"
+      ]
     },
     "2022":{
       "bfs":"2022",
@@ -12275,20 +12028,11 @@
         "mx2.spamvor.com"
       ],
       "spf":"",
-<<<<<<< HEAD
       "provider":"independent",
       "gateway":"spamvor",
       "mx_asns":[
         29222
-      ],
-      "smtp_banner":"220 20.mx.spamvor.com ESMTP"
-=======
-      "provider":"self-hosted",
-      "gateway":"spamvor",
-      "mx_asns":[
-        29222
       ]
->>>>>>> 68941a22b39a31e27a483060bafdc861a8df89bf
     },
     "2043":{
       "bfs":"2043",
@@ -12305,8 +12049,7 @@
       "gateway":"spamvor",
       "mx_asns":[
         29222
-      ],
-      "smtp_banner":"220 20.mx.spamvor.com ESMTP"
+      ]
     },
     "2044":{
       "bfs":"2044",
@@ -12359,8 +12102,7 @@
       "gateway":"spamvor",
       "mx_asns":[
         29222
-      ],
-      "smtp_banner":"220 20.mx.spamvor.com ESMTP"
+      ]
     },
     "2051":{
       "bfs":"2051",
@@ -12378,8 +12120,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.evok.ch"
-      },
-      "smtp_banner":"220 fr1-lesg01.evok.ch ESMTP Postfix"
+      }
     },
     "2053":{
       "bfs":"2053",
@@ -12397,8 +12138,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.evok.ch"
-      },
-      "smtp_banner":"220 fr1-lesg01.evok.ch ESMTP Postfix"
+      }
     },
     "2054":{
       "bfs":"2054",
@@ -12620,8 +12360,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.montet.ch"
-      },
-      "smtp_banner":"220-ms2.webland.ch ESMTP Webland Mail Server v. 12.3.0.; Wed, 11 Mar 2026 15:43:18 +0100"
+      }
     },
     "2096":{
       "bfs":"2096",
@@ -12747,8 +12486,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.evok.ch"
-      },
-      "smtp_banner":"220 fr1-lesg01.evok.ch ESMTP Postfix"
+      }
     },
     "2117":{
       "bfs":"2117",
@@ -12766,8 +12504,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.evok.ch"
-      },
-      "smtp_banner":"220 fr1-lesg01.evok.ch ESMTP Postfix"
+      }
     },
     "2121":{
       "bfs":"2121",
@@ -13019,8 +12756,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"email.marsens.ch"
-      },
-      "smtp_banner":"220 mps.telecomservices.ch ESMTP (d2f8d47223222ff7e4a46c534f587db1)"
+      }
     },
     "2143":{
       "bfs":"2143",
@@ -13257,8 +12993,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"email.avry.ch"
-      },
-      "smtp_banner":"220 mps.telecomservices.ch ESMTP (d2f8d47223222ff7e4a46c534f587db1)"
+      }
     },
     "2175":{
       "bfs":"2175",
@@ -13345,8 +13080,7 @@
       "spf_resolved":"v=spf1 include:_spf.kreativmedia.ch include:_spf.blk.ymc.swiss ip4:212.71.120.144/28 ip4:212.71.120.28 +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip6:2a00:1128::/32 -all v=spf1 ip4:185.110.152.0/22 ~all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 phobos2.kreativmedia.ch ESMTP Postfix"
+      ]
     },
     "2196":{
       "bfs":"2196",
@@ -13502,8 +13236,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mail.treyvaux.ch"
-      },
-      "smtp_banner":"220 mps.telecomservices.ch ESMTP (d2f8d47223222ff7e4a46c534f587db1)"
+      }
     },
     "2228":{
       "bfs":"2228",
@@ -13537,8 +13270,7 @@
       "provider":"independent",
       "mx_asns":[
         31736
-      ],
-      "smtp_banner":"220 mx01.senselan.ch ESMTP senselan"
+      ]
     },
     "2233":{
       "bfs":"2233",
@@ -13612,8 +13344,7 @@
       "autodiscover":{
         "autodiscover_cname":"webgate.xpertcloud.ch",
         "autodiscover_srv":"webgate.xpertcloud.ch"
-      },
-      "smtp_banner":"220 mailgate2.ti-informatique.com ESMTP (e68476757feef94fb16c683846438c67)"
+      }
     },
     "2237":{
       "bfs":"2237",
@@ -13682,8 +13413,7 @@
       "spf_resolved":"v=spf1 include:_spf.sui-inter.net +mx +a ~all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip4:81.173.80.0/20 ip4:81.173.83.179/32 ip4:81.173.83.181/32 ip4:81.173.83.182/32 ip4:81.173.83.183/32 ip4:81.173.83.184/32 ip4:81.173.83.185/32 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 sokrates3.ch-meta.net ESMTP Postfix"
+      ]
     },
     "2254":{
       "bfs":"2254",
@@ -13719,8 +13449,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.evok.ch"
-      },
-      "smtp_banner":"220 fr1-lesg01.evok.ch ESMTP Postfix"
+      }
     },
     "2258":{
       "bfs":"2258",
@@ -13942,8 +13671,7 @@
       "provider":"independent",
       "mx_asns":[
         31736
-      ],
-      "smtp_banner":"220 mx01.senselan.ch ESMTP senselan"
+      ]
     },
     "2293":{
       "bfs":"2293",
@@ -14233,8 +13961,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.evok.ch"
-      },
-      "smtp_banner":"220 fr1-lesg01.evok.ch ESMTP Postfix"
+      }
     },
     "2325":{
       "bfs":"2325",
@@ -14270,8 +13997,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.evok.ch"
-      },
-      "smtp_banner":"220 fr1-lesg01.evok.ch ESMTP Postfix"
+      }
     },
     "2333":{
       "bfs":"2333",
@@ -14289,8 +14015,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.evok.ch"
-      },
-      "smtp_banner":"220 fr1-lesg01.evok.ch ESMTP Postfix"
+      }
     },
     "2335":{
       "bfs":"2335",
@@ -14326,8 +14051,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.evok.ch"
-      },
-      "smtp_banner":"220 fr1-lesg01.evok.ch ESMTP Postfix"
+      }
     },
     "2337":{
       "bfs":"2337",
@@ -14456,8 +14180,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "2406":{
       "bfs":"2406",
@@ -14538,8 +14261,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "2422":{
       "bfs":"2422",
@@ -14558,8 +14280,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "2424":{
       "bfs":"2424",
@@ -14616,8 +14337,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "2427":{
       "bfs":"2427",
@@ -14691,8 +14411,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.emailsrvr.com"
-      },
-      "smtp_banner":"220 mx1.emailsrvr.com ESMTP - VA Code Section 18.2-152.3:1 forbids sending spam through this system"
+      }
     },
     "2455":{
       "bfs":"2455",
@@ -14762,8 +14481,7 @@
       "spf_resolved":"v=spf1 include:_spf.sui-inter.net +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip4:81.173.80.0/20 ip4:81.173.83.179/32 ip4:81.173.83.181/32 ip4:81.173.83.182/32 ip4:81.173.83.183/32 ip4:81.173.83.184/32 ip4:81.173.83.185/32 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 urbanus5.metanet.ch ESMTP Postfix"
+      ]
     },
     "2464":{
       "bfs":"2464",
@@ -14816,8 +14534,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.baettwil.ch"
-      },
-      "smtp_banner":"220-ms11.webland.ch ESMTP Webland Mail Server v. 12.3.0.; Wed, 11 Mar 2026 15:43:19 +0100"
+      }
     },
     "2472":{
       "bfs":"2472",
@@ -14856,8 +14573,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "2474":{
       "bfs":"2474",
@@ -15035,8 +14751,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.kienberg.ch"
-      },
-      "smtp_banner":"220-ms9.webland.ch ESMTP Webland Mail Server v. 12.3.0.; Wed, 11 Mar 2026 15:43:19 +0100"
+      }
     },
     "2493":{
       "bfs":"2493",
@@ -15163,8 +14878,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"node7.mxconfig.ch"
-      },
-      "smtp_banner":"220 mx.cloudfor.ch ESMTP (02d6fe8269532eec96012c12968ca4a6)"
+      }
     },
     "2503":{
       "bfs":"2503",
@@ -15184,8 +14898,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"adr.exghost.com"
-      },
-      "smtp_banner":"220 server410.appriver.com ESMTP srv-f"
+      }
     },
     "2511":{
       "bfs":"2511",
@@ -15224,8 +14937,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "2514":{
       "bfs":"2514",
@@ -15239,8 +14951,7 @@
       "provider":"independent",
       "mx_asns":[
         24940
-      ],
-      "smtp_banner":"220 lx26.hoststar.hosting ESMTP Exim"
+      ]
     },
     "2516":{
       "bfs":"2516",
@@ -15348,8 +15059,7 @@
       "spf_resolved":"v=spf1 +mx +a include:_spf.mail.hostserv.eu include:_spf.kreativmedia.ch ~all v=spf1 a:mailhost.hostserv.eu a:mailhost.hosttech.eu include:_spf.v4.hosttech.eu include:_spf.v6.1.hosttech.eu include:_spf.v6.2.hosttech.eu ~all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip6:2a00:1128::/32 -all v=spf1 ip4:193.203.253.22 ip4:193.203.253.23 ip4:193.203.253.24 ip4:193.203.253.25 ip4:193.203.253.26 ip4:193.203.253.27 ip4:45.131.252.247 ip4:45.131.252.248 ip4:45.131.252.249 ip4:45.131.253.4 ip4:45.131.253.5 ip4:45.131.253.7 ~all v=spf1 ip6:2001:1680:101:83a::79 ip6:2001:1680:101:83a::8f ip6:2001:1680:101:83a::91 ip6:2001:1680:101:83a::95 ip6:2001:1680:101:83a::9d ip6:2001:1680:101:83a::d6 ~all v=spf1 ip6:2a11:8b80:1000:1::46 ip6:2a11:8b80:1000:1::47 ip6:2a11:8b80:1000:1::48 ip6:2a11:8b80:1000:1::49 ip6:2a11:8b80:1000:1::4a ip6:2a11:8b80:1000:1::4b ~all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 elara.kreativmedia.ch ESMTP Postfix"
+      ]
     },
     "2525":{
       "bfs":"2525",
@@ -15478,8 +15188,7 @@
       "spf_resolved":"v=spf1 a include:_spf.talus.ch include:146483490.spf03.hubspotemail.net -all v=spf1 ip4:194.56.218.0/24 ~all v=spf1 ip4:3.93.157.0/24 ip4:3.210.190.0/24 ip4:18.208.124.128/25 ip4:54.174.52.0/24 ip4:54.174.57.0/24 ip4:54.174.59.0/24 ip4:54.174.60.0/23 ip4:54.174.63.0/24 ip4:108.179.144.0/20 ip4:139.180.17.0/24 ip4:141.193.184.32/27 ip4:141.193.184.64/26 ip4:141.193.184.128/25 ip4:141.193.185.32/27 ip4:141.193.185.64/26 ip4:141.193.185.128/25 ip4:143.244.80.0/20 ip4:158.247.16.0/20 ip4:216.139.64.0/19 -all",
       "mx_asns":[
         202035
-      ],
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      ]
     },
     "2535":{
       "bfs":"2535",
@@ -15513,8 +15222,7 @@
       "spf_resolved":"v=spf1 include:solnet.ch -all v=spf1 include:_spf.solnet.ch include:_spf-cust.solnet.ch include:spf.protection.outlook.com -all v=spf1 ip4:82.220.4.128/25 ip4:212.101.4.128/25 ip6:2001:1680:2::/64 -all v=spf1 ip4:82.220.17.64/27 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         9044
-      ],
-      "smtp_banner":"220-mxin13 ESMTP SolNet Mail System V5"
+      ]
     },
     "2542":{
       "bfs":"2542",
@@ -15552,8 +15260,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"adr.exghost.com"
-      },
-      "smtp_banner":"220 server410.appriver.com ESMTP srv-d"
+      }
     },
     "2544":{
       "bfs":"2544",
@@ -15736,8 +15443,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "2555":{
       "bfs":"2555",
@@ -15977,8 +15683,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "2583":{
       "bfs":"2583",
@@ -16033,8 +15738,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"redirect-autodiscover.cloudpit.io"
-      },
-      "smtp_banner":"220 node01.servicehoster.ch ESMTP Exim 20260303.1001 Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "2586":{
       "bfs":"2586",
@@ -16091,8 +15795,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autoconfig-nonssl.mail.hostpoint.ch"
-      },
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "2612":{
       "bfs":"2612",
@@ -16106,8 +15809,7 @@
       "provider":"independent",
       "mx_asns":[
         24940
-      ],
-      "smtp_banner":"220 rlx1.loginserver.ch ESMTP Postfix (Ubuntu)"
+      ]
     },
     "2613":{
       "bfs":"2613",
@@ -16147,8 +15849,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "2615":{
       "bfs":"2615",
@@ -16168,8 +15869,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"adr.exghost.com"
-      },
-      "smtp_banner":"220 server400.appriver.com ESMTP srv-e"
+      }
     },
     "2616":{
       "bfs":"2616",
@@ -16199,11 +15899,7 @@
       ],
       "spf":"v=spf1 include:spf.protection.outlook.com include:_spf.i-web.ch -all",
       "provider":"microsoft",
-<<<<<<< HEAD
       "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:_spf.i-web.ch -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:195.65.10.12 ip4:195.65.10.13 -all",
-=======
-      "spf_resolved":"v=spf1 include:spf.protection.outlook.com include:_spf.i-web.ch -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:195.65.10.12 ip4:195.65.10.14 -all",
->>>>>>> 68941a22b39a31e27a483060bafdc861a8df89bf
       "mx_asns":[
         8075
       ],
@@ -16380,8 +16076,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webmail.aesch.ch"
-      },
-      "smtp_banner":"220 ktvmx01.mail.admin.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:17 +0100"
+      }
     },
     "2762":{
       "bfs":"2762",
@@ -16392,8 +16087,7 @@
         "212.120.53.8"
       ],
       "spf":"",
-      "provider":"microsoft",
-      "smtp_banner":"220 ALLEX02.intranet.allschwil.ch Microsoft ESMTP MAIL Service ready at Wed, 11 Mar 2026 15:43:02 +0100"
+      "provider":"independent"
     },
     "2763":{
       "bfs":"2763",
@@ -16433,8 +16127,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "2765":{
       "bfs":"2765",
@@ -16448,8 +16141,7 @@
       "provider":"independent",
       "mx_asns":[
         207143
-      ],
-      "smtp_banner":"220-rolling out the red carpet, please wait..."
+      ]
     },
     "2766":{
       "bfs":"2766",
@@ -16468,8 +16160,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mail01.axc.biz"
-      },
-      "smtp_banner":"220 mx1.naveum.services ESMTP Exim 20260303.1001 Wed, 11 Mar 2026 15:43:15 +0100"
+      }
     },
     "2767":{
       "bfs":"2767",
@@ -16524,8 +16215,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.muenchenstein.ch"
-      },
-      "smtp_banner":"220 inpre01.tmes.trendmicro.eu ESMTP Trend Micro Email Security"
+      }
     },
     "2770":{
       "bfs":"2770",
@@ -16546,8 +16236,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "2771":{
       "bfs":"2771",
@@ -16694,8 +16383,7 @@
       "autodiscover":{
         "autodiscover_cname":"autodiscover.vtx.ch",
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "2784":{
       "bfs":"2784",
@@ -16856,8 +16544,7 @@
       "provider":"independent",
       "mx_asns":[
         29097
-      ],
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      ]
     },
     "2793":{
       "bfs":"2793",
@@ -17035,8 +16722,7 @@
       "spf_resolved":"v=spf1 mx include:spf.armacom.ch a:mail.liestal.ch include:_spf.i-web.ch include:_spf.talus.ch -all v=spf1 ip4:213.188.251.246 ip6:2001:4060:1006:50::35 -all v=spf1 ip4:195.65.10.12 ip4:195.65.10.13 -all v=spf1 ip4:194.56.218.0/24 ~all",
       "mx_asns":[
         6772
-      ],
-      "smtp_banner":"220 mx3.armacom.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:19 +0100"
+      ]
     },
     "2830":{
       "bfs":"2830",
@@ -17072,8 +16758,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mail.pratteln.ch"
-      },
-      "smtp_banner":"220-asterix.imp.ch ESMTP Postfix"
+      }
     },
     "2832":{
       "bfs":"2832",
@@ -17092,8 +16777,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autoconfig-nonssl.mail.hostpoint.ch"
-      },
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "2833":{
       "bfs":"2833",
@@ -17163,8 +16847,7 @@
       "spf_resolved":"v=spf1 include:servicehoster.ch a mx ip4:195.48.58.75 ip4:193.135.56.6 ~all v=spf1 ip4:194.191.24.160/27 ip4:194.191.24.192/26 ip4:194.191.24.244/32 ip4:178.20.103.193 include:secure-mailgate.com -all v=spf1 ip4:46.243.95.179 ip4:46.243.95.180 ip4:128.127.70.0/26 ip4:89.22.108.0/24 ip4:192.162.87.0/24 ip4:109.237.142.0/24 ip6:2a02:a60:0:5::/64 ip4:46.243.88.174 ip4:46.243.88.175 ip4:46.243.88.176 ip4:46.243.88.177 ip4:31.47.251.17 a:mailcloud.dogado.de -all",
       "mx_asns":[
         1836
-      ],
-      "smtp_banner":"220 node01.servicehoster.ch ESMTP Exim 20260303.1001 Wed, 11 Mar 2026 15:43:16 +0100"
+      ]
     },
     "2843":{
       "bfs":"2843",
@@ -17239,8 +16922,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "2847":{
       "bfs":"2847",
@@ -17269,16 +16951,11 @@
         "rrmx.imp.ch"
       ],
       "spf":"v=spf1 include:_mailspf.imp.ch include:spf1.egeko.ch -all",
-<<<<<<< HEAD
       "provider":"independent",
-=======
-      "provider":"self-hosted",
->>>>>>> 68941a22b39a31e27a483060bafdc861a8df89bf
       "spf_resolved":"v=spf1 include:_mailspf.imp.ch include:spf1.egeko.ch -all v=spf1 ip6:2001:4060:1:1001::/64 ip4:157.161.12.0/22 v=spf1 ip4:159.144.38.58 ip4:159.144.36.112 ip4:159.144.218.138 -all",
       "mx_asns":[
         6772
-      ],
-      "smtp_banner":"220-asterix.imp.ch ESMTP Postfix"
+      ]
     },
     "2849":{
       "bfs":"2849",
@@ -17475,8 +17152,7 @@
       "spf_resolved":"v=spf1 a mx +include:spf1.egeko.ch ~all v=spf1 ip4:159.144.38.58 ip4:159.144.36.112 ip4:159.144.218.138 -all",
       "mx_asns":[
         9044
-      ],
-      "smtp_banner":"220 509.hosttech.eu ESMTP Postfix"
+      ]
     },
     "2860":{
       "bfs":"2860",
@@ -17510,8 +17186,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "2862":{
       "bfs":"2862",
@@ -17710,8 +17385,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"cpanelemaildiscovery.cpanel.net"
-      },
-      "smtp_banner":"220 filter3.tophost.ch ESMTP Exim 20260310.1000 Wed, 11 Mar 2026 15:43:15 +0100"
+      }
     },
     "2884":{
       "bfs":"2884",
@@ -17746,8 +17420,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"maildiscovery.cyon.ch"
-      },
-      "smtp_banner":"220-s026.cyon.net ESMTP Exim"
+      }
     },
     "2886":{
       "bfs":"2886",
@@ -17781,8 +17454,7 @@
       "gateway":"trendmicro",
       "mx_asns":[
         16509
-      ],
-      "smtp_banner":"220 inpre01.tmes.trendmicro.eu ESMTP Trend Micro Email Security"
+      ]
     },
     "2888":{
       "bfs":"2888",
@@ -17837,8 +17509,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"redirect-autodiscover.cloudpit.io"
-      },
-      "smtp_banner":"220 node01.servicehoster.ch ESMTP Exim 20260303.1001 Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "2891":{
       "bfs":"2891",
@@ -17892,8 +17563,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"cpanelemaildiscovery.cpanel.net"
-      },
-      "smtp_banner":"220 filter3.tophost.ch ESMTP Exim 20260310.1000 Wed, 11 Mar 2026 15:43:15 +0100"
+      }
     },
     "2894":{
       "bfs":"2894",
@@ -17912,8 +17582,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"cpanelemaildiscovery.cpanel.net"
-      },
-      "smtp_banner":"220 filter3.tophost.ch ESMTP Exim 20260310.1000 Wed, 11 Mar 2026 15:43:15 +0100"
+      }
     },
     "2895":{
       "bfs":"2895",
@@ -17934,8 +17603,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "2901":{
       "bfs":"2901",
@@ -17954,8 +17622,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscoverredirect.sh.ch"
-      },
-      "smtp_banner":"220 miraculix1.ksd.ch ESMTP"
+      }
     },
     "2903":{
       "bfs":"2903",
@@ -17974,8 +17641,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscoverredirect.sh.ch"
-      },
-      "smtp_banner":"220 miraculix1.ksd.ch ESMTP"
+      }
     },
     "2904":{
       "bfs":"2904",
@@ -17993,8 +17659,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscoverredirect.sh.ch"
-      },
-      "smtp_banner":"220 miraculix1.ksd.ch ESMTP"
+      }
     },
     "2914":{
       "bfs":"2914",
@@ -18031,8 +17696,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autoconfig-nonssl.mail.hostpoint.ch"
-      },
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "2917":{
       "bfs":"2917",
@@ -18050,8 +17714,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"maildiscovery.cyon.ch"
-      },
-      "smtp_banner":"220-vsa-sabere.cyon.net ESMTP Exim"
+      }
     },
     "2919":{
       "bfs":"2919",
@@ -18070,8 +17733,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscoverredirect.sh.ch"
-      },
-      "smtp_banner":"220 miraculix1.ksd.ch ESMTP"
+      }
     },
     "2920":{
       "bfs":"2920",
@@ -18090,8 +17752,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"outlook.thayngen.ch"
-      },
-      "smtp_banner":"220 mx1.mtfcloud.ch ESMTP Hi, we are happy to meet you..."
+      }
     },
     "2931":{
       "bfs":"2931",
@@ -18109,8 +17770,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"maildiscovery.cyon.ch"
-      },
-      "smtp_banner":"220-s012.cyon.net ESMTP Exim"
+      }
     },
     "2932":{
       "bfs":"2932",
@@ -18166,8 +17826,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscoverredirect.sh.ch"
-      },
-      "smtp_banner":"220 miraculix1.ksd.ch ESMTP"
+      }
     },
     "2937":{
       "bfs":"2937",
@@ -18185,8 +17844,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscoverredirect.sh.ch"
-      },
-      "smtp_banner":"220 miraculix1.ksd.ch ESMTP"
+      }
     },
     "2938":{
       "bfs":"2938",
@@ -18205,8 +17863,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscoverredirect.sh.ch"
-      },
-      "smtp_banner":"220 miraculix1.ksd.ch ESMTP"
+      }
     },
     "2939":{
       "bfs":"2939",
@@ -18221,8 +17878,7 @@
       "provider":"independent",
       "mx_asns":[
         196651
-      ],
-      "smtp_banner":"220 miraculix1.ksd.ch ESMTP"
+      ]
     },
     "2951":{
       "bfs":"2951",
@@ -18241,8 +17897,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autoconfig-nonssl.mail.hostpoint.ch"
-      },
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "2952":{
       "bfs":"2952",
@@ -18262,8 +17917,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.mtfcloud.ch"
-      },
-      "smtp_banner":"220 mx1.mtfcloud.ch ESMTP Hi, we are happy to meet you..."
+      }
     },
     "2953":{
       "bfs":"2953",
@@ -18282,8 +17936,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscoverredirect.sh.ch"
-      },
-      "smtp_banner":"220 miraculix1.ksd.ch ESMTP"
+      }
     },
     "2961":{
       "bfs":"2961",
@@ -18298,8 +17951,7 @@
       "spf_resolved":"v=spf1 include:_spf.sui-inter.net +mx +a ~all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip4:81.173.80.0/20 ip4:81.173.83.179/32 ip4:81.173.83.181/32 ip4:81.173.83.182/32 ip4:81.173.83.183/32 ip4:81.173.83.184/32 ip4:81.173.83.185/32 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 olaf.metanet.ch ESMTP Postfix"
+      ]
     },
     "2962":{
       "bfs":"2962",
@@ -18314,8 +17966,7 @@
       "spf_resolved":"v=spf1 +include:_spf.sui-inter.net +include:spf1.egeko.ch +a +mx -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip4:81.173.80.0/20 ip4:81.173.83.179/32 ip4:81.173.83.181/32 ip4:81.173.83.182/32 ip4:81.173.83.183/32 ip4:81.173.83.184/32 ip4:81.173.83.185/32 ip6:2a00:1128::/32 -all v=spf1 ip4:159.144.38.58 ip4:159.144.36.112 ip4:159.144.218.138 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 verus.ch-meta.net ESMTP Postfix"
+      ]
     },
     "2963":{
       "bfs":"2963",
@@ -18402,8 +18053,7 @@
       "spf_resolved":"v=spf1 include:_spf.sui-inter.net +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip4:81.173.80.0/20 ip4:81.173.83.179/32 ip4:81.173.83.181/32 ip4:81.173.83.182/32 ip4:81.173.83.183/32 ip4:81.173.83.184/32 ip4:81.173.83.185/32 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 cicero.metanet.ch ESMTP Postfix"
+      ]
     },
     "2974":{
       "bfs":"2974",
@@ -18419,8 +18069,7 @@
       "spf_resolved":"v=spf1 mx include:spf.protection.outlook.com -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         196651
-      ],
-      "smtp_banner":"220 miraculix1.ksd.ch ESMTP"
+      ]
     },
     "3001":{
       "bfs":"3001",
@@ -18452,8 +18101,7 @@
       "spf_resolved":"v=spf1 include:_spf.ari-ag.ch -all v=spf1 include:_spf1.ari-ag.ch include:_spf2.ari-ag.ch -all v=spf1 ip4:193.5.177.16/28 ip6:2a07:291b:500:900::/64 -all v=spf1 ip4:195.65.10.12 include:spf2.privasphere.com ip4:194.209.204.50 include:spf.protection.outlook.com -all v=spf1 ip4:185.166.96.0/24 ip4:185.166.99.0/24 ip4:83.150.2.35 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         211452
-      ],
-      "smtp_banner":"220 DMZFML0001.ari-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:20 +0100"
+      ]
     },
     "3003":{
       "bfs":"3003",
@@ -18467,8 +18115,7 @@
       "provider":"independent",
       "mx_asns":[
         1836
-      ],
-      "smtp_banner":"220 node01.servicehoster.ch ESMTP Exim 20260303.1001 Wed, 11 Mar 2026 15:43:21 +0100"
+      ]
     },
     "3004":{
       "bfs":"3004",
@@ -18487,8 +18134,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.ar.ch"
-      },
-      "smtp_banner":"220 DMZFML0001.ari-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:20 +0100"
+      }
     },
     "3005":{
       "bfs":"3005",
@@ -18525,8 +18171,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autoconfig-nonssl.mail.hostpoint.ch"
-      },
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "3007":{
       "bfs":"3007",
@@ -18563,8 +18208,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autoconfig-nonssl.mail.hostpoint.ch"
-      },
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "3022":{
       "bfs":"3022",
@@ -18583,8 +18227,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autoconfig-nonssl.mail.hostpoint.ch"
-      },
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "3023":{
       "bfs":"3023",
@@ -18603,8 +18246,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.ar.ch"
-      },
-      "smtp_banner":"220 DMZFML0001.ari-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:20 +0100"
+      }
     },
     "3024":{
       "bfs":"3024",
@@ -18618,8 +18260,7 @@
       "provider":"independent",
       "mx_asns":[
         207143
-      ],
-      "smtp_banner":"220-rolling out the red carpet, please wait..."
+      ]
     },
     "3025":{
       "bfs":"3025",
@@ -18633,8 +18274,7 @@
       "provider":"independent",
       "mx_asns":[
         207143
-      ],
-      "smtp_banner":"220-rolling out the red carpet, please wait..."
+      ]
     },
     "3031":{
       "bfs":"3031",
@@ -18650,8 +18290,7 @@
       "spf_resolved":"v=spf1 ip4:193.135.56.6 ip4:146.185.84.21 ip4:194.209.60.7 ip4:146.185.84.7 include:_spf.ari-ag.ch -all v=spf1 include:_spf1.ari-ag.ch include:_spf2.ari-ag.ch -all v=spf1 ip4:193.5.177.16/28 ip6:2a07:291b:500:900::/64 -all v=spf1 ip4:195.65.10.12 include:spf2.privasphere.com ip4:194.209.204.50 include:spf.protection.outlook.com -all v=spf1 ip4:185.166.96.0/24 ip4:185.166.99.0/24 ip4:83.150.2.35 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
       "mx_asns":[
         211452
-      ],
-      "smtp_banner":"220 DMZFML0001.ari-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:20 +0100"
+      ]
     },
     "3032":{
       "bfs":"3032",
@@ -18670,8 +18309,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.cloudpit.io"
-      },
-      "smtp_banner":"220 node01.servicehoster.ch ESMTP Exim 20260303.1001 Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "3033":{
       "bfs":"3033",
@@ -18702,8 +18340,7 @@
       "provider":"independent",
       "mx_asns":[
         207143
-      ],
-      "smtp_banner":"220-rolling out the red carpet, please wait..."
+      ]
     },
     "3035":{
       "bfs":"3035",
@@ -18722,8 +18359,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.ar.ch"
-      },
-      "smtp_banner":"220 DMZFML0001.ari-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:20 +0100"
+      }
     },
     "3036":{
       "bfs":"3036",
@@ -18742,8 +18378,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.ar.ch"
-      },
-      "smtp_banner":"220 DMZFML0001.ari-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:20 +0100"
+      }
     },
     "3037":{
       "bfs":"3037",
@@ -18758,8 +18393,7 @@
       "spf_resolved":"v=spf1 include:_spf.sui-inter.net +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip4:81.173.80.0/20 ip4:81.173.83.179/32 ip4:81.173.83.181/32 ip4:81.173.83.182/32 ip4:81.173.83.183/32 ip4:81.173.83.184/32 ip4:81.173.83.185/32 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 arcadius103.ch-meta.net ESMTP Postfix"
+      ]
     },
     "3038":{
       "bfs":"3038",
@@ -18778,8 +18412,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.ar.ch"
-      },
-      "smtp_banner":"220 DMZFML0001.ari-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:20 +0100"
+      }
     },
     "3101":{
       "bfs":"3101",
@@ -18798,8 +18431,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.cloudpit.io"
-      },
-      "smtp_banner":"220 node01.servicehoster.ch ESMTP Exim 20260303.1001 Wed, 11 Mar 2026 15:43:16 +0100"
+      }
     },
     "3102":{
       "bfs":"3102",
@@ -18832,8 +18464,7 @@
       "spf_resolved":"v=spf1 include:_spf.sui-inter.net +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip4:81.173.80.0/20 ip4:81.173.83.179/32 ip4:81.173.83.181/32 ip4:81.173.83.182/32 ip4:81.173.83.183/32 ip4:81.173.83.184/32 ip4:81.173.83.185/32 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 marissa2.hostorama.com ESMTP Postfix"
+      ]
     },
     "3111":{
       "bfs":"3111",
@@ -18847,8 +18478,7 @@
       "provider":"independent",
       "mx_asns":[
         207143
-      ],
-      "smtp_banner":"220-rolling out the red carpet, please wait..."
+      ]
     },
     "3112":{
       "bfs":"3112",
@@ -18890,8 +18520,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.komsg.ch"
-      },
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      }
     },
     "3202":{
       "bfs":"3202",
@@ -18991,8 +18620,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.komsg.ch"
-      },
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      }
     },
     "3213":{
       "bfs":"3213",
@@ -19137,8 +18765,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.komsg.ch"
-      },
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      }
     },
     "3231":{
       "bfs":"3231",
@@ -19178,8 +18805,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.komsg.ch"
-      },
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      }
     },
     "3233":{
       "bfs":"3233",
@@ -19315,8 +18941,7 @@
       "gateway":"abxsec",
       "mx_asns":[
         9108
-      ],
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      ]
     },
     "3252":{
       "bfs":"3252",
@@ -19336,8 +18961,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.komsg.ch"
-      },
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      }
     },
     "3253":{
       "bfs":"3253",
@@ -19357,8 +18981,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.komsg.ch"
-      },
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      }
     },
     "3254":{
       "bfs":"3254",
@@ -19471,8 +19094,7 @@
       "gateway":"abxsec",
       "mx_asns":[
         9108
-      ],
-      "smtp_banner":"220 mta2.abxsec.com ESMTP Postfix"
+      ]
     },
     "3274":{
       "bfs":"3274",
@@ -19732,8 +19354,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autoconfig-nonssl.mail.hostpoint.ch"
-      },
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "3313":{
       "bfs":"3313",
@@ -19773,8 +19394,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.komsg.ch"
-      },
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      }
     },
     "3316":{
       "bfs":"3316",
@@ -19794,8 +19414,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.komsg.ch"
-      },
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      }
     },
     "3338":{
       "bfs":"3338",
@@ -19815,8 +19434,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.komsg.ch"
-      },
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      }
     },
     "3339":{
       "bfs":"3339",
@@ -19934,8 +19552,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.komsg.ch"
-      },
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      }
     },
     "3360":{
       "bfs":"3360",
@@ -20075,8 +19692,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.komsg.ch"
-      },
-      "smtp_banner":"220 mta2.abxsec.com ESMTP Postfix"
+      }
     },
     "3396":{
       "bfs":"3396",
@@ -20377,8 +19993,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.komsg.ch"
-      },
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      }
     },
     "3506":{
       "bfs":"3506",
@@ -20415,8 +20030,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mail01.axc.biz"
-      },
-      "smtp_banner":"220 mx1.naveum.services ESMTP Exim 20260303.1001 Wed, 11 Mar 2026 15:43:15 +0100"
+      }
     },
     "3514":{
       "bfs":"3514",
@@ -20431,8 +20045,7 @@
       "spf_resolved":"v=spf1 +mx +a include:_spf.mail.hostserv.eu ~all v=spf1 a:mailhost.hostserv.eu a:mailhost.hosttech.eu include:_spf.v4.hosttech.eu include:_spf.v6.1.hosttech.eu include:_spf.v6.2.hosttech.eu ~all v=spf1 ip4:193.203.253.22 ip4:193.203.253.23 ip4:193.203.253.24 ip4:193.203.253.25 ip4:193.203.253.26 ip4:193.203.253.27 ip4:45.131.252.247 ip4:45.131.252.248 ip4:45.131.252.249 ip4:45.131.253.4 ip4:45.131.253.5 ip4:45.131.253.7 ~all v=spf1 ip6:2001:1680:101:83a::79 ip6:2001:1680:101:83a::8f ip6:2001:1680:101:83a::91 ip6:2001:1680:101:83a::95 ip6:2001:1680:101:83a::9d ip6:2001:1680:101:83a::d6 ~all v=spf1 ip6:2a11:8b80:1000:1::46 ip6:2a11:8b80:1000:1::47 ip6:2a11:8b80:1000:1::48 ip6:2a11:8b80:1000:1::49 ip6:2a11:8b80:1000:1::4a ip6:2a11:8b80:1000:1::4b ~all",
       "mx_asns":[
         9044
-      ],
-      "smtp_banner":"220 112.hosttech.eu ESMTP Postfix (Debian/GNU)"
+      ]
     },
     "3542":{
       "bfs":"3542",
@@ -20582,8 +20195,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mailadmin.exigo.ch"
-      },
-      "smtp_banner":"220 avas-in1.exigo.ch ESMTP eXpurgate 4.55.0"
+      }
     },
     "3582":{
       "bfs":"3582",
@@ -20658,8 +20270,7 @@
       "autodiscover":{
         "autodiscover_cname":"autodiscover.chur.ch",
         "autodiscover_srv":"autodiscover.ilanz-glion.ch"
-      },
-      "smtp_banner":"220 mx1.chur.ch ESMTP"
+      }
     },
     "3633":{
       "bfs":"3633",
@@ -20676,8 +20287,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"maildiscovery.cyon.ch"
-      },
-      "smtp_banner":"220-s079.cyon.net ESMTP Exim"
+      }
     },
     "3637":{
       "bfs":"3637",
@@ -20695,8 +20305,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"maildiscovery.cyon.ch"
-      },
-      "smtp_banner":"220-s015.cyon.net ESMTP Exim"
+      }
     },
     "3638":{
       "bfs":"3638",
@@ -20711,8 +20320,7 @@
       "spf_resolved":"v=spf1 include:_spf.sui-inter.net +mx +a ~all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip4:81.173.80.0/20 ip4:81.173.83.179/32 ip4:81.173.83.181/32 ip4:81.173.83.182/32 ip4:81.173.83.183/32 ip4:81.173.83.184/32 ip4:81.173.83.185/32 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 vasco.sui-inter.net ESMTP Postfix"
+      ]
     },
     "3640":{
       "bfs":"3640",
@@ -20767,8 +20375,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"maildiscovery.cyon.ch"
-      },
-      "smtp_banner":"220-s013.cyon.net ESMTP Exim"
+      }
     },
     "3663":{
       "bfs":"3663",
@@ -20786,8 +20393,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"maildiscovery.cyon.ch"
-      },
-      "smtp_banner":"220-s013.cyon.net ESMTP Exim"
+      }
     },
     "3668":{
       "bfs":"3668",
@@ -20820,8 +20426,7 @@
       "spf_resolved":"v=spf1 include:_spf.sui-inter.net +mx +a ~all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip4:81.173.80.0/20 ip4:81.173.83.179/32 ip4:81.173.83.181/32 ip4:81.173.83.182/32 ip4:81.173.83.183/32 ip4:81.173.83.184/32 ip4:81.173.83.185/32 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 gal4.ch-meta.net ESMTP Postfix"
+      ]
     },
     "3670":{
       "bfs":"3670",
@@ -20839,8 +20444,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"maildiscovery.cyon.ch"
-      },
-      "smtp_banner":"220-s024.cyon.net ESMTP Exim"
+      }
     },
     "3672":{
       "bfs":"3672",
@@ -20858,8 +20462,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mailadmin.exigo.ch"
-      },
-      "smtp_banner":"220 avas-in1.exigo.ch ESMTP eXpurgate 4.55.0"
+      }
     },
     "3673":{
       "bfs":"3673",
@@ -20892,8 +20495,7 @@
       "spf_resolved":"v=spf1 ip4:62.202.22.249 include:_spf.sui-inter.net +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip4:81.173.80.0/20 ip4:81.173.83.179/32 ip4:81.173.83.181/32 ip4:81.173.83.182/32 ip4:81.173.83.183/32 ip4:81.173.83.184/32 ip4:81.173.83.185/32 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 tacitus2.sui-inter.net ESMTP Postfix"
+      ]
     },
     "3695":{
       "bfs":"3695",
@@ -21021,8 +20623,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autoconfig-nonssl.mail.hostpoint.ch"
-      },
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "3721":{
       "bfs":"3721",
@@ -21042,8 +20643,7 @@
       "autodiscover":{
         "autodiscover_cname":"autodiscoverredirect.chur.ch",
         "autodiscover_srv":"autodiscoverredirect.chur.ch"
-      },
-      "smtp_banner":"220 mx1.chur.ch ESMTP"
+      }
     },
     "3722":{
       "bfs":"3722",
@@ -21063,8 +20663,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.alphacom.ch"
-      },
-      "smtp_banner":"220 mx-01-eu-central-1.prod.hydra.sophos.com ESMTP Postfix"
+      }
     },
     "3723":{
       "bfs":"3723",
@@ -21121,8 +20720,7 @@
       "autodiscover":{
         "autodiscover_cname":"autodiscover.chur.ch",
         "autodiscover_srv":"autodiscover.gemeindeflims.ch"
-      },
-      "smtp_banner":"220 mx1.chur.ch ESMTP"
+      }
     },
     "3733":{
       "bfs":"3733",
@@ -21273,8 +20871,7 @@
       "provider":"independent",
       "mx_asns":[
         396982
-      ],
-      "smtp_banner":"220 server-14.tower-840.messagelabs.comZ ESMTP"
+      ]
     },
     "3783":{
       "bfs":"3783",
@@ -21308,8 +20905,7 @@
       "spf_resolved":"v=spf1 +a +mx include:spf.messagelabs.com include:spf.spotwerbung.ch -all v=spf1 include:nets1.spf.messagelabs.com include:nets2.spf.messagelabs.com ~all v=spf1 ip4:213.133.107.213 ip6:2a01:4f8:d0a:2295::2 ip4:213.133.121.85 ip6:2a01:4f8:d0a:1184::2 ip4:78.46.125.17 ip6:2a01:4f8:d0a:409b::2 ip4:78.46.148.201 ip6:2a01:4f8:d0a:50f7::2 ip4:78.46.196.81 ip6:2a01:4f8:d0a:6134::2 ip4:78.46.4.123 ip6:2a01:4f8:d0a:216c::2 ip4:78.47.106.26 ip6:2a01:4f8:d0a:639e::2 ip4:78.46.3.225 ip6:2a01:4f8:d0a:318f::2 ip4:159.69.104.114 ip6:2a01:4f8:c0c:a6d::2 ip4:85.10.212.78 ip6:2a01:4f8:d0a:241e::2 ip4:78.46.166.37 ip6:2a01:4f8:d0a:61c2::2 -all v=spf1 ip4:85.158.136.0/21 ip4:193.109.254.0/23 ip4:194.106.220.0/23 ip4:195.245.230.0/23 ip4:95.131.104.0/21 ip4:46.226.48.0/21 v=spf1 ip4:216.82.240.0/20 ip4:67.219.240.0/20 ip4:117.120.16.0/21 ip4:103.9.96.0/22 ip4:35.228.216.85 ip4:146.148.116.76 ip4:34.141.160.224 ip4:34.70.158.162 ip4:34.74.74.140 ip4:34.83.159.189",
       "mx_asns":[
         396982
-      ],
-      "smtp_banner":"220 server-14.tower-840.messagelabs.comZ ESMTP"
+      ]
     },
     "3785":{
       "bfs":"3785",
@@ -21342,8 +20938,7 @@
       "provider":"independent",
       "mx_asns":[
         207143
-      ],
-      "smtp_banner":"220-rolling out the red carpet, please wait..."
+      ]
     },
     "3787":{
       "bfs":"3787",
@@ -21358,8 +20953,7 @@
       "provider":"independent",
       "mx_asns":[
         396982
-      ],
-      "smtp_banner":"220 server-10.tower-834.messagelabs.comZ ESMTP"
+      ]
     },
     "3788":{
       "bfs":"3788",
@@ -21444,8 +21038,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mailadmin.exigo.ch"
-      },
-      "smtp_banner":"220 avas-in1.exigo.ch ESMTP eXpurgate 4.55.0"
+      }
     },
     "3804":{
       "bfs":"3804",
@@ -21518,8 +21111,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autoconfig-nonssl.mail.hostpoint.ch"
-      },
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "3821":{
       "bfs":"3821",
@@ -21538,8 +21130,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autoconfig-nonssl.mail.hostpoint.ch"
-      },
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "3822":{
       "bfs":"3822",
@@ -21589,8 +21180,7 @@
       "provider":"independent",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 emerson3.ch-meta.net ESMTP Postfix"
+      ]
     },
     "3832":{
       "bfs":"3832",
@@ -21645,8 +21235,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autoconfig-nonssl.mail.hostpoint.ch"
-      },
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "3837":{
       "bfs":"3837",
@@ -21734,8 +21323,7 @@
       "spf_resolved":"v=spf1 include:_spf.sui-inter.net +mx +a ~all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip4:81.173.80.0/20 ip4:81.173.83.179/32 ip4:81.173.83.181/32 ip4:81.173.83.182/32 ip4:81.173.83.183/32 ip4:81.173.83.184/32 ip4:81.173.83.185/32 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 tesla226.sui-inter.net ESMTP Postfix"
+      ]
     },
     "3863":{
       "bfs":"3863",
@@ -21755,8 +21343,7 @@
       "autodiscover":{
         "autodiscover_cname":"autodiscoverredirect.chur.ch",
         "autodiscover_srv":"autodiscover.jenaz.ch"
-      },
-      "smtp_banner":"220 mx1.chur.ch ESMTP"
+      }
     },
     "3871":{
       "bfs":"3871",
@@ -21812,8 +21399,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mailadmin.exigo.ch"
-      },
-      "smtp_banner":"220 avas-in1.exigo.ch ESMTP eXpurgate 4.55.0"
+      }
     },
     "3891":{
       "bfs":"3891",
@@ -21847,8 +21433,7 @@
       "spf_resolved":"v=spf1 mx ip4:195.189.148.0/24 ip4:146.159.132.15 ip4:146.159.132.25 ip4:80.237.133.99 ip4:195.65.10.12 ip4:212.243.100.154 ip4:91.234.52.10 ip4:91.234.52.17 include:spf.abacuscity.ch include:spf.protection.outlook.com include:spf.omcomputer.ch -all v=spf1 ip4:46.227.226.102 ip4:46.227.226.108 ip4:46.227.226.21 ip4:46.227.228.154 ip4:46.227.228.228 ip4:46.227.228.28 ip6:2a02:cd8:2ee3:e200::15 ip6:2a02:cd8:2ee3:e200::65 ip6:2a02:cd8:2ee3:e200::7b ip6:2a02:cd8:2ee3:e400::1c ip6:2a02:cd8:2ee3:e400::293 ip6:2a02:cd8:2ee3:e400::446 ip4:62.106.93.27 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:194.56.218.154 -all",
       "mx_asns":[
         200987
-      ],
-      "smtp_banner":"220 mx1.chur.ch ESMTP"
+      ]
     },
     "3911":{
       "bfs":"3911",
@@ -21886,8 +21471,7 @@
       "autodiscover":{
         "autodiscover_cname":"autodiscover.chur.ch",
         "autodiscover_srv":"autodiscover.gemeindearosa.ch"
-      },
-      "smtp_banner":"220 mx1.chur.ch ESMTP"
+      }
     },
     "3945":{
       "bfs":"3945",
@@ -21907,8 +21491,7 @@
       "autodiscover":{
         "autodiscover_cname":"autodiscoverredirect.chur.ch",
         "autodiscover_srv":"autodiscover.chur.ch"
-      },
-      "smtp_banner":"220 mx1.chur.ch ESMTP"
+      }
     },
     "3946":{
       "bfs":"3946",
@@ -22001,8 +21584,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mailadmin.exigo.ch"
-      },
-      "smtp_banner":"220 avas-in1.exigo.ch ESMTP eXpurgate 4.55.0"
+      }
     },
     "3954":{
       "bfs":"3954",
@@ -22188,8 +21770,7 @@
       "autodiscover":{
         "autodiscover_cname":"autodiscoverredirect.chur.ch",
         "autodiscover_srv":"autodiscover.chur.ch"
-      },
-      "smtp_banner":"220 mx1.chur.ch ESMTP"
+      }
     },
     "3987":{
       "bfs":"3987",
@@ -22278,8 +21859,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mail01.axc.biz"
-      },
-      "smtp_banner":"220 mx1.naveum.services ESMTP Exim 20260303.1001 Wed, 11 Mar 2026 15:43:15 +0100"
+      }
     },
     "4004":{
       "bfs":"4004",
@@ -22312,8 +21892,7 @@
       "spf_resolved":"v=spf1 include:_spf.sui-inter.net +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip4:81.173.80.0/20 ip4:81.173.83.179/32 ip4:81.173.83.181/32 ip4:81.173.83.182/32 ip4:81.173.83.183/32 ip4:81.173.83.184/32 ip4:81.173.83.185/32 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 einstein5.sui-inter.net ESMTP Postfix"
+      ]
     },
     "4006":{
       "bfs":"4006",
@@ -22372,8 +21951,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.kuettigen.ch"
-      },
-      "smtp_banner":"220 mail.kuettigen.ch ESMTP ready"
+      }
     },
     "4009":{
       "bfs":"4009",
@@ -22533,8 +22111,7 @@
       "spf_resolved":"v=spf1 mx ip4:193.47.120.62/31 ip4:193.47.104.5 ip4:192.162.28.108 ip4:81.63.133.74 ip4:81.63.133.75 include:spf.nextron.ch -all v=spf1 ip4:193.108.137.0/24 ip4:80.74.149.0/24 ip4:194.150.248.30 -all",
       "mx_asns":[
         42346
-      ],
-      "smtp_banner":"220 antispam.nextron.ch - Swissmailguard Antispam Gateway"
+      ]
     },
     "4027":{
       "bfs":"4027",
@@ -22555,8 +22132,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "4028":{
       "bfs":"4028",
@@ -22595,8 +22171,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "4030":{
       "bfs":"4030",
@@ -22664,8 +22239,7 @@
       "provider":"independent",
       "mx_asns":[
         25091
-      ],
-      "smtp_banner":"220 cleanmail.1solution.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:22 +0100"
+      ]
     },
     "4034":{
       "bfs":"4034",
@@ -22697,8 +22271,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"mail.niederrohrdorf.ch"
-      },
-      "smtp_banner":"220 cleanmail.1solution.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:22 +0100"
+      }
     },
     "4037":{
       "bfs":"4037",
@@ -22719,8 +22292,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "4038":{
       "bfs":"4038",
@@ -22736,8 +22308,7 @@
       "spf_resolved":"v=spf1 a include:spf.iway.ch include:spf.privasphere.com include:_spf.psm.knowbe4.com ~all v=spf1 ip4:212.25.0.0/19 ip4:194.246.118.0/23 ip4:83.150.31.160/28 ip4:83.150.63.0/24 ip4:83.150.52.0/24 ip4:95.143.53.48/28 ip4:80.89.210.64/28 ip6:2001:8e0::/32 ip4:185.168.143.0/27 ~all v=spf1 ip4:185.166.96.0/24 ip4:185.166.99.0/24 ip4:83.150.3.96/27 ip4:83.150.37.32/27 ip4:212.25.12.128/27 ip4:212.25.12.192/28 include:spf.iway.ch -all v=spf1 ip4:23.21.109.197 ip4:23.21.109.212 ip4:147.160.167.14 ip4:147.160.167.15 ip4:52.49.235.189 ip4:52.49.201.246 -all",
       "mx_asns":[
         8758
-      ],
-      "smtp_banner":"220 elba.iway.ch ESMTP"
+      ]
     },
     "4039":{
       "bfs":"4039",
@@ -22951,11 +22522,7 @@
       ],
       "spf":"v=spf1 ip4:83.144.243.114 include:_spf.i-web.ch include:spf.protection.outlook.com -all",
       "provider":"microsoft",
-<<<<<<< HEAD
       "spf_resolved":"v=spf1 ip4:83.144.243.114 include:_spf.i-web.ch include:spf.protection.outlook.com -all v=spf1 ip4:195.65.10.12 ip4:195.65.10.13 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
-=======
-      "spf_resolved":"v=spf1 ip4:83.144.243.114 include:_spf.i-web.ch include:spf.protection.outlook.com -all v=spf1 ip4:195.65.10.12 ip4:195.65.10.14 -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all",
->>>>>>> 68941a22b39a31e27a483060bafdc861a8df89bf
       "mx_asns":[
         8075
       ],
@@ -23014,8 +22581,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.xauth.ch"
-      },
-      "smtp_banner":"220 gateway.eggenwil.ch ESMTP Service ready"
+      }
     },
     "4067":{
       "bfs":"4067",
@@ -23345,8 +22911,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"owa.birr.ch"
-      },
-      "smtp_banner":"220 cleanmail.1solution.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:22 +0100"
+      }
     },
     "4093":{
       "bfs":"4093",
@@ -24432,8 +23997,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "4201":{
       "bfs":"4201",
@@ -24540,8 +24104,7 @@
       "spf_resolved":"v=spf1 mx a include:_spf.i-web.ch a:mailrelay01.ascanius.ch a:mail.rupperswil.ch -all v=spf1 ip4:195.65.10.12 ip4:195.65.10.13 -all",
       "mx_asns":[
         198635
-      ],
-      "smtp_banner":"220 mailrelay.ecolize.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:22 +0100"
+      ]
     },
     "4207":{
       "bfs":"4207",
@@ -25271,8 +24834,7 @@
       "autodiscover":{
         "autodiscover_cname":"mail.brittnau.ch",
         "autodiscover_srv":"autodiscover.brittnau.ch"
-      },
-      "smtp_banner":"220-Welcome to postscreen-test SMTP server, please wait the opening connection"
+      }
     },
     "4275":{
       "bfs":"4275",
@@ -25311,8 +24873,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "4277":{
       "bfs":"4277",
@@ -25388,8 +24949,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "4282":{
       "bfs":"4282",
@@ -25430,8 +24990,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "4284":{
       "bfs":"4284",
@@ -25470,8 +25029,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "4286":{
       "bfs":"4286",
@@ -25509,8 +25067,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.talus.ch"
-      },
-      "smtp_banner":"220 mail.format-ag.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:14 +0100"
+      }
     },
     "4288":{
       "bfs":"4288",
@@ -25950,8 +25507,7 @@
       "spf_resolved":"v=spf1 include:tg.ch include:_spf.sui-inter.net +mx +a ip4:213.193.123.194 ip4:193.135.56.6 ~all v=spf1 ip4:161.78.14.101 ip4:161.78.3.250 mx include:spf.privasphere.com include:spf.protection.outlook.com -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip4:81.173.80.0/20 ip4:81.173.83.179/32 ip4:81.173.83.181/32 ip4:81.173.83.182/32 ip4:81.173.83.183/32 ip4:81.173.83.184/32 ip4:81.173.83.185/32 ip6:2a00:1128::/32 -all v=spf1 ip4:185.166.96.0/24 ip4:185.166.99.0/24 ip4:83.150.3.96/27 ip4:83.150.37.32/27 ip4:212.25.12.128/27 ip4:212.25.12.192/28 include:spf.iway.ch -all v=spf1 ip4:40.92.0.0/15 ip4:40.107.0.0/16 ip4:52.100.0.0/15 ip4:52.102.0.0/16 ip4:52.103.0.0/17 ip4:104.47.0.0/17 ip6:2a01:111:f400::/48 ip6:2a01:111:f403::/49 ip6:2a01:111:f403:8000::/51 ip6:2a01:111:f403:c000::/51 ip6:2a01:111:f403:f000::/52 -all v=spf1 ip4:212.25.0.0/19 ip4:194.246.118.0/23 ip4:83.150.31.160/28 ip4:83.150.63.0/24 ip4:83.150.52.0/24 ip4:95.143.53.48/28 ip4:80.89.210.64/28 ip6:2001:8e0::/32 ip4:185.168.143.0/27 ~all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 mx01.sui-inter.net ESMTP (8f718325e647c3b60b9a0ba62f3939a2)"
+      ]
     },
     "4436":{
       "bfs":"4436",
@@ -26130,8 +25686,7 @@
       "spf_resolved":"v=spf1 a mx include:spf.onlime.ch ~all v=spf1 ip4:46.231.201.128/25 ip4:78.46.160.129 ip4:162.55.162.196 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 mx1.onlime.ch ESMTP Postfix (Debian/GNU)"
+      ]
     },
     "4506":{
       "bfs":"4506",
@@ -26858,8 +26413,7 @@
       "gateway":"abxsec",
       "mx_asns":[
         9108
-      ],
-      "smtp_banner":"220 mta1.abxsec.com ESMTP Postfix"
+      ]
     },
     "4776":{
       "bfs":"4776",
@@ -27410,8 +26964,7 @@
       "provider":"independent",
       "mx_asns":[
         198172
-      ],
-      "smtp_banner":"220 fmg-amb-01.amb.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:22 +0100"
+      ]
     },
     "5048":{
       "bfs":"5048",
@@ -27483,8 +27036,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscoverredirect.liveapp.ch"
-      },
-      "smtp_banner":"220 scott21 cmsmtp smtp.register.it ESMTP server ready"
+      }
     },
     "5063":{
       "bfs":"5063",
@@ -27502,8 +27054,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"cpanelemaildiscovery.cpanel.net"
-      },
-      "smtp_banner":"220-ganymede.tizoo.com ESMTP Exim 4.99.1 #2 Wed, 11 Mar 2026 15:43:23 +0100"
+      }
     },
     "5071":{
       "bfs":"5071",
@@ -27518,8 +27069,7 @@
       "spf_resolved":"v=spf1 a mx ip4:89.207.237.84 ip4:178.23.174.0/27 include:_spf.server4all.de ~all v=spf1 include:_netblocks-v4.server4all.de ~all v=spf1 ip4:212.48.119.0/24 ip4:212.48.120.0/24 ip4:212.48.127.0/24 ip4:212.53.140.0/24 ip4:212.53.160.0/24 ip4:212.72.171.0/24 ip4:212.72.182.0/24 ip4:212.72.183.0/24 ip4:212.72.184.0/24 ip4:212.53.165.0/24 ~all",
       "mx_asns":[
         8893
-      ],
-      "smtp_banner":"220 dinamic-hosting.ch ESMTP Postfix"
+      ]
     },
     "5072":{
       "bfs":"5072",
@@ -27555,8 +27105,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"wasms.assolo.net"
-      },
-      "smtp_banner":"220 asms.assolo.net"
+      }
     },
     "5076":{
       "bfs":"5076",
@@ -27592,8 +27141,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"wasms.assolo.net"
-      },
-      "smtp_banner":"220 asms2.assolo.net"
+      }
     },
     "5079":{
       "bfs":"5079",
@@ -27622,8 +27170,7 @@
       "provider":"independent",
       "mx_asns":[
         51423
-      ],
-      "smtp_banner":"220 asmav.assolo.net"
+      ]
     },
     "5096":{
       "bfs":"5096",
@@ -27746,8 +27293,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"cpanelemaildiscovery.cpanel.net"
-      },
-      "smtp_banner":"220 filter3.tophost.ch ESMTP Exim 20260310.1000 Wed, 11 Mar 2026 15:43:15 +0100"
+      }
     },
     "5118":{
       "bfs":"5118",
@@ -27762,8 +27308,7 @@
       "spf_resolved":"v=spf1 include:_asms6spf.assolo.net a:lin32.assolo.net ip4:213.133.224.13 ip4:83.173.217.38 ip4:89.207.237.84 ip4:178.23.174.0/27 ip4:213.133.224.79 ip4:213.133.224.68 ip4:213.133.224.160 -all v=spf1 ip4:213.133.224.19 ip4:213.133.224.59 ip4:213.133.224.90 ip4:213.133.224.91 ip4:213.133.224.83 ~all",
       "mx_asns":[
         51423
-      ],
-      "smtp_banner":"220 asmav.assolo.net"
+      ]
     },
     "5120":{
       "bfs":"5120",
@@ -27873,8 +27418,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"wasms.assolo.net"
-      },
-      "smtp_banner":"220 asms4.assolo.net"
+      }
     },
     "5141":{
       "bfs":"5141",
@@ -27892,8 +27436,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"wasms.assolo.net"
-      },
-      "smtp_banner":"220 asms4.assolo.net"
+      }
     },
     "5143":{
       "bfs":"5143",
@@ -28037,8 +27580,7 @@
       "provider":"independent",
       "mx_asns":[
         197352
-      ],
-      "smtp_banner":"220 plsk11.e-park.ch ESMTP Postfix (Ubuntu)"
+      ]
     },
     "5167":{
       "bfs":"5167",
@@ -28129,8 +27671,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autoconfig-nonssl.mail.hostpoint.ch"
-      },
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "5187":{
       "bfs":"5187",
@@ -28162,8 +27703,7 @@
       "provider":"independent",
       "mx_asns":[
         207143
-      ],
-      "smtp_banner":"220 mail.ticinoposta.ch ESMTP Postfix (Debian/GNU)"
+      ]
     },
     "5192":{
       "bfs":"5192",
@@ -28179,8 +27719,7 @@
       "spf_resolved":"v=spf1 mx a ip4:195.14.126.66 ip4:195.14.126.67 include:143896222.spf04.hubspotemail.net include:CustSPF.tinext.com include:emailwarp.com include:servers.mcsv.net include:spf.swisscom.com -all v=spf1 ip4:3.93.157.0/24 ip4:3.210.190.0/24 ip4:18.208.124.128/25 ip4:54.174.52.0/24 ip4:54.174.57.0/24 ip4:54.174.59.0/24 ip4:54.174.60.0/23 ip4:54.174.63.0/24 ip4:108.179.144.0/20 ip4:139.180.17.0/24 ip4:141.193.184.32/27 ip4:141.193.184.64/26 ip4:141.193.184.128/25 ip4:141.193.185.32/27 ip4:141.193.185.64/26 ip4:141.193.185.128/25 ip4:143.244.80.0/20 ip4:158.247.16.0/20 ip4:216.139.64.0/19 -all v=spf1 ip4:46.21.25.0/24 include:spf.iway.ch -all v=spf1 include:spf1.emailwarp.com -all v=spf1 ip4:205.201.128.0/20 ip4:198.2.128.0/18 ip4:148.105.0.0/16 -all v=spf1 ip4:138.188.176.0/26 ip4:138.188.176.128/26 ip4:138.188.166.96/27 ~all v=spf1 ip4:212.25.0.0/19 ip4:194.246.118.0/23 ip4:83.150.31.160/28 ip4:83.150.63.0/24 ip4:83.150.52.0/24 ip4:95.143.53.48/28 ip4:80.89.210.64/28 ip6:2001:8e0::/32 ip4:185.168.143.0/27 ~all v=spf1 include:spf2.emailwarp.com ip4:185.241.65.0/26 -all v=spf1 ip4:159.89.28.206/32 ip4:165.227.133.244/32 ip4:207.154.223.214/32 -all",
       "mx_asns":[
         50849
-      ],
-      "smtp_banner":"220 smtp11.lugano.ch ESMTP"
+      ]
     },
     "5193":{
       "bfs":"5193",
@@ -28228,11 +27767,10 @@
         "mx2.massagno.ch"
       ],
       "spf":"v=spf1 ip4:185.79.206.82 ip4:185.79.206.83 ip4:185.79.206.84 ip4:89.207.237.84 ip4:178.23.174.0/27 ip4:213.133.224.247 a:lin32.assolo.net -all",
-      "provider":"microsoft",
+      "provider":"independent",
       "mx_asns":[
         57676
-      ],
-      "smtp_banner":"220 mx2.massagno.ch Microsoft ESMTP MAIL Service ready at Wed, 11 Mar 2026 15:43:22 +0100"
+      ]
     },
     "5198":{
       "bfs":"5198",
@@ -28320,8 +27858,7 @@
       "spf_resolved":"v=spf1 mx a include:CustSPF.tinext.com -all v=spf1 ip4:46.21.25.0/24 include:spf.iway.ch -all v=spf1 ip4:212.25.0.0/19 ip4:194.246.118.0/23 ip4:83.150.31.160/28 ip4:83.150.63.0/24 ip4:83.150.52.0/24 ip4:95.143.53.48/28 ip4:80.89.210.64/28 ip6:2001:8e0::/32 ip4:185.168.143.0/27 ~all",
       "mx_asns":[
         197352
-      ],
-      "smtp_banner":"220 mail.tinext.net ESMTP *******; Wed, 11 Mar 2026 15:43:23 +0100"
+      ]
     },
     "5208":{
       "bfs":"5208",
@@ -28467,8 +28004,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.evok.ch"
-      },
-      "smtp_banner":"220 fr1-lesg01.evok.ch ESMTP Postfix"
+      }
     },
     "5227":{
       "bfs":"5227",
@@ -28645,8 +28181,7 @@
       "spf_resolved":"v=spf1 ip4:213.133.236.29 ip4:178.23.174.0/27 ip4:89.207.237.84 include:spf.labcc.ch -all v=spf1 ip4:31.44.38.212 ip4:31.44.38.213 -all",
       "mx_asns":[
         5398
-      ],
-      "smtp_banner":"220 pedro.labcc.ch ESMTP Postfix (Debian/GNU)"
+      ]
     },
     "5249":{
       "bfs":"5249",
@@ -28664,8 +28199,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.castelsanpietro.ch"
-      },
-      "smtp_banner":"220 asmav.assolo.net"
+      }
     },
     "5250":{
       "bfs":"5250",
@@ -28680,8 +28214,7 @@
       "spf_resolved":"v=spf1 include:_spf.mlsend.com ip4:213.200.244.96/29 ip4:178.23.174.0/27 a:mail.chiasso.ch -all v=spf1 ip4:185.249.220.0/24 ip4:185.225.161.0/24 ~all",
       "mx_asns":[
         51423
-      ],
-      "smtp_banner":"220 asmav.assolo.net"
+      ]
     },
     "5251":{
       "bfs":"5251",
@@ -28721,8 +28254,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"webmail.mendrisio.ch"
-      },
-      "smtp_banner":"220-mx01.cloud.vadesecure.com ESMTP vceu3mtai107p"
+      }
     },
     "5257":{
       "bfs":"5257",
@@ -28775,8 +28307,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"owa.becloud.ch"
-      },
-      "smtp_banner":"220 antispam02.moresi.com ESMTP Baruwa Wed, 11 Mar 2026 15:43:24 +0100"
+      }
     },
     "5266":{
       "bfs":"5266",
@@ -28795,8 +28326,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"owa.stabio.ch"
-      },
-      "smtp_banner":"220 ch-backup-mailsecurity.cybersecservices.ch ESMTP Postfix"
+      }
     },
     "5268":{
       "bfs":"5268",
@@ -28810,8 +28340,7 @@
       "provider":"independent",
       "mx_asns":[
         207143
-      ],
-      "smtp_banner":"220 mail.ticinoposta.ch ESMTP Postfix (Debian/GNU)"
+      ]
     },
     "5269":{
       "bfs":"5269",
@@ -28826,8 +28355,7 @@
       "spf_resolved":"v=spf1 include:_asms3spf.assolo.net ip4:89.207.237.84 ip4:178.23.174.0/27 ip4:213.133.224.236 -all v=spf1 a:asms3.assolo.net ip4:213.133.224.11 ip4:213.133.224.212 ip4:213.133.224.13 a:asms9.assolo.net ip4:213.133.224.218 ip4:213.133.224.21 ip4:213.133.224.42 ip4:213.133.224.75 ~all",
       "mx_asns":[
         51423
-      ],
-      "smtp_banner":"220 asms3.assolo.net"
+      ]
     },
     "5281":{
       "bfs":"5281",
@@ -28909,8 +28437,7 @@
       "spf_resolved":"v=spf1 include:_spf.ch-dns.net +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 chiron2.ch-dns.net ESMTP Postfix"
+      ]
     },
     "5310":{
       "bfs":"5310",
@@ -28943,8 +28470,7 @@
       "spf_resolved":"v=spf1 include:_spf.ch-dns.net +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 chiron2.ch-dns.net ESMTP Postfix"
+      ]
     },
     "5317":{
       "bfs":"5317",
@@ -28961,8 +28487,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"lx43.hoststar.hosting"
-      },
-      "smtp_banner":"220 lx43.hoststar.hosting ESMTP Exim"
+      }
     },
     "5323":{
       "bfs":"5323",
@@ -29054,8 +28579,7 @@
       "gateway":"proofpoint",
       "mx_asns":[
         52129
-      ],
-      "smtp_banner":"220-mx1-eu1.ppe-hosted.com - Please wait..."
+      ]
     },
     "5398":{
       "bfs":"5398",
@@ -29069,8 +28593,7 @@
       "provider":"independent",
       "mx_asns":[
         51423
-      ],
-      "smtp_banner":"220 asmav.assolo.net"
+      ]
     },
     "5399":{
       "bfs":"5399",
@@ -29288,8 +28811,7 @@
       "spf_resolved":"v=spf1 include:spf.infomaniak.ch mx -all v=spf1 ip4:45.157.188.8/29 ip4:185.125.25.8/29 ip4:83.166.143.168/29 ip4:84.16.66.168/29 ip4:128.65.197.100 ip4:128.65.197.101 ip6:2001:1600:4:17::/64 ip6:2001:1600:7:10::/64 ip6:2001:1600:4:2d::c565 ip6:2001:1600:7:10::c564 ip4:185.125.25.16/29 ip4:45.157.188.16/29 ip4:84.16.66.176/29 ip4:83.166.143.176/29 ip6:2001:1600:19::/48 ip4:84.16.69.64/31 ip4:128.65.197.2/31 include:newsletter.infomaniak.com -all v=spf1 include:amazonses.com ?all v=spf1 ip4:199.255.192.0/22 ip4:199.127.232.0/22 ip4:54.240.0.0/18 ip4:69.169.224.0/20 ip4:23.249.208.0/20 ip4:23.251.224.0/19 ip4:76.223.176.0/20 ip4:54.240.64.0/18 ip4:76.223.128.0/19 ip4:216.221.160.0/19 ip4:206.55.144.0/20 ip4:24.110.64.0/18 -all",
       "mx_asns":[
         34146
-      ],
-      "smtp_banner":"220 mailgate2.ti-informatique.com ESMTP (e68476757feef94fb16c683846438c67)"
+      ]
     },
     "5412":{
       "bfs":"5412",
@@ -29343,8 +28865,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.evok.ch"
-      },
-      "smtp_banner":"220 fr1-lesg01.evok.ch ESMTP Postfix"
+      }
     },
     "5415":{
       "bfs":"5415",
@@ -29413,8 +28934,7 @@
       "spf_resolved":"v=spf1 include:_spf.kreativmedia.ch +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 kallisto.kreativmedia.ch ESMTP Postfix"
+      ]
     },
     "5425":{
       "bfs":"5425",
@@ -29692,18 +29212,10 @@
         "marot.bettens.ch"
       ],
       "spf":"",
-<<<<<<< HEAD
       "provider":"independent",
       "mx_asns":[
         29222
-      ],
-      "smtp_banner":"220 marot.bettens.info ESMTP Postfix (Debian/GNU)"
-=======
-      "provider":"self-hosted",
-      "mx_asns":[
-        29222
       ]
->>>>>>> 68941a22b39a31e27a483060bafdc861a8df89bf
     },
     "5472":{
       "bfs":"5472",
@@ -29899,8 +29411,7 @@
       "spf_resolved":"v=spf1 mx include:fwdsc.swisscenter.com -all v=spf1 ip4:94.103.96.0/24 ip6:2a00:a500:0:96::/64 ip4:213.32.20.157/32 -all",
       "mx_asns":[
         49457
-      ],
-      "smtp_banner":"220 mx1.swisscenter.com ESMTP Haraka ready (0066BF)"
+      ]
     },
     "5484":{
       "bfs":"5484",
@@ -30017,8 +29528,7 @@
       "spf_resolved":"v=spf1 include:_spf.kreativmedia.ch mx a a:smtp-sh.infomaniak.ch -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 phoebe2.kreativmedia.ch ESMTP Postfix"
+      ]
     },
     "5491":{
       "bfs":"5491",
@@ -30178,8 +29688,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.evok.ch"
-      },
-      "smtp_banner":"220 fr1-lesg01.evok.ch ESMTP Postfix"
+      }
     },
     "5503":{
       "bfs":"5503",
@@ -30304,12 +29813,12 @@
       "provider":"independent",
       "spf_resolved":"v=spf1 include:spf1.ne.ch include:spf.mtaroutes.com include:spf.ganesh-hosting.ch ip4:185.214.154.116 -all v=spf1 ip4:148.196.30.0/24 -all v=spf1 include:spf.antispamcloud.com -all v=spf1 ip4:193.34.136.0/23 ip4:185.54.4.0/23 ip4:185.54.6.0/24 ip4:98.80.189.20 ip4:99.81.216.78 ip4:34.249.190.60 ip4:108.128.137.108 -all v=spf1 ip4:130.117.251.9 ip4:130.117.251.10 ip6:2001:978:2:6::20:10 ip6:2001:978:2:6::20:a ip4:94.75.244.176/27 ip4:94.75.192.139/27 ip4:95.211.2.195/26 ip4:95.211.2.198/26 ip4:95.211.2.199/26 ip4:95.211.2.201/26 ip4:95.211.2.202/26 ip4:95.211.2.204/26 ip4:94.75.244.183/27 ip4:94.75.244.184/27 ip6:2001:1af8:4400:a047:6::1 ip4:37.58.58.55/27 ip4:199.115.117.7/27 ip4:199.115.117.10/27 ip4:199.115.117.11/27 ip6:2604:9a00:2010:a024:21::1 ip4:185.201.16.0/22 ip4:192.69.18.0/24 ip4:208.70.90.0/24 ip4:45.91.121.0/24 ip4:45.93.148.0/24 ip4:45.131.180.0/24 ip4:45.140.132.0/24 ip4:193.41.32.0/24 ip4:185.225.27.0/24 ip4:80.91.219.0/24 ip4:188.190.113.0/24 ip4:45.147.95.0/24 ip4:46.229.240.0/24 ip4:87.236.163.0/24 ip4:188.190.112.0/24 ip4:192.69.19.0/24 ip4:208.70.91.0/24 ip4:185.209.51.0/24 ip4:185.218.226.0/24 -all",
       "mx_asns":[
-        16633
+        16633,
+        43054
       ],
       "autodiscover":{
         "autodiscover_cname":"owa.echallens.ch"
-      },
-      "smtp_banner":"220 mx305.antispamcloud.com ESMTP Exim 20260303.1001 Wed, 11 Mar 2026 15:43:27 +0100"
+      }
     },
     "5520":{
       "bfs":"5520",
@@ -30381,8 +29890,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webgate.xpertcloud.ch"
-      },
-      "smtp_banner":"220 mailgate2.ti-informatique.com ESMTP (e68476757feef94fb16c683846438c67)"
+      }
     },
     "5527":{
       "bfs":"5527",
@@ -30485,8 +29993,7 @@
       "gateway":"cleanmail",
       "mx_asns":[
         15547
-      ],
-      "smtp_banner":"220-Welcome to postscreen-test SMTP server, please wait the opening connection"
+      ]
     },
     "5535":{
       "bfs":"5535",
@@ -30554,8 +30061,7 @@
       "provider":"independent",
       "mx_asns":[
         198385
-      ],
-      "smtp_banner":"220-Welcome"
+      ]
     },
     "5541":{
       "bfs":"5541",
@@ -30693,8 +30199,7 @@
       "spf_resolved":"v=spf1 include:_spf.kreativmedia.ch +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 iapetus2.kreativmedia.ch ESMTP Postfix"
+      ]
     },
     "5559":{
       "bfs":"5559",
@@ -30748,8 +30253,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"owa.grandson.ch"
-      },
-      "smtp_banner":"220 mta.witecom.ch ESMTP Postfix"
+      }
     },
     "5562":{
       "bfs":"5562",
@@ -30768,8 +30272,7 @@
       "autodiscover":{
         "autodiscover_cname":"automx.swisscenter.com",
         "autodiscover_srv":"automx.swisscenter.com"
-      },
-      "smtp_banner":"220 mx1.swisscenter.com ESMTP Haraka ready (0EACC9)"
+      }
     },
     "5563":{
       "bfs":"5563",
@@ -30784,8 +30287,7 @@
       "spf_resolved":"v=spf1 mx include:spf.w4ymail.at -all v=spf1 ip4:81.19.149.0/24 ip4:81.19.145.16/29 ip4:81.19.154.96/28 ip4:81.19.154.98/32 ip4:81.19.154.99/32 ip4:185.16.191.128/29 ip6:2a00:1a68:1:101::/64 -all",
       "mx_asns":[
         8560
-      ],
-      "smtp_banner":"220 mx23lb.world4you.com ESMTP Exim 4.97.1 Wed, 11 Mar 2026 15:43:27 +0100"
+      ]
     },
     "5564":{
       "bfs":"5564",
@@ -30800,8 +30302,7 @@
       "spf_resolved":"v=spf1 include:spf.horus.ch ~all v=spf1 ip4:194.182.164.99 ip4:185.19.29.61 ip4:194.182.167.72 ip4:159.100.254.204 ip4:159.100.247.17 ip4:81.6.33.6 ip6:2a04:c44:e00:3eb:482:6cff:fe00:d47 ip6:2a04:c44:e00:3eb:4e4:eff:fe00:862 ip6:2a04:c44:e00:3eb:4da:96ff:fe00:724 ip6:2a04:c44:e00:3eb:475:38ff:fe00:102c ip6:2a04:c43:e00:3eb:47f:feff:fe00:17a ~all",
       "mx_asns":[
         61098
-      ],
-      "smtp_banner":"220 mail.horus.ch ESMTP Postfix (Debian/GNU)"
+      ]
     },
     "5565":{
       "bfs":"5565",
@@ -30819,8 +30320,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"owa.ynv.ch"
-      },
-      "smtp_banner":"220 mta.witecom.ch ESMTP Postfix"
+      }
     },
     "5566":{
       "bfs":"5566",
@@ -30858,8 +30358,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"webmail.sainte-croix.ch"
-      },
-      "smtp_banner":"220 mx-01-eu-central-1.prod.hydra.sophos.com ESMTP Postfix"
+      }
     },
     "5571":{
       "bfs":"5571",
@@ -30894,8 +30393,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"ex.pully.ch"
-      },
-      "smtp_banner":"220 etrn-01.vtx.ch ESMTP DeckMail"
+      }
     },
     "5582":{
       "bfs":"5582",
@@ -30983,8 +30481,7 @@
       "spf_resolved":"v=spf1 ip4:193.200.220.0/24 mx:lausanne.ch include:_spf.general.transactional-mail-a.com -all v=spf1 ip4:94.199.92.0/23 ip4:103.196.252.0/23 ip4:185.93.140.0/22 ip4:185.215.216.0/22 ip4:207.126.136.0/22 ip4:199.204.12.0/22 ip6:2a02:7b01:0:42::1:0/114 ip6:2a02:7b01:1000:42::1:0/114 ip6:2a02:7b01:2000:42::1:0/114 ip6:2a02:7b02:2000:42::1:0/114 ip6:2a02:7b02:0:42::1:0/114 ip6:2a02:7b03:0:42::1:0/114 ~all",
       "mx_asns":[
         34781
-      ],
-      "smtp_banner":"220 lsamgwp03.lausanne.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:27 +0100"
+      ]
     },
     "5587":{
       "bfs":"5587",
@@ -31019,8 +30516,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webgate.xpertcloud.ch"
-      },
-      "smtp_banner":"220 mailgate2.ti-informatique.com ESMTP (e68476757feef94fb16c683846438c67)"
+      }
     },
     "5589":{
       "bfs":"5589",
@@ -31036,8 +30532,7 @@
       "spf_resolved":"v=spf1 a mx include:_spf.i-web.ch include:spf.mailpro.com ~all v=spf1 ip4:195.65.10.12 ip4:195.65.10.13 -all v=spf1 ip4:178.239.38.0/24 ip4:62.133.56.0/24 ip4:62.50.74.80/28 ip4:62.50.73.144/28 ip4:62.50.76.40/29 ip4:62.50.76.16/28 ip4:195.81.131.64/27 ip4:194.150.21.200/29 ip4:194.158.17.0/26 ip6:2a06:fa00::/29 -all",
       "mx_asns":[
         34781
-      ],
-      "smtp_banner":"220 mail.polouest.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:27 +0100"
+      ]
     },
     "5590":{
       "bfs":"5590",
@@ -31057,8 +30552,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"ex.pully.ch"
-      },
-      "smtp_banner":"220 etrn-01.vtx.ch ESMTP DeckMail"
+      }
     },
     "5591":{
       "bfs":"5591",
@@ -31150,8 +30644,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"webmail.lutry.rcv.ch"
-      },
-      "smtp_banner":"220 mail.rcv.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:28 +0100"
+      }
     },
     "5607":{
       "bfs":"5607",
@@ -31236,8 +30729,7 @@
       "spf_resolved":"v=spf1 include:fwdsc.swisscenter.com include:mailcontrol.com include:servicehoster.ch a:mailgate.ti-informatique.com a:mailgate2.ti-informatique.com ip4:185.54.6.105 ~all v=spf1 ip4:94.103.96.0/24 ip6:2a00:a500:0:96::/64 ip4:213.32.20.157/32 -all v=spf1 ip4:85.115.32.0/19 ip4:86.111.216.0/21 ip4:116.50.56.0/21 ip4:208.87.232.0/21 ip4:196.216.238.0/23 ip4:192.151.176.0/20 ~all v=spf1 ip4:194.191.24.160/27 ip4:194.191.24.192/26 ip4:194.191.24.244/32 ip4:178.20.103.193 include:secure-mailgate.com -all v=spf1 ip4:46.243.95.179 ip4:46.243.95.180 ip4:128.127.70.0/26 ip4:89.22.108.0/24 ip4:192.162.87.0/24 ip4:109.237.142.0/24 ip6:2a02:a60:0:5::/64 ip4:46.243.88.174 ip4:46.243.88.175 ip4:46.243.88.176 ip4:46.243.88.177 ip4:31.47.251.17 a:mailcloud.dogado.de -all",
       "mx_asns":[
         44444
-      ],
-      "smtp_banner":"220 cluster-d.mailcontrol.com ESMTP MailControl"
+      ]
     },
     "5621":{
       "bfs":"5621",
@@ -31419,8 +30911,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mails.echandens.ch"
-      },
-      "smtp_banner":"220 mx1.azinformatique.ch ESMTP Postfix"
+      }
     },
     "5634":{
       "bfs":"5634",
@@ -31566,8 +31057,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"owa.morges.ch"
-      },
-      "smtp_banner":"220 esa2.hc1035-98.eu.iphmx.com ESMTP"
+      }
     },
     "5643":{
       "bfs":"5643",
@@ -31804,8 +31294,7 @@
       "spf_resolved":"v=spf1 include:_spf.kreativmedia.ch +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 galatea2.kreativmedia.ch ESMTP Postfix"
+      ]
     },
     "5663":{
       "bfs":"5663",
@@ -31910,8 +31399,7 @@
       "spf_resolved":"v=spf1 a mx include:spf.swizzonic-mail.ch include:_spf.blk.ymc.swiss include:_spf.i-web.ch ~all v=spf1 ip4:185.110.152.0/22 ~all v=spf1 ip4:195.65.10.12 ip4:195.65.10.13 -all",
       "mx_asns":[
         199229
-      ],
-      "smtp_banner":"220-srv.lovatens.ch ESMTP Postfix"
+      ]
     },
     "5675":{
       "bfs":"5675",
@@ -32034,8 +31522,7 @@
       "spf_resolved":"v=spf1 mx include:fwdsc.swisscenter.com -all v=spf1 ip4:94.103.96.0/24 ip6:2a00:a500:0:96::/64 ip4:213.32.20.157/32 -all",
       "mx_asns":[
         49457
-      ],
-      "smtp_banner":"220 mx1.swisscenter.com ESMTP Haraka ready (0EACC9)"
+      ]
     },
     "5692":{
       "bfs":"5692",
@@ -32087,8 +31574,7 @@
       "spf_resolved":"v=spf1 +a +mx +ip4:195.70.7.126 include:dfinet.ch +ip4:195.70.7.126 +ip4:195.70.12.114 +include:smtp.dfinet.ch ~all v=spf1 mx a include:smtp.dfinet.ch ~all v=spf1 ip4:195.70.7.112/29 ip4:195.70.10.88 ip4:195.70.10.87 ip4:195.70.10.89 ip4:195.70.10.111 ip4:195.70.9.21 ip4:195.70.2.32/28 ip4:195.70.7.120/29 ip4:195.70.3.55 ~all",
       "mx_asns":[
         12333
-      ],
-      "smtp_banner":"220 Safemail"
+      ]
     },
     "5702":{
       "bfs":"5702",
@@ -32502,8 +31988,7 @@
       "autodiscover":{
         "autodiscover_cname":"owa.nyon.ch",
         "autodiscover_srv":"owa.nyon.ch"
-      },
-      "smtp_banner":"220 mail.rcv.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:28 +0100"
+      }
     },
     "5725":{
       "bfs":"5725",
@@ -32576,8 +32061,7 @@
       "spf_resolved":"v=spf1 include:spf.webapps.net ip4:193.34.137.65 ~all v=spf1 a include:spf1.webapps.net include:spf2.webapps.net ~all v=spf1 ip4:81.88.48.32/27 ip4:81.88.50.224/27 ip4:81.88.54.64/27 ip4:81.88.55.96/27 ip4:81.88.56.0/27 ip4:81.88.62.160/27 ip4:81.88.63.128/27 ip4:195.7.249.16/29 include:dominiando.email ~all v=spf1 ip4:195.110.101.32/27 ip4:195.110.122.160/27 ip4:195.110.123.0/27 ip4:185.2.4.0/22 ip4:81.88.49.224/27 ip4:195.7.249.29 ip4:81.88.52.0/23 ip4:185.110.66.0/24 ip4:213.158.94.0/23 ip4:81.88.54.154/32 ip4:3.73.27.108 ip4:3.125.172.46 ~all v=spf1 mx ip4:81.88.54.130 ip4:81.88.54.152/30 ~all",
       "mx_asns":[
         39729
-      ],
-      "smtp_banner":"220 scott21 cmsmtp smtp.register.it ESMTP server ready"
+      ]
     },
     "5729":{
       "bfs":"5729",
@@ -32737,8 +32221,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"owa.baulmes.ch"
-      },
-      "smtp_banner":"220 mta.witecom.ch ESMTP Postfix"
+      }
     },
     "5746":{
       "bfs":"5746",
@@ -32793,8 +32276,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autoconfig-nonssl.mail.hostpoint.ch"
-      },
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "5749":{
       "bfs":"5749",
@@ -32881,8 +32363,7 @@
       "spf_resolved":"v=spf1 mx include:fwdsc.swisscenter.com -all v=spf1 ip4:94.103.96.0/24 ip6:2a00:a500:0:96::/64 ip4:213.32.20.157/32 -all",
       "mx_asns":[
         49457
-      ],
-      "smtp_banner":"220 mx1.swisscenter.com ESMTP Haraka ready (0EACC9)"
+      ]
     },
     "5756":{
       "bfs":"5756",
@@ -32933,8 +32414,7 @@
       "spf_resolved":"v=spf1 include:spf.horus.ch ~all v=spf1 ip4:194.182.164.99 ip4:185.19.29.61 ip4:194.182.167.72 ip4:159.100.254.204 ip4:159.100.247.17 ip4:81.6.33.6 ip6:2a04:c44:e00:3eb:482:6cff:fe00:d47 ip6:2a04:c44:e00:3eb:4e4:eff:fe00:862 ip6:2a04:c44:e00:3eb:4da:96ff:fe00:724 ip6:2a04:c44:e00:3eb:475:38ff:fe00:102c ip6:2a04:c43:e00:3eb:47f:feff:fe00:17a ~all",
       "mx_asns":[
         61098
-      ],
-      "smtp_banner":"220 mail.horus.ch ESMTP Postfix (Debian/GNU)"
+      ]
     },
     "5759":{
       "bfs":"5759",
@@ -33150,8 +32630,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"pl4.ganesh-hosting.ch"
-      },
-      "smtp_banner":"220 mail1.copperfasten.ch ESMTP Postfix"
+      }
     },
     "5799":{
       "bfs":"5799",
@@ -33220,8 +32699,7 @@
       "gateway":"cleanmail",
       "mx_asns":[
         15547
-      ],
-      "smtp_banner":"220-Welcome to postscreen-test SMTP server, please wait the opening connection"
+      ]
     },
     "5806":{
       "bfs":"5806",
@@ -33364,8 +32842,7 @@
       "spf_resolved":"v=spf1 include:spf.rcv.ch  include:_spf.i-web.ch include:spf1.ne.ch include:spf.abacuscity.ch ip4:185.54.6.105 ~all v=spf1 ip4:145.232.253.0/24 ip4:193.5.240.2 ip4:193.5.244.2 ip4:193.5.248.2  ip4:193.5.249.2 -all v=spf1 ip4:195.65.10.12 ip4:195.65.10.13 -all v=spf1 ip4:148.196.30.0/24 -all v=spf1 ip4:46.227.226.102 ip4:46.227.226.108 ip4:46.227.226.21 ip4:46.227.228.154 ip4:46.227.228.228 ip4:46.227.228.28 ip6:2a02:cd8:2ee3:e200::15 ip6:2a02:cd8:2ee3:e200::65 ip6:2a02:cd8:2ee3:e200::7b ip6:2a02:cd8:2ee3:e400::1c ip6:2a02:cd8:2ee3:e400::293 ip6:2a02:cd8:2ee3:e400::446 ip4:62.106.93.27 -all",
       "mx_asns":[
         15675
-      ],
-      "smtp_banner":"220 mail.rcv.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:28 +0100"
+      ]
     },
     "5827":{
       "bfs":"5827",
@@ -33398,8 +32875,7 @@
       "spf_resolved":"v=spf1 include:_spf.kreativmedia.ch +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 ns09.kreativmedia.ch ESMTP Postfix"
+      ]
     },
     "5830":{
       "bfs":"5830",
@@ -33454,8 +32930,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mail.chateaudoex-admin.ch"
-      },
-      "smtp_banner":"220 mail.rcv.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:28 +0100"
+      }
     },
     "5842":{
       "bfs":"5842",
@@ -33865,8 +33340,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover.comx.org"
-      },
-      "smtp_banner":"220 mail.rcv.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:28 +0100"
+      }
     },
     "5889":{
       "bfs":"5889",
@@ -33885,8 +33359,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"webmail.la-tour-de-peilz.ch"
-      },
-      "smtp_banner":"220 mail.rcv.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:28 +0100"
+      }
     },
     "5890":{
       "bfs":"5890",
@@ -34029,8 +33502,7 @@
       "gateway":"spamvor",
       "mx_asns":[
         29222
-      ],
-      "smtp_banner":"220 20.mx.spamvor.com ESMTP"
+      ]
     },
     "5908":{
       "bfs":"5908",
@@ -34063,8 +33535,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"owa.ynv.ch"
-      },
-      "smtp_banner":"220 mta.witecom.ch ESMTP Postfix"
+      }
     },
     "5910":{
       "bfs":"5910",
@@ -34220,8 +33691,7 @@
       "spf_resolved":"v=spf1 ip4:5.182.248.151 include:tizoo.com +a +mx +ip4:212.147.66.228 +ip4:212.147.77.250 ~all v=spf1 ip4:212.147.66.228 +a +mx ip4:5.182.248.3 ip4:5.182.248.4 ip4:5.182.248.140 ip4:5.182.248.144 ip4:5.182.248.148 ip4:5.182.248.151 ip4:5.182.248.160 ip4:5.182.248.166 ip4:5.182.248.176 ip4:5.182.248.183 ip4:5.182.248.132 ip4:212.147.66.247 ip4:212.147.66.245 ip4:212.147.66.246 ip4:5.182.248.11 ~all",
       "mx_asns":[
         209042
-      ],
-      "smtp_banner":"220-io.tizoo.com ESMTP Exim 4.96.2 #2 Wed, 11 Mar 2026 15:43:29 +0100"
+      ]
     },
     "5924":{
       "bfs":"5924",
@@ -34399,8 +33869,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"client-configurator.scapp.swisscom.com"
-      },
-      "smtp_banner":"554 bluewin.ch mailin-009.p.bluenet.ch Swisscom AG sc208: Blocklisting in effect - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "5935":{
       "bfs":"5935",
@@ -34448,8 +33917,7 @@
       "spf_resolved":"v=spf1 include:spf.rcv.ch ~all v=spf1 ip4:145.232.253.0/24 ip4:193.5.240.2 ip4:193.5.244.2 ip4:193.5.248.2  ip4:193.5.249.2 -all",
       "mx_asns":[
         15675
-      ],
-      "smtp_banner":"220 mail.rcv.ch ESMTP Smtpd; Wed, 11 Mar 2026 15:43:28 +0100"
+      ]
     },
     "5939":{
       "bfs":"5939",
@@ -34467,8 +33935,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"owa.yvonand.ch"
-      },
-      "smtp_banner":"220 mta.witecom.ch ESMTP Postfix"
+      }
     },
     "6002":{
       "bfs":"6002",
@@ -34612,8 +34079,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webgate.xpertcloud.ch"
-      },
-      "smtp_banner":"220 mailgate2.ti-informatique.com ESMTP (e68476757feef94fb16c683846438c67)"
+      }
     },
     "6022":{
       "bfs":"6022",
@@ -34633,8 +34099,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"ex.ciges.ch"
-      },
-      "smtp_banner":"220-mx1-eu1.ppe-hosted.com - Please wait..."
+      }
     },
     "6023":{
       "bfs":"6023",
@@ -34688,8 +34153,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"outlook.dlnet.ch"
-      },
-      "smtp_banner":"220 mgwa01.dlnet.ch - Version info hidden due to policy"
+      }
     },
     "6032":{
       "bfs":"6032",
@@ -34726,8 +34190,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"ex.ciges.ch"
-      },
-      "smtp_banner":"220-mx1-eu1.ppe-hosted.com - Please wait..."
+      }
     },
     "6034":{
       "bfs":"6034",
@@ -34745,8 +34208,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webgate.xpertcloud.ch"
-      },
-      "smtp_banner":"220 mailgate2.ti-informatique.com ESMTP (e68476757feef94fb16c683846438c67)"
+      }
     },
     "6035":{
       "bfs":"6035",
@@ -34764,8 +34226,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webgate.xpertcloud.ch"
-      },
-      "smtp_banner":"220 mailgate2.ti-informatique.com ESMTP (e68476757feef94fb16c683846438c67)"
+      }
     },
     "6037":{
       "bfs":"6037",
@@ -34786,8 +34247,7 @@
       "autodiscover":{
         "autodiscover_cname":"autodiscover16.ciges.ch",
         "autodiscover_srv":"ex.ciges.ch"
-      },
-      "smtp_banner":"220-mx1-eu1.ppe-hosted.com - Please wait..."
+      }
     },
     "6052":{
       "bfs":"6052",
@@ -34823,8 +34283,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"maildiscovery.cyon.ch"
-      },
-      "smtp_banner":"220 mandela3.sui-inter.net ESMTP Postfix"
+      }
     },
     "6056":{
       "bfs":"6056",
@@ -34986,8 +34445,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webgate.xpertcloud.ch"
-      },
-      "smtp_banner":"220 mailgate2.ti-informatique.com ESMTP (e68476757feef94fb16c683846438c67)"
+      }
     },
     "6087":{
       "bfs":"6087",
@@ -35022,8 +34480,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webgate.xpertcloud.ch"
-      },
-      "smtp_banner":"220 mailgate2.ti-informatique.com ESMTP (e68476757feef94fb16c683846438c67)"
+      }
     },
     "6090":{
       "bfs":"6090",
@@ -35043,8 +34500,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"ex.ciges.ch"
-      },
-      "smtp_banner":"220-mx1-eu1.ppe-hosted.com - Please wait..."
+      }
     },
     "6101":{
       "bfs":"6101",
@@ -35296,8 +34752,7 @@
       "provider":"independent",
       "mx_asns":[
         15547
-      ],
-      "smtp_banner":"220 mail2.pcprofi.ch ESMTP (37591e098e642cc3c1fd0aa72f45f8f1)"
+      ]
     },
     "6134":{
       "bfs":"6134",
@@ -35315,8 +34770,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webgate.xpertcloud.ch"
-      },
-      "smtp_banner":"220 mailgate2.ti-informatique.com ESMTP (e68476757feef94fb16c683846438c67)"
+      }
     },
     "6135":{
       "bfs":"6135",
@@ -35419,8 +34873,7 @@
       "spf_resolved":"v=spf1 include:netplus.ch ?all v=spf1 a:mxout.netplus.ch include:app.mail.infomaniak.ch include:spf.brevo.com include:amazonses.com include:spf.sogomail.ch ?all v=spf1 ip4:185.125.25.16/29 ip4:45.157.188.16/29 ip4:84.16.66.176/29 ip4:83.166.143.176/29 ip6:2001:1600:4:17::/64 ip6:2001:1600:7:10::/64 ip6:2001:1600:19::/48 -all v=spf1 ip4:185.41.28.0/22 ip4:94.143.16.0/21 ip4:185.24.144.0/22 ip4:153.92.224.0/19 ip4:213.32.128.0/18 ip4:185.107.232.0/22 ip4:77.32.128.0/18 ip4:77.32.192.0/19 ip4:212.146.192.0/18 ip4:172.246.0.0/18 -all v=spf1 ip4:199.255.192.0/22 ip4:199.127.232.0/22 ip4:54.240.0.0/18 ip4:69.169.224.0/20 ip4:23.249.208.0/20 ip4:23.251.224.0/19 ip4:76.223.176.0/20 ip4:54.240.64.0/18 ip4:76.223.128.0/19 ip4:216.221.160.0/19 ip4:206.55.144.0/20 ip4:24.110.64.0/18 -all v=spf1 ip4:91.212.152.0/24 ~all",
       "mx_asns":[
         15547
-      ],
-      "smtp_banner":"220-Welcome to postscreen-test SMTP server, please wait the opening connection"
+      ]
     },
     "6142":{
       "bfs":"6142",
@@ -35437,8 +34890,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webgate.xpertcloud.ch"
-      },
-      "smtp_banner":"220 mailgate2.ti-informatique.com ESMTP (e68476757feef94fb16c683846438c67)"
+      }
     },
     "6151":{
       "bfs":"6151",
@@ -35453,8 +34905,7 @@
       "provider":"independent",
       "mx_asns":[
         34146
-      ],
-      "smtp_banner":"220 mailgate2.ti-informatique.com ESMTP (e68476757feef94fb16c683846438c67)"
+      ]
     },
     "6152":{
       "bfs":"6152",
@@ -35542,8 +34993,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webgate.xpertcloud.ch"
-      },
-      "smtp_banner":"220 mailgate2.ti-informatique.com ESMTP (e68476757feef94fb16c683846438c67)"
+      }
     },
     "6157":{
       "bfs":"6157",
@@ -35560,8 +35010,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webgate.xpertcloud.ch"
-      },
-      "smtp_banner":"220 mailgate2.ti-informatique.com ESMTP (e68476757feef94fb16c683846438c67)"
+      }
     },
     "6158":{
       "bfs":"6158",
@@ -35919,8 +35368,7 @@
       "autodiscover":{
         "autodiscover_cname":"autodiscover16.ciges.ch",
         "autodiscover_srv":"ex.ciges.ch"
-      },
-      "smtp_banner":"220-mx1-eu1.ppe-hosted.com - Please wait..."
+      }
     },
     "6212":{
       "bfs":"6212",
@@ -35940,8 +35388,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"ex.ciges.ch"
-      },
-      "smtp_banner":"220-mx1-eu1.ppe-hosted.com - Please wait..."
+      }
     },
     "6213":{
       "bfs":"6213",
@@ -36024,8 +35471,7 @@
       "provider":"independent",
       "mx_asns":[
         203476
-      ],
-      "smtp_banner":"220 hermes.objectif-web.ch ESMTP Exim 4.96 Wed, 11 Mar 2026 15:43:29 +0100"
+      ]
     },
     "6219":{
       "bfs":"6219",
@@ -36042,8 +35488,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webgate.xpertcloud.ch"
-      },
-      "smtp_banner":"220 mailgate2.ti-informatique.com ESMTP (e68476757feef94fb16c683846438c67)"
+      }
     },
     "6220":{
       "bfs":"6220",
@@ -36081,8 +35526,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autodiscover16.ciges.ch"
-      },
-      "smtp_banner":"220-mx1-eu1.ppe-hosted.com - Please wait..."
+      }
     },
     "6235":{
       "bfs":"6235",
@@ -36139,8 +35583,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.cransmontana.ch"
-      },
-      "smtp_banner":"220 mail2.pcprofi.ch ESMTP (37591e098e642cc3c1fd0aa72f45f8f1)"
+      }
     },
     "6240":{
       "bfs":"6240",
@@ -36154,8 +35597,7 @@
       "provider":"independent",
       "mx_asns":[
         15547
-      ],
-      "smtp_banner":"220 mail2.pcprofi.ch ESMTP (37591e098e642cc3c1fd0aa72f45f8f1)"
+      ]
     },
     "6246":{
       "bfs":"6246",
@@ -36184,8 +35626,7 @@
       "provider":"independent",
       "mx_asns":[
         15547
-      ],
-      "smtp_banner":"220 mail2.pcprofi.ch ESMTP (37591e098e642cc3c1fd0aa72f45f8f1)"
+      ]
     },
     "6252":{
       "bfs":"6252",
@@ -36220,8 +35661,7 @@
       "spf_resolved":"v=spf1 mx include:sprecw.crans-montana.ch include:sprecy.crans-montana.ch include:sprecz.crans-montana.ch include:wlk-msg.de ip4:81.88.178.21 ip4:81.88.178.32 ip4:212.40.24.243 ip4:212.40.24.250 -all v=spf1 ip4:141.101.62.30 ip4:80.74.64.73 ip4:141.101.63.79 ip4:141.101.62.117 ip4:141.101.62.141 ip4:141.101.63.193 ip4:185.4.45.19 ip4:185.4.44.101 ip4:46.140.40.86 ip4:80.74.64.0/24 -all v=spf1 ip4:40.107.0.0/16 ip4:52.100.0.0/14 ip4:104.47.0.0/17 ip4:51.4.72.0/24 ip4:51.5.72.0/24 ip4:51.5.80.0/27 ip4:20.47.149.138/32 ip4:51.4.80.0/27 ip4:87.253.232.0/21 ip4:185.189.236.0/22 ip4:185.211.120.0/22 ip4:185.250.236.0/22 ip4:40.92.0.0/15 -all v=spf1 ip4:80.80.224.0/20 ip4:205.201.128.0/20 ip4:198.2.128.0/18 ip4:148.105.8.0/21 ip6:2a01:4180:4050:0800::/64 ip6:2a01:4180:4051:0400::/64 ip6:2a01:4180:4050:0400::/64 ip6:2a01:4180:4051:0800::/64 ip6:2a01:111:f403::/48 ip6:2a01:111:f400::/48 -all v=spf1 include:spf.wlk-msg.de include:spf-elphi.wlk-msg.de ip4:217.6.38.226 ip4:159.69.44.7 ip6:2a01:4f8:1c1b:4f61::1 ip4:157.90.144.206 ip6:2a01:4f8:c012:25c4::1 ip4:167.235.227.109 ip6:2a01:4f8:c013:3524::1 exists:%{ir}.wlk-msg.de ~all v=spf1 ip4:157.90.106.72/29 ip4:65.21.175.112/29 ip4:144.76.214.104/29 ip4:95.217.249.104/29 ip4:159.69.211.13 ip4:116.203.67.44 ip4:116.202.190.65 ip4:65.21.1.233 ip4:95.216.162.104 ip4:65.108.54.221 v=spf1 ip4:116.203.244.120 ip4:5.75.134.60 ip4:5.75.154.78 ip4:5.75.164.247 ip4:5.75.164.62 ip4:168.119.54.106 ip4:49.12.189.47 ip4:5.75.240.224 ip4:78.47.148.193 ip4:168.119.254.221",
       "mx_asns":[
         15547
-      ],
-      "smtp_banner":"220 mail2.pcprofi.ch ESMTP (37591e098e642cc3c1fd0aa72f45f8f1)"
+      ]
     },
     "6254":{
       "bfs":"6254",
@@ -36302,8 +35742,7 @@
       "autodiscover":{
         "autodiscover_cname":"autodiscover16.ciges.ch",
         "autodiscover_srv":"ex.ciges.ch"
-      },
-      "smtp_banner":"220-mx1-eu1.ppe-hosted.com - Please wait..."
+      }
     },
     "6266":{
       "bfs":"6266",
@@ -36345,8 +35784,7 @@
       "autodiscover":{
         "autodiscover_cname":"ex.ciges.ch",
         "autodiscover_srv":"ex.ciges.ch"
-      },
-      "smtp_banner":"220-mx1-eu1.ppe-hosted.com - Please wait..."
+      }
     },
     "6281":{
       "bfs":"6281",
@@ -36415,8 +35853,7 @@
       "provider":"independent",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 amadeus.sui-inter.net ESMTP Postfix"
+      ]
     },
     "6286":{
       "bfs":"6286",
@@ -36482,8 +35919,7 @@
       "provider":"independent",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 kosmos.metanet.ch ESMTP Postfix"
+      ]
     },
     "6290":{
       "bfs":"6290",
@@ -36787,15 +36223,9 @@
       "provider":"independent",
       "spf_resolved":"v=spf1 include:spf.antispamcloud.com ip4:217.196.176.0/20 a mx ~all v=spf1 ip4:130.117.251.9 ip4:130.117.251.10 ip6:2001:978:2:6::20:10 ip6:2001:978:2:6::20:a ip4:94.75.244.176/27 ip4:94.75.192.139/27 ip4:95.211.2.195/26 ip4:95.211.2.198/26 ip4:95.211.2.199/26 ip4:95.211.2.201/26 ip4:95.211.2.202/26 ip4:95.211.2.204/26 ip4:94.75.244.183/27 ip4:94.75.244.184/27 ip6:2001:1af8:4400:a047:6::1 ip4:37.58.58.55/27 ip4:199.115.117.7/27 ip4:199.115.117.10/27 ip4:199.115.117.11/27 ip6:2604:9a00:2010:a024:21::1 ip4:185.201.16.0/22 ip4:192.69.18.0/24 ip4:208.70.90.0/24 ip4:45.91.121.0/24 ip4:45.93.148.0/24 ip4:45.131.180.0/24 ip4:45.140.132.0/24 ip4:193.41.32.0/24 ip4:185.225.27.0/24 ip4:80.91.219.0/24 ip4:188.190.113.0/24 ip4:45.147.95.0/24 ip4:46.229.240.0/24 ip4:87.236.163.0/24 ip4:188.190.112.0/24 ip4:192.69.19.0/24 ip4:208.70.91.0/24 ip4:185.209.51.0/24 ip4:185.218.226.0/24 -all",
       "mx_asns":[
-<<<<<<< HEAD
         16633,
         43054
-      ],
-      "smtp_banner":"220 mx305.antispamcloud.com ESMTP Exim 20260303.1001 Wed, 11 Mar 2026 15:43:33 +0100"
-=======
-        16633
       ]
->>>>>>> 68941a22b39a31e27a483060bafdc861a8df89bf
     },
     "6423":{
       "bfs":"6423",
@@ -36920,8 +36350,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.evok.ch"
-      },
-      "smtp_banner":"220 fr1-lesg01.evok.ch ESMTP Postfix"
+      }
     },
     "6455":{
       "bfs":"6455",
@@ -37022,8 +36451,7 @@
       "spf_resolved":"v=spf1 include:spf.km.blues2.ch include:_spf.ch-dns.net +mx +a -all v=spf1 ip4:80.74.158.0/24 ip4:80.74.159.0/24 include:servers.mcsv.net -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip6:2a00:1128::/32 -all v=spf1 ip4:205.201.128.0/20 ip4:198.2.128.0/18 ip4:148.105.0.0/16 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 icarus4.ch-dns.net ESMTP Postfix"
+      ]
     },
     "6513":{
       "bfs":"6513",
@@ -37041,8 +36469,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.latena.ch"
-      },
-      "smtp_banner":"220-ms5.webland.ch ESMTP Webland Mail Server v. 12.3.0.; Wed, 11 Mar 2026 15:43:34 +0100"
+      }
     },
     "6601":{
       "bfs":"6601",
@@ -37835,8 +37262,7 @@
       "spf_resolved":"v=spf1 include:_spf.kreativmedia.ch +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 phoebe2.kreativmedia.ch ESMTP Postfix"
+      ]
     },
     "6704":{
       "bfs":"6704",
@@ -37893,8 +37319,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mailsju.azinformatique.ch"
-      },
-      "smtp_banner":"220 mx1.azinformatique.ch ESMTP Postfix"
+      }
     },
     "6709":{
       "bfs":"6709",
@@ -37915,8 +37340,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mailsju.azinformatique.ch"
-      },
-      "smtp_banner":"220 mx1.azinformatique.ch ESMTP Postfix"
+      }
     },
     "6710":{
       "bfs":"6710",
@@ -37937,8 +37361,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mailsju.azinformatique.ch"
-      },
-      "smtp_banner":"220 mx1.azinformatique.ch ESMTP Postfix"
+      }
     },
     "6711":{
       "bfs":"6711",
@@ -37958,8 +37381,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"webmail.delemont.ch"
-      },
-      "smtp_banner":"220 mail.ess.de.barracuda.com ESMTP (mx-inbound21-135.eu-central-1b.ess.aws)"
+      }
     },
     "6712":{
       "bfs":"6712",
@@ -38121,8 +37543,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"exchange.evok.ch"
-      },
-      "smtp_banner":"220 fr1-lesg01.evok.ch ESMTP Postfix"
+      }
     },
     "6729":{
       "bfs":"6729",
@@ -38143,8 +37564,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mails.haute-sorne.ch"
-      },
-      "smtp_banner":"220 mx1.azinformatique.ch ESMTP Postfix"
+      }
     },
     "6730":{
       "bfs":"6730",
@@ -38165,8 +37585,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mailsju.azinformatique.ch"
-      },
-      "smtp_banner":"220 mx1.azinformatique.ch ESMTP Postfix"
+      }
     },
     "6741":{
       "bfs":"6741",
@@ -38201,8 +37620,7 @@
       "provider":"independent",
       "mx_asns":[
         34271
-      ],
-      "smtp_banner":"220 mx1.azinformatique.ch ESMTP Postfix"
+      ]
     },
     "6743":{
       "bfs":"6743",
@@ -38222,8 +37640,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mailsju.azinformatique.ch"
-      },
-      "smtp_banner":"220 mx1.azinformatique.ch ESMTP Postfix"
+      }
     },
     "6745":{
       "bfs":"6745",
@@ -38238,8 +37655,7 @@
       "spf_resolved":"v=spf1 include:_spf.kreativmedia.ch ip4:212.71.120.144/28 +mx +a -all v=spf1 ip4:46.231.200.0/21 ip4:80.74.128.0/19 ip4:94.126.16.0/21 ip4:185.46.56.0/22 ip6:2a00:1128::/32 -all",
       "mx_asns":[
         21069
-      ],
-      "smtp_banner":"220 ns75.kreativmedia.ch ESMTP Postfix"
+      ]
     },
     "6748":{
       "bfs":"6748",
@@ -38330,8 +37746,7 @@
       "provider":"independent",
       "mx_asns":[
         34271
-      ],
-      "smtp_banner":"220 mx1.azinformatique.ch ESMTP Postfix"
+      ]
     },
     "6757":{
       "bfs":"6757",
@@ -38348,8 +37763,7 @@
       "provider":"independent",
       "mx_asns":[
         34271
-      ],
-      "smtp_banner":"220 mx1.azinformatique.ch ESMTP Postfix"
+      ]
     },
     "6758":{
       "bfs":"6758",
@@ -38421,8 +37835,7 @@
       "spf_resolved":"v=spf1 mx a include:spf.infomaniak.ch ip4:46.140.242.148 ip4:46.140.242.150 -all v=spf1 ip4:45.157.188.8/29 ip4:185.125.25.8/29 ip4:83.166.143.168/29 ip4:84.16.66.168/29 ip4:128.65.197.100 ip4:128.65.197.101 ip6:2001:1600:4:17::/64 ip6:2001:1600:7:10::/64 ip6:2001:1600:4:2d::c565 ip6:2001:1600:7:10::c564 ip4:185.125.25.16/29 ip4:45.157.188.16/29 ip4:84.16.66.176/29 ip4:83.166.143.176/29 ip6:2001:1600:19::/48 ip4:84.16.69.64/31 ip4:128.65.197.2/31 include:newsletter.infomaniak.com -all v=spf1 include:amazonses.com ?all v=spf1 ip4:199.255.192.0/22 ip4:199.127.232.0/22 ip4:54.240.0.0/18 ip4:69.169.224.0/20 ip4:23.249.208.0/20 ip4:23.251.224.0/19 ip4:76.223.176.0/20 ip4:54.240.64.0/18 ip4:76.223.128.0/19 ip4:216.221.160.0/19 ip4:206.55.144.0/20 ip4:24.110.64.0/18 -all",
       "mx_asns":[
         34271
-      ],
-      "smtp_banner":"220 mx1.azinformatique.ch ESMTP Postfix"
+      ]
     },
     "6778":{
       "bfs":"6778",
@@ -38443,8 +37856,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mailsju.azinformatique.ch"
-      },
-      "smtp_banner":"220 mx1.azinformatique.ch ESMTP Postfix"
+      }
     },
     "6781":{
       "bfs":"6781",
@@ -38499,8 +37911,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"autoconfig-nonssl.mail.hostpoint.ch"
-      },
-      "smtp_banner":"550 151.145.202.112 is blacklisted - https://lookup.abusix.com/search?q=151.145.202.112"
+      }
     },
     "6784":{
       "bfs":"6784",
@@ -38575,8 +37986,7 @@
       ],
       "autodiscover":{
         "autodiscover_srv":"autodiscover.fontenais.ch"
-      },
-      "smtp_banner":"220 mx1.azinformatique.ch ESMTP Postfix"
+      }
     },
     "6792":{
       "bfs":"6792",
@@ -38615,8 +38025,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mail.porrentruy.ch"
-      },
-      "smtp_banner":"220 mx1.azinformatique.ch ESMTP Postfix"
+      }
     },
     "6806":{
       "bfs":"6806",
@@ -38690,8 +38099,7 @@
       ],
       "autodiscover":{
         "autodiscover_cname":"mailsju.azinformatique.ch"
-      },
-      "smtp_banner":"220 mx1.azinformatique.ch ESMTP Postfix"
+      }
     },
     "6810":{
       "bfs":"6810",
