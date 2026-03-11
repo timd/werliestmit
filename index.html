@@ -54,6 +54,8 @@
   }
   .separator { color: #555; font-size: 15px; }
   .tagline { color: #a0a0b0; font-size: 13px; white-space: nowrap; }
+  .header-link { color: #a0a0b0; font-size: 12px; text-decoration: none; }
+  .header-link:hover { color: #fff; }
   .header-right { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
   .updated { font-size: 11px; color: #888; }
   .toggle-info {
@@ -89,7 +91,7 @@
     .legend-toggle { display: block; }
     .legend.legend-collapsed .legend-content { display: none; }
     .legend.legend-collapsed { padding: 8px 12px; }
-
+    .header-link { font-size: 11px; }
   }
   #map { flex: 1; position: relative; width: 100%; will-change: transform; }
   .legend {
@@ -138,6 +140,8 @@
     <span class="tagline">Email Providers of Swiss Municipalities</span>
   </div>
   <div class="header-right">
+    <a href="/impressum.html" class="header-link">Impressum</a>
+    <a href="/datenschutz.html" class="header-link">Datenschutz</a>
     <button class="toggle-info" id="toggle-info" aria-expanded="true" aria-controls="info-bar">About &#9652;</button>
   </div>
 </header>
