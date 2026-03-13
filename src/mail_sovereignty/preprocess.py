@@ -66,7 +66,7 @@ async def fetch_wikidata() -> dict[str, dict[str, str]]:
     print("Querying Wikidata for German municipalities...")
     headers = {
         "Accept": "application/sparql-results+json",
-        "User-Agent": "MXmap-DE/1.0 (https://github.com/timd/emaildns)",
+        "User-Agent": "werliestmit.de/1.0 (https://github.com/timd/werliestmit)",
     }
     async with httpx.AsyncClient(timeout=120) as client:
         r = await client.post(
