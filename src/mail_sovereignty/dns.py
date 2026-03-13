@@ -9,21 +9,25 @@ import dns.resolver
 logger = logging.getLogger(__name__)
 
 _resolvers = None
+_dns_semaphore: asyncio.Semaphore | None = None
 
 _RETRYABLE = (dns.exception.Timeout, dns.resolver.NoAnswer, dns.resolver.NoNameservers)
 
 
+def get_dns_semaphore() -> asyncio.Semaphore:
+    """Global semaphore to limit concurrent DNS queries."""
+    global _dns_semaphore
+    if _dns_semaphore is None:
+        _dns_semaphore = asyncio.Semaphore(3)
+    return _dns_semaphore
+
+
 def make_resolvers() -> list[dns.asyncresolver.Resolver]:
     """Create a list of async resolvers pointing to different DNS servers."""
-    resolvers = []
-    for nameservers in [None, ["8.8.8.8", "8.8.4.4"], ["1.1.1.1", "1.0.0.1"]]:
-        r = dns.asyncresolver.Resolver()
-        if nameservers:
-            r.nameservers = nameservers
-        r.timeout = 10
-        r.lifetime = 15
-        resolvers.append(r)
-    return resolvers
+    r = dns.asyncresolver.Resolver()
+    r.timeout = 10
+    r.lifetime = 15
+    return [r]
 
 
 def get_resolvers() -> list[dns.asyncresolver.Resolver]:
@@ -35,10 +39,12 @@ def get_resolvers() -> list[dns.asyncresolver.Resolver]:
 
 async def lookup_mx(domain: str) -> list[str]:
     """Return list of MX exchange hostnames."""
+    sem = get_dns_semaphore()
     resolvers = get_resolvers()
     for i, resolver in enumerate(resolvers):
         try:
-            answers = await resolver.resolve(domain, "MX")
+            async with sem:
+                answers = await resolver.resolve(domain, "MX")
             return sorted(str(r.exchange).rstrip(".").lower() for r in answers)
         except dns.resolver.NXDOMAIN:
             return []
@@ -56,10 +62,12 @@ async def lookup_mx(domain: str) -> list[str]:
 
 async def lookup_spf(domain: str) -> str:
     """Return the SPF TXT record if found."""
+    sem = get_dns_semaphore()
     resolvers = get_resolvers()
     for i, resolver in enumerate(resolvers):
         try:
-            answers = await resolver.resolve(domain, "TXT")
+            async with sem:
+                answers = await resolver.resolve(domain, "TXT")
             spf_records = []
             for r in answers:
                 txt = b"".join(r.strings).decode("utf-8", errors="ignore")
@@ -134,7 +142,8 @@ async def lookup_cname_chain(hostname: str, max_hops: int = 10) -> list[str]:
         resolved = False
         for i, resolver in enumerate(resolvers):
             try:
-                answers = await resolver.resolve(current, "CNAME")
+                async with get_dns_semaphore():
+                    answers = await resolver.resolve(current, "CNAME")
                 target = str(list(answers)[0].target).rstrip(".").lower()
                 chain.append(target)
                 current = target
@@ -171,10 +180,12 @@ async def resolve_mx_cnames(mx_hosts: list[str]) -> dict[str, str]:
 
 async def lookup_a(hostname: str) -> list[str]:
     """Resolve hostname to IPv4 addresses via A record query."""
+    sem = get_dns_semaphore()
     resolvers = get_resolvers()
     for i, resolver in enumerate(resolvers):
         try:
-            answers = await resolver.resolve(hostname, "A")
+            async with sem:
+                answers = await resolver.resolve(hostname, "A")
             return [str(r) for r in answers]
         except dns.resolver.NXDOMAIN:
             return []
@@ -197,7 +208,8 @@ async def lookup_asn_cymru(ip: str) -> int | None:
     resolvers = get_resolvers()
     for i, resolver in enumerate(resolvers):
         try:
-            answers = await resolver.resolve(query, "TXT")
+            async with get_dns_semaphore():
+                answers = await resolver.resolve(query, "TXT")
             for r in answers:
                 txt = b"".join(r.strings).decode("utf-8", errors="ignore")
                 # Format: "3303 | 193.135.252.0/24 | CH | ripencc | ..."
@@ -217,10 +229,12 @@ async def lookup_asn_cymru(ip: str) -> int | None:
 
 async def lookup_srv(name: str) -> list[tuple[str, int]]:
     """Return list of (target, port) from SRV records."""
+    sem = get_dns_semaphore()
     resolvers = get_resolvers()
     for i, resolver in enumerate(resolvers):
         try:
-            answers = await resolver.resolve(name, "SRV")
+            async with sem:
+                answers = await resolver.resolve(name, "SRV")
             return [(str(r.target).rstrip(".").lower(), r.port) for r in answers]
         except dns.resolver.NXDOMAIN:
             return []

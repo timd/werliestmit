@@ -2,12 +2,11 @@ from mail_sovereignty.constants import (
     AWS_KEYWORDS,
     FOREIGN_SENDER_KEYWORDS,
     GATEWAY_KEYWORDS,
+    GERMAN_ISP_ASNS,
     GOOGLE_KEYWORDS,
-    INFOMANIAK_KEYWORDS,
     MICROSOFT_KEYWORDS,
     PROVIDER_KEYWORDS,
     SMTP_BANNER_KEYWORDS,
-    SWISS_ISP_ASNS,
 )
 
 
@@ -72,8 +71,6 @@ def classify(
         return "microsoft"
     if any(k in mx_blob for k in GOOGLE_KEYWORDS):
         return "google"
-    if any(k in mx_blob for k in INFOMANIAK_KEYWORDS):
-        return "infomaniak"
     if any(k in mx_blob for k in AWS_KEYWORDS):
         return "aws"
 
@@ -83,8 +80,6 @@ def classify(
             return "microsoft"
         if any(k in cname_blob for k in GOOGLE_KEYWORDS):
             return "google"
-        if any(k in cname_blob for k in INFOMANIAK_KEYWORDS):
-            return "infomaniak"
         if any(k in cname_blob for k in AWS_KEYWORDS):
             return "aws"
 
@@ -102,12 +97,12 @@ def classify(
         # Gateway relays to independent, fall through
 
     if mx_records:
-        if mx_asns and mx_asns & SWISS_ISP_ASNS.keys():
-            # Check autodiscover for hyperscaler backend behind Swiss ISP relay
+        if mx_asns and mx_asns & GERMAN_ISP_ASNS.keys():
+            # Check autodiscover for hyperscaler backend behind German ISP relay
             ad_provider = classify_from_autodiscover(autodiscover)
             if ad_provider:
                 return ad_provider
-            return "swiss-isp"
+            return "german-isp"
         # Check autodiscover for hyperscaler backend behind independent MX
         ad_provider = classify_from_autodiscover(autodiscover)
         if ad_provider:

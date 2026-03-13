@@ -106,43 +106,13 @@ class TestFetchSmtpBanner:
 async def _fetch_with_port(
     host: str, port: int, timeout: float = 5.0
 ) -> dict[str, str]:
-    """Helper: fetch SMTP banner connecting to a specific port."""
-    banner = ""
-    ehlo = ""
-    reader = None
-    writer = None
-    try:
-        reader, writer = await asyncio.wait_for(
-            asyncio.open_connection(host, port), timeout=timeout
-        )
-        banner_line = await asyncio.wait_for(reader.readline(), timeout=timeout)
-        banner = banner_line.decode("utf-8", errors="replace").strip()
+    """Helper: call fetch_smtp_banner with monkey-patched connection."""
+    from unittest.mock import patch
 
-        writer.write(b"EHLO mxmap.ch\r\n")
-        await writer.drain()
+    original_open = asyncio.open_connection
 
-        ehlo_lines = []
-        while True:
-            line = await asyncio.wait_for(reader.readline(), timeout=timeout)
-            decoded = line.decode("utf-8", errors="replace").strip()
-            ehlo_lines.append(decoded)
-            if decoded[:4] != "250-":
-                break
-        ehlo = "\n".join(ehlo_lines)
+    async def patched_open(h, p, **kwargs):
+        return await original_open(host, port, **kwargs)
 
-        writer.write(b"QUIT\r\n")
-        await writer.drain()
-        try:
-            await asyncio.wait_for(reader.readline(), timeout=2.0)
-        except Exception:
-            pass
-    except Exception:
-        pass
-    finally:
-        if writer:
-            try:
-                writer.close()
-                await writer.wait_closed()
-            except Exception:
-                pass
-    return {"banner": banner, "ehlo": ehlo}
+    with patch("asyncio.open_connection", side_effect=patched_open):
+        return await fetch_smtp_banner(h if (h := host) else host, timeout=timeout)

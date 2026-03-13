@@ -17,13 +17,11 @@ GOOGLE_KEYWORDS = [
     "aspmx.l.google.com",
 ]
 AWS_KEYWORDS = ["amazonaws", "amazonses", "awsdns"]
-INFOMANIAK_KEYWORDS = ["infomaniak", "ikmail.com", "mxpool.infomaniak"]
 
 PROVIDER_KEYWORDS = {
     "microsoft": MICROSOFT_KEYWORDS,
     "google": GOOGLE_KEYWORDS,
     "aws": AWS_KEYWORDS,
-    "infomaniak": INFOMANIAK_KEYWORDS,
 }
 
 FOREIGN_SENDER_KEYWORDS = {
@@ -42,35 +40,41 @@ FOREIGN_SENDER_KEYWORDS = {
 
 SPARQL_URL = "https://query.wikidata.org/sparql"
 SPARQL_QUERY = """
-SELECT ?item ?itemLabel ?bfs ?website ?cantonLabel WHERE {
-  ?item wdt:P31 wd:Q70208 .          # instance of: municipality of Switzerland
-  ?item wdt:P771 ?bfs .              # Swiss municipality code (BFS number)
-  FILTER NOT EXISTS {                  # exclude dissolved municipalities
+SELECT ?item ?itemLabel ?ags ?website ?stateLabel ?districtLabel WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q262166 .   # instance of (or subclass of) Gemeinde in Germany
+  ?item wdt:P439 ?ags .                   # German municipality key (AGS)
+  FILTER NOT EXISTS {                      # exclude dissolved municipalities
     ?item wdt:P576 ?dissolved .
     FILTER(?dissolved <= NOW())
   }
-  FILTER NOT EXISTS {                  # exclude municipalities with ended P31 statement
+  FILTER NOT EXISTS {                      # exclude municipalities with ended P31 statement
     ?item p:P31 ?stmt .
-    ?stmt ps:P31 wd:Q70208 .
+    ?stmt ps:P31/wdt:P279* wd:Q262166 .
     ?stmt pq:P582 ?endTime .
     FILTER(?endTime <= NOW())
   }
-  FILTER NOT EXISTS {                  # exclude municipalities replaced by a successor
+  FILTER NOT EXISTS {                      # exclude municipalities replaced by a successor
     ?item wdt:P1366 ?successor .
   }
   OPTIONAL { ?item wdt:P856 ?website . }
-  OPTIONAL { ?item wdt:P131 ?canton .
-             ?canton wdt:P31 wd:Q23058 . }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "de,fr,it,rm,en" . }
+  OPTIONAL {
+    ?item wdt:P131* ?state .
+    ?state wdt:P31 wd:Q1221156 .           # Bundesland
+  }
+  OPTIONAL {
+    ?item wdt:P131 ?district .
+    ?district wdt:P31/wdt:P279* wd:Q106658 .  # Landkreis or kreisfreie Stadt
+  }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "de,en" . }
 }
-ORDER BY xsd:integer(?bfs)
+ORDER BY xsd:integer(?ags)
 """
 
 EMAIL_RE = re.compile(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}")
 TYPO3_RE = re.compile(r"linkTo_UnCryptMailto\(['\"]([^'\"]+)['\"]")
 SKIP_DOMAINS = {
     "example.com",
-    "example.ch",
+    "example.de",
     "sentry.io",
     "w3.org",
     "gstatic.com",
@@ -80,53 +84,76 @@ SKIP_DOMAINS = {
 
 SUBPAGES = [
     "/kontakt",
-    "/contact",
-    "/impressum",
     "/kontakt/",
-    "/contact/",
+    "/impressum",
     "/impressum/",
-    "/de/kontakt",
-    "/fr/contact",
-    "/it/contatto",
     "/verwaltung",
-    "/administration",
-    "/autorites",
+    "/verwaltung/",
+    "/rathaus",
+    "/rathaus/",
+    "/buergerservice",
+    "/buergerservice/",
     "/gemeinde",
-    "/commune",
-    "/comune",
+    "/gemeinde/",
 ]
 
 GATEWAY_KEYWORDS = {
     "seppmail": ["seppmail.cloud", "seppmail.com"],
-    "cleanmail": ["cleanmail.ch", "cleanmail.safecenter.ch"],
     "barracuda": ["barracudanetworks.com", "barracuda.com"],
     "trendmicro": ["tmes.trendmicro.eu", "tmes.trendmicro.com"],
-    "hornetsecurity": ["hornetsecurity.com", "hornetsecurity.ch"],
+    "hornetsecurity": ["hornetsecurity.com", "hornetsecurity.de"],
     "abxsec": ["abxsec.com"],
     "proofpoint": ["ppe-hosted.com"],
     "sophos": ["hydra.sophos.com"],
-    "spamvor": ["spamvor.com"],
+    "nospamproxy": ["nospamproxy.com"],
+    "retarus": ["retarus.com", "retarus.de"],
+    # German municipal IT consortia and state gateways
+    "kvnbw": ["kvnbw.de"],
+    "bayern-it": ["bayern.de"],
+    "allinkl": ["kasserver.com"],
+    "dataport": ["landsh.de"],
+    "ispgateway": ["ispgateway.de"],
+    "pzd-svn": ["pzd-svn.de"],
+    "agenturserver": ["agenturserver.de"],
+    "secure-mailgate": ["secure-mailgate.com"],
+    "mvnet": ["mvnet.de"],
+    "kdo": ["kdo.de"],
+    "itebo": ["itebo.de"],
+    "kommunale-it": ["kommunale.it"],
+    "next-go": ["next-go.net"],
+    "as-scan": ["as-scan.de"],
+    "kis-asp": ["kis-asp.de"],
+    "rechennetz": ["rechennetz.de"],
+    "sis-schwerin": ["sis-schwerin.de"],
+    "regioit": ["regioit-aachen.de"],
+    "kdgoe": ["kdgoe.de"],
+    "kdvz-frechen": ["kdvz-frechen.de"],
+    "ennit": ["ennit.net"],
+    "nol-is": ["nol-is.de"],
+    "kraemer-it": ["kraemer-it.cloud"],
+    "antispameurope": ["antispameurope.com"],
+    "itk-rheinland": ["itk-rheinland.de"],
+    "mimecast": ["mimecast.com"],
+    "messagelabs": ["messagelabs.com"],
+    "antispamcloud": ["antispamcloud.com"],
+    "secumail": ["secumail.de"],
+    "expurgate": ["expurgate.net"],
 }
 
-SWISS_ISP_ASNS: dict[int, str] = {
-    559: "SWITCH",
-    3303: "Swisscom",
-    6730: "Sunrise UPC",
-    6830: "Liberty Global (UPC/Sunrise)",
-    12399: "Sunrise",
-    13030: "Init7",
-    13213: "Cyberlink AG",
-    15576: "NTS",
-    15600: "Quickline",
-    15796: "Netzone AG",
-    24889: "Datapark AG",
-    29691: "Hostpoint / Green.ch",
-    51786: "Infomaniak Network SA",
+GERMAN_ISP_ASNS: dict[int, str] = {
+    3320: "Deutsche Telekom",
+    6724: "Strato",
+    6830: "Vodafone Deutschland",
+    8422: "NetCologne",
+    8560: "1&1 / IONOS",
+    24940: "Hetzner",
+    51167: "Contabo",
+    197540: "netcup",
 }
 
-CONCURRENCY = 20
-CONCURRENCY_POSTPROCESS = 10
-CONCURRENCY_SMTP = 5
+CONCURRENCY = 10
+CONCURRENCY_POSTPROCESS = 5
+CONCURRENCY_SMTP = 3
 
 SMTP_BANNER_KEYWORDS = {
     "microsoft": [
@@ -137,9 +164,6 @@ SMTP_BANNER_KEYWORDS = {
     "google": [
         "mx.google.com",
         "google esmtp",
-    ],
-    "infomaniak": [
-        "infomaniak",
     ],
     "aws": [
         "amazonaws",

@@ -3,9 +3,14 @@ from pathlib import Path
 
 
 def preprocess() -> None:
+    import argparse
+
     from mail_sovereignty.preprocess import run
 
-    asyncio.run(run(Path("data.json")))
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--limit", type=int, default=0, help="Only scan first N municipalities (0=all)")
+    args = parser.parse_args()
+    asyncio.run(run(Path("data.json"), limit=args.limit or None))
 
 
 def postprocess() -> None:

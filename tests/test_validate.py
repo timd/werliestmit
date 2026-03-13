@@ -23,10 +23,10 @@ class TestScoreEntry:
         result = score_entry(
             {
                 "provider": "microsoft",
-                "domain": "bern.ch",
-                "mx": ["bern-ch.mail.protection.outlook.com"],
+                "domain": "stadt-koeln.de",
+                "mx": ["stadt-koeln-de.mail.protection.outlook.com"],
                 "spf": "v=spf1 include:spf.protection.outlook.com -all",
-                "bfs": "351",
+                "ags": "05315000",
             }
         )
         assert result["score"] == 90
@@ -37,10 +37,10 @@ class TestScoreEntry:
         result = score_entry(
             {
                 "provider": "independent",
-                "domain": "ne.ch",
-                "mx": ["nemx9a.ne.ch"],
-                "spf": "v=spf1 include:spf1.ne.ch ~all",
-                "bfs": "9000",
+                "domain": "gemeinde.de",
+                "mx": ["mail.gemeinde.de"],
+                "spf": "v=spf1 include:spf1.gemeinde.de ~all",
+                "ags": "09000000",
             }
         )
         assert result["score"] >= 70
@@ -50,10 +50,10 @@ class TestScoreEntry:
         result = score_entry(
             {
                 "provider": "independent",
-                "domain": "ne.ch",
-                "mx": ["nemx9a.ne.ch"],
+                "domain": "gemeinde.de",
+                "mx": ["mail.gemeinde.de"],
                 "spf": "v=spf1 include:spf.protection.outlook.com ~all",
-                "bfs": "9000",
+                "ags": "09000000",
             }
         )
         assert "independent_mx_with_cloud_spf" in result["flags"]
@@ -62,10 +62,10 @@ class TestScoreEntry:
         result = score_entry(
             {
                 "provider": "microsoft",
-                "domain": "test.ch",
+                "domain": "test.de",
                 "mx": ["mail.protection.outlook.com"],
                 "spf": "v=spf1 include:_spf.google.com -all",
-                "bfs": "9000",
+                "ags": "09000000",
             }
         )
         assert "mx_spf_mismatch" in result["flags"]
@@ -77,7 +77,7 @@ class TestScoreEntry:
                 "domain": "",
                 "mx": [],
                 "spf": "",
-                "bfs": "9000",
+                "ags": "09000000",
             }
         )
         assert "no_domain" in result["flags"]
@@ -86,10 +86,10 @@ class TestScoreEntry:
         result = score_entry(
             {
                 "provider": "unknown",
-                "domain": "test.ch",
+                "domain": "test.de",
                 "mx": [],
                 "spf": "",
-                "bfs": "9000",
+                "ags": "09000000",
             }
         )
         assert "no_mx" in result["flags"]
@@ -98,10 +98,10 @@ class TestScoreEntry:
         result = score_entry(
             {
                 "provider": "independent",
-                "domain": "test.ch",
-                "mx": ["mail.test.ch"],
+                "domain": "test.de",
+                "mx": ["mail.test.de"],
                 "spf": "",
-                "bfs": "9000",
+                "ags": "09000000",
             }
         )
         assert "no_spf" in result["flags"]
@@ -110,10 +110,10 @@ class TestScoreEntry:
         result = score_entry(
             {
                 "provider": "independent",
-                "domain": "test.ch",
-                "mx": ["mx1.test.ch", "mx2.test.ch"],
+                "domain": "test.de",
+                "mx": ["mx1.test.de", "mx2.test.de"],
                 "spf": "",
-                "bfs": "9000",
+                "ags": "09000000",
             }
         )
         assert "multiple_mx" in result["flags"]
@@ -122,10 +122,10 @@ class TestScoreEntry:
         result = score_entry(
             {
                 "provider": "microsoft",
-                "domain": "test.ch",
+                "domain": "test.de",
                 "mx": ["mail.protection.outlook.com"],
                 "spf": "v=spf1 include:spf.protection.outlook.com -all",
-                "bfs": "9000",
+                "ags": "09000000",
             }
         )
         assert "spf_strict" in result["flags"]
@@ -134,10 +134,10 @@ class TestScoreEntry:
         result = score_entry(
             {
                 "provider": "microsoft",
-                "domain": "test.ch",
+                "domain": "test.de",
                 "mx": ["mail.protection.outlook.com"],
                 "spf": "v=spf1 include:spf.protection.outlook.com ~all",
-                "bfs": "9000",
+                "ags": "09000000",
             }
         )
         assert "spf_softfail" in result["flags"]
@@ -146,10 +146,10 @@ class TestScoreEntry:
         result = score_entry(
             {
                 "provider": "microsoft",
-                "domain": "test.ch",
+                "domain": "test.de",
                 "mx": ["mail.protection.outlook.com"],
                 "spf": "v=spf1 include:spf.protection.outlook.com include:_spf.google.com -all",
-                "bfs": "9000",
+                "ags": "09000000",
             }
         )
         assert any(f.startswith("multi_provider_spf:") for f in result["flags"])
@@ -158,35 +158,22 @@ class TestScoreEntry:
         result = score_entry(
             {
                 "provider": "microsoft",
-                "domain": "test.ch",
+                "domain": "test.de",
                 "mx": [],
                 "spf": "v=spf1 include:spf.protection.outlook.com -all",
-                "bfs": "9000",
+                "ags": "09000000",
             }
         )
         assert "classified_via_spf_only" in result["flags"]
-
-    def test_manual_override(self):
-        result = score_entry(
-            {
-                "provider": "swiss-isp",
-                "domain": "ne.ch",
-                "mx": ["nemx9a.ne.ch"],
-                "spf": "v=spf1 include:spf1.ne.ch include:spf.protection.outlook.com ~all",
-                "bfs": "6404",
-                "gateway": "cantonal-ne",
-            }
-        )
-        assert "manual_override" in result["flags"]
 
     def test_unknown_capped_at_25(self):
         result = score_entry(
             {
                 "provider": "unknown",
-                "domain": "test.ch",
+                "domain": "test.de",
                 "mx": [],
                 "spf": "",
-                "bfs": "9000",
+                "ags": "09000000",
             }
         )
         assert result["score"] <= 25
@@ -195,10 +182,10 @@ class TestScoreEntry:
         result = score_entry(
             {
                 "provider": "microsoft",
-                "domain": "frutigen.ch",
+                "domain": "fuerth.de",
                 "mx": ["mx01.hornetsecurity.com"],
                 "spf": "v=spf1 include:spf.protection.outlook.com -all",
-                "bfs": "500",
+                "ags": "09162000",
                 "gateway": "hornetsecurity",
                 "autodiscover": {"autodiscover_cname": "autodiscover.outlook.com"},
             }
@@ -209,10 +196,10 @@ class TestScoreEntry:
         result = score_entry(
             {
                 "provider": "independent",
-                "domain": "example.ch",
-                "mx": ["mail.example.ch"],
+                "domain": "example.de",
+                "mx": ["mail.example.de"],
                 "spf": "",
-                "bfs": "9000",
+                "ags": "09000000",
                 "autodiscover": {"autodiscover_cname": "autodiscover.outlook.com"},
             }
         )
@@ -222,10 +209,10 @@ class TestScoreEntry:
         result = score_entry(
             {
                 "provider": "microsoft",
-                "domain": "test.ch",
+                "domain": "test.de",
                 "mx": ["mail.protection.outlook.com"],
                 "spf": "v=spf1 include:spf.protection.outlook.com -all",
-                "bfs": "9000",
+                "ags": "09000000",
                 "smtp_banner": "220 mail.protection.outlook.com Microsoft ESMTP MAIL Service ready",
             }
         )
@@ -235,10 +222,10 @@ class TestScoreEntry:
         result = score_entry(
             {
                 "provider": "independent",
-                "domain": "example.ch",
-                "mx": ["mail.example.ch"],
+                "domain": "example.de",
+                "mx": ["mail.example.de"],
                 "spf": "",
-                "bfs": "9000",
+                "ags": "09000000",
                 "smtp_banner": "220 mail.protection.outlook.com Microsoft ESMTP MAIL Service ready",
             }
         )
@@ -248,11 +235,11 @@ class TestScoreEntry:
         result = score_entry(
             {
                 "provider": "independent",
-                "domain": "example.ch",
-                "mx": ["mail.example.ch"],
+                "domain": "example.de",
+                "mx": ["mail.example.de"],
                 "spf": "",
-                "bfs": "9000",
-                "smtp_banner": "220 mail.example.ch ESMTP Postfix",
+                "ags": "09000000",
+                "smtp_banner": "220 mail.example.de ESMTP Postfix",
             }
         )
         assert not any(f.startswith("smtp_") for f in result["flags"])
@@ -261,20 +248,20 @@ class TestScoreEntry:
         with_smtp = score_entry(
             {
                 "provider": "microsoft",
-                "domain": "test.ch",
+                "domain": "test.de",
                 "mx": ["mail.protection.outlook.com"],
                 "spf": "v=spf1 include:spf.protection.outlook.com -all",
-                "bfs": "9000",
+                "ags": "09000000",
                 "smtp_banner": "220 mail.protection.outlook.com Microsoft ESMTP MAIL Service ready",
             }
         )
         without_smtp = score_entry(
             {
                 "provider": "microsoft",
-                "domain": "test.ch",
+                "domain": "test.de",
                 "mx": ["mail.protection.outlook.com"],
                 "spf": "v=spf1 include:spf.protection.outlook.com -all",
-                "bfs": "9000",
+                "ags": "09000000",
             }
         )
         assert with_smtp["score"] == without_smtp["score"] + 5
@@ -283,11 +270,11 @@ class TestScoreEntry:
         result = score_entry(
             {
                 "provider": "independent",
-                "domain": "example.ch",
-                "mx": ["mail.example.ch"],
+                "domain": "example.de",
+                "mx": ["mail.example.de"],
                 "spf": "",
-                "bfs": "9000",
-                "autodiscover": {"autodiscover_cname": "autodiscover.custom.ch"},
+                "ags": "09000000",
+                "autodiscover": {"autodiscover_cname": "autodiscover.custom.de"},
             }
         )
         assert not any(f.startswith("autodiscover_") for f in result["flags"])
@@ -300,14 +287,14 @@ class TestPrintReport:
     def test_runs_without_error(self, capsys):
         entries = [
             {
-                "bfs": "1",
+                "ags": "1",
                 "name": "A",
                 "provider": "microsoft",
                 "score": 90,
                 "flags": ["mx_spf_match"],
             },
             {
-                "bfs": "2",
+                "ags": "2",
                 "name": "B",
                 "provider": "independent",
                 "score": 70,
@@ -319,7 +306,7 @@ class TestPrintReport:
     def test_output_contains_header(self, capsys):
         entries = [
             {
-                "bfs": "1",
+                "ags": "1",
                 "name": "A",
                 "provider": "microsoft",
                 "score": 90,
@@ -336,7 +323,7 @@ class TestPrintReport:
 
 def _make_independent_entry(name, domain, mx_raw):
     return {
-        "bfs": "0",
+        "ags": "0",
         "name": name,
         "provider": "independent",
         "domain": domain,
@@ -350,7 +337,7 @@ def _make_independent_entry(name, domain, mx_raw):
 class TestDetectPotentialGateways:
     def test_detects_shared_mx_suffix(self):
         entries = [
-            _make_independent_entry(f"Town{i}", f"town{i}.ch", ["mx.gateway.com"])
+            _make_independent_entry(f"Town{i}", f"town{i}.de", ["mx.gateway.com"])
             for i in range(6)
         ]
         result = _detect_potential_gateways(entries)
@@ -360,7 +347,7 @@ class TestDetectPotentialGateways:
 
     def test_ignores_own_domain(self):
         entries = [
-            _make_independent_entry(f"Town{i}", "shared.ch", ["mail.shared.ch"])
+            _make_independent_entry(f"Town{i}", "shared.de", ["mail.shared.de"])
             for i in range(6)
         ]
         result = _detect_potential_gateways(entries)
@@ -368,7 +355,7 @@ class TestDetectPotentialGateways:
 
     def test_ignores_known_gateways(self):
         entries = [
-            _make_independent_entry(f"Town{i}", f"town{i}.ch", ["mx.seppmail.cloud"])
+            _make_independent_entry(f"Town{i}", f"town{i}.de", ["mx.seppmail.cloud"])
             for i in range(6)
         ]
         result = _detect_potential_gateways(entries)
@@ -376,7 +363,7 @@ class TestDetectPotentialGateways:
 
     def test_below_threshold_not_flagged(self):
         entries = [
-            _make_independent_entry(f"Town{i}", f"town{i}.ch", ["mx.gateway.com"])
+            _make_independent_entry(f"Town{i}", f"town{i}.de", ["mx.gateway.com"])
             for i in range(4)
         ]
         result = _detect_potential_gateways(entries)
@@ -385,10 +372,10 @@ class TestDetectPotentialGateways:
     def test_non_independent_ignored(self):
         entries = [
             {
-                "bfs": "0",
+                "ags": "0",
                 "name": f"Town{i}",
                 "provider": "microsoft",
-                "domain": f"town{i}.ch",
+                "domain": f"town{i}.de",
                 "score": 90,
                 "flags": [],
                 "mx_raw": ["mx.gateway.com"],
@@ -401,7 +388,7 @@ class TestDetectPotentialGateways:
 
     def test_returns_sample_names(self):
         entries = [
-            _make_independent_entry(f"Town{i}", f"town{i}.ch", ["mx.gateway.com"])
+            _make_independent_entry(f"Town{i}", f"town{i}.de", ["mx.gateway.com"])
             for i in range(7)
         ]
         result = _detect_potential_gateways(entries)
@@ -411,7 +398,7 @@ class TestDetectPotentialGateways:
 
     def test_print_report_shows_gateway_warning(self, capsys):
         entries = [
-            _make_independent_entry(f"Town{i}", f"town{i}.ch", ["mx.newgw.com"])
+            _make_independent_entry(f"Town{i}", f"town{i}.de", ["mx.newgw.com"])
             for i in range(6)
         ]
         print_report(entries)
@@ -441,7 +428,7 @@ class TestRun:
         csv_path = tmp_path / "validation_report.csv"
         assert csv_path.exists()
         lines = csv_path.read_text().strip().split("\n")
-        assert lines[0] == "bfs,name,provider,domain,confidence,flags"
+        assert lines[0] == "ags,name,provider,domain,confidence,flags"
 
     def test_csv_row_count(self, sample_data_json, tmp_path):
         run(sample_data_json, tmp_path)
