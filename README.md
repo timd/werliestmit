@@ -5,9 +5,9 @@ An interactive map showing where German municipalities host their email — whet
 
 Adapted from [mxmap.ch](https://mxmap.ch)
 
-**[View the live map](https://werliestmit.de)**
+**[View the live map](https://wer-liest-mit.de)**
 
-[![Screenshot of Wer liest mit?](og-image.jpg)](https://werliestmit.de)
+[![Screenshot of Wer liest mit?](og-image.jpg)](https://wer-liest-mit.de)
 
 ## How it works
 

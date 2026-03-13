@@ -392,7 +392,7 @@ async def run(data_path: Path) -> None:
         semaphore = asyncio.Semaphore(CONCURRENCY_POSTPROCESS)
         async with httpx.AsyncClient(
             headers={
-                "User-Agent": "werliestmit.de/1.0 (https://github.com/timd/werliestmit)"
+                "User-Agent": "wer-liest-mit.de/1.0 (https://github.com/timd/werliestmit)"
             },
             follow_redirects=True,
         ) as client:
