@@ -7,7 +7,7 @@ Adapted from [mxmap.ch](https://mxmap.ch)
 
 **[View the live map](https://wer-liest-mit.de)**
 
-[![Screenshot of Wer liest mit?](og-image.jpg)](https://wer-liest-mit.de)
+[![Screenshot of Wer liest mit?](wer-liest-mit.png)](https://wer-liest-mit.de)
 
 ## How it works
 
